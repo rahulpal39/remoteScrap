@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
 
-    path('', jobsView.page_view, name='tse')
+    path('scrap/', jobsView.page_view, name='scrap')
 ]

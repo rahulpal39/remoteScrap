@@ -6,6 +6,13 @@ from django.core.management import call_command
 
 
 def page_view(request):
-    # call_command('scrape_all_job')
+
+    if request.method == 'POST':
+        data=request.POST['search']
+        # c = RequestContext(request.POST, {
+        response=call_command('scrape_all_job')
+
+        print(response)
+
 
     return render(request, 'homepage.html')

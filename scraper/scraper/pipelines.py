@@ -36,11 +36,24 @@ class ScraperJobPipeline:
     def process_item(self, item, spider):
         try:
             Jobs.objects.create(
+             
+                job_title=item['job_title'],
+                job_description=item['job_description'],
+                company_logo=item['company_logo'],
+                company_website=item['company_website'],
+                company_name=item['company_name'],
+                company_email=item['company_email'],
+                company_url=item['company_url'],
+                job_country=item['job_country'],
+                job_state=item['job_state'],
+                job_city=item['job_city'],
+                job_address=item['job_address'],
+                category=item['category'],
+                type=item['type'],)
 
-                title=item['title'],
-                text=item['text'],
-                image=item['image'],
-                applylink=item['applylink'])
+
+
+                
             print("\n")
             logger.warn("Loaded quote {}".format(item['text']))
             print(item)

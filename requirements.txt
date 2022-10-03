@@ -1,13 +1,12 @@
 amqp==5.1.0
 appdirs==1.4.3
-apturl==0.5.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asgiref==3.5.0
 asttokens==2.0.5
 attrs==21.4.0
 Automat==0.8.0
-autopep8==1.6.0
+autopep8==1.6.0     
 awscli==1.25.81
 backcall==0.2.0
 backports.zoneinfo==0.2.1

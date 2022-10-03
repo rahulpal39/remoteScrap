@@ -1,8 +1,23 @@
 
 {% extends "base.html" %}
 
+{% csrf_token %}
 
-{% block content %} 
+{% block content %} <meta name="csrf_token" content="{{ csrf_token }}">
+
+<div class="card" style="background-color:orangered; border-color:darkblue;">
+  <div class="card-body">
+    <form class="form-signin" role="search"     method="POST" action="{% url 'scrap' %}">
+      {% csrf_token %}
+      <input class="form-control me-2" type="search" name="search"  placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">submit</button>
+      
+      
+      </form> 
+
+  </div>
+</div>
+
 
 
 
