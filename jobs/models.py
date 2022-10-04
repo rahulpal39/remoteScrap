@@ -34,8 +34,20 @@ class Jobs(models.Model):
     job_expires_at=models.DateField(default=in_three_days)
     company_website=models.URLField()	
     job_description=models.TextField(unique=True) 	
-
-
+    wpjobboard_am_data=models.URLField()	    
+    company_country=models.CharField(max_length=50,blank=True,null=True)
+    company_state=models.CharField(max_length=50,blank=True,null=True)
+    company_zip_code=models.CharField(max_length=50,blank=True,null=True)
+    company_location=models.CharField(max_length=50,blank=True,null=True)    
+    company_info=models.CharField(max_length=50,blank=True,null=True)
+    is_public=models.CharField(max_length=50,blank=True,null=True)
+    company_slogan=models.CharField(max_length=50,blank=True,null=True)
+    remote_ready=models.CharField(max_length=50,blank=True,null=True)
+    company_size=models.CharField(max_length=50,blank=True,null=True)
+    twitter_link=models.URLField()
+    linkedin_link=models.URLField()
+    facebook_link=models.URLField()
+	
 
     def __str__(self):
         return self.job_title

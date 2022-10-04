@@ -46,10 +46,18 @@ class ScraperJobPipeline:
                 company_url=item['company_url'],
                 job_country=item['job_country'],
                 job_state=item['job_state'],
+                job_zip_code=item['job_zip_code'],
                 job_city=item['job_city'],
                 job_address=item['job_address'],
                 category=item['category'],
-                type=item['type'],)
+                type=item['type'],
+                wpjobboard_am_data=item['wpjobboard_am_data'],
+                company_country=item['company_country'],
+                company_state=item['company_state'],
+                company_zip_code=item['company_zip_code'],
+                company_location=item['company_location'],
+
+                )
 
 
 

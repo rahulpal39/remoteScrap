@@ -35,3 +35,8 @@ class JobItem(scrapy.Item):
     job_expires_at=scrapy.Field()
     company_website=scrapy.Field()
     job_description=scrapy.Field()
+    wpjobboard_am_data=scrapy.Field()
+    company_country=scrapy.Field()
+    company_state=scrapy.Field()
+    company_zip_code=scrapy.Field()
+    company_location=scrapy.Field()
