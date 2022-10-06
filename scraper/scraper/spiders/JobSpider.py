@@ -97,7 +97,6 @@ class QuotesSpider(scrapy.Spider):
         print(companyDetail)
 
     # Test Case 1:
-        url = "https://www.geeksforgeeks.org"
 
         if(isValidURL(companyDetail) == True):
             companyUrl = companyDetail
@@ -130,13 +129,7 @@ class QuotesSpider(scrapy.Spider):
         item['company_country']=companyCountry[-1]
         item['company_state']=companyCountry[-1]
         item['company_zip_code']='45458'
-        item['company_location']=companyCountry[-1]
-
-        
-
-
-
-
+        item['company_location']=companyCountry[-1]  
         item['wpjobboard_am_data'] =l_apply_url
         yield item
 

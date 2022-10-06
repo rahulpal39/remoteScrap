@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Jobs
+from .models import Jobs, company
 # Register your models here.
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
@@ -83,6 +83,8 @@ class JobsResource(resources.ModelResource):
             if h == 'is_public':
                 headers[i] = "job.is_public"
 
+            if h == 'job_description_format':
+                headers[i] = "job.job_description_format"
             if h == 'company_slogan':
                 headers[i] = "job.company_slogan"
 
@@ -97,3 +99,6 @@ class BookAdmin(ImportExportModelAdmin):
 
 
 admin.site.register(Jobs, BookAdmin)
+
+
+admin.site.register(company)
