@@ -4,6 +4,71 @@ from .models import Jobs, company
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
 
+class CompanyResource(resources.ModelResource):
+
+    def get_export_headers(self):
+        headers = super().get_export_headers()
+        for i, h in enumerate(headers):
+            if h == 'company_logo':
+                headers[i] = "company.company_logo"
+            
+            if h == 'company_name':
+                headers[i] = "company.company_name"
+            if h == 'user_email':
+                headers[i] = "company.user_email"      
+
+            # if h == 'user_login':
+            #         headers[i] = "company.user_login"   
+
+            if h == 'company_website':
+                headers[i] = "company.company_website"
+           
+            if h == 'company_country':
+                headers[i] = "company.company_country"
+            if h == 'company_state':
+                headers[i] = "company.company_state"
+            if h == 'company_zip_code':
+                headers[i] = "company.company_zip_code"
+            if h == 'company_location':
+                headers[i] = "company.company_location"
+            if h == 'company_size':
+                headers[i] = "company.company_size"
+
+            if h == 'remote_ready':
+                headers[i] = "company.remote_ready"
+            if h == 'twitter_link':
+                headers[i] = "company.twitter_link"
+            if h == 'linkedin_link':
+                headers[i] = "company.linkedin_link"
+            if h == 'facebook_link':
+                headers[i] = "company.facebook_link"
+
+            if h == 'company_info':
+                headers[i] = "company.company_info"
+
+            if h == 'group_image':
+                headers[i] = "company.group_image"
+            if h == 'is_public':
+                headers[i] = "company.is_public"
+            if h == 'company_slogan':
+                headers[i] = "company.company_slogan"
+            if h == 'id':
+                headers[i] = "company.company.id"
+            if h == 'field_5':
+                headers[i] = "company.field_5"  
+            if h == 'field_6':
+                headers[i] = "company.field_6"  
+            if h == 'field_7':
+                headers[i] = "company.field_7"  
+
+
+
+        return headers
+
+    class Meta:
+        model = company
+
+
 
 class JobsResource(resources.ModelResource):
 
@@ -87,6 +152,8 @@ class JobsResource(resources.ModelResource):
                 headers[i] = "job.job_description_format"
             if h == 'company_slogan':
                 headers[i] = "job.company_slogan"
+            if h == 'company':
+                            headers[i] = "job.company.id"
 
         return headers
 
@@ -100,5 +167,8 @@ class BookAdmin(ImportExportModelAdmin):
 
 admin.site.register(Jobs, BookAdmin)
 
+class companyAdmin(ImportExportModelAdmin):
+    resource_class=  CompanyResource
 
-admin.site.register(company)
+
+admin.site.register(company,companyAdmin)

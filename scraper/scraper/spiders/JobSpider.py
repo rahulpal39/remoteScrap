@@ -75,13 +75,11 @@ class QuotesSpider(scrapy.Spider):
         #header work post
         JobData = response.css('div.listing-header-container')
         job_title = JobData.css('h1::text').extract()
-        job_post_Data= JobData.css('time::text').extract()
-       
+        job_post_Data= JobData.css('time::text').extract()      
 
         companyLogo = response.css("div.listing-logo")        
         url = companyLogo.css('img').xpath('@src').extract()
         post_tag=response.css('span.listing-tag::text').extract()
-
         Logo_url=urljoin(url[0], urlparse(url[0]).path)  # 'http://example.com/'
        
 
@@ -94,9 +92,6 @@ class QuotesSpider(scrapy.Spider):
         company_website = company.css('a::attr(href)').extract()
         company_name = company.css('a::text').extract()
         companyDetail=company_website[2]
-        print(companyDetail)
-
-    # Test Case 1:
 
         if(isValidURL(companyDetail) == True):
             companyUrl = companyDetail
