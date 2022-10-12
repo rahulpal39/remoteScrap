@@ -1,3 +1,4 @@
+from urllib.parse import urljoin, urlparse
 import scrapy
 from ..items import JobItem, QuotesItem
 
@@ -8,7 +9,35 @@ Example: scrapy crawl some-quotes -a author="Albert Einstein" -L WARN
 
 Those author name should match the name on the site.
 """
+import re
 
+# Function to validate URL
+# using regular expression
+def isValidURL(str):
+
+	# Regex to check valid URL
+	regex = ("((http|https)://)(www.)?" +
+			"[a-zA-Z0-9@:%._\\+~#?&//=]" +
+			"{2,256}\\.[a-z]" +
+			"{2,6}\\b([-a-zA-Z0-9@:%" +
+			"._\\+~#?&//=]*)")
+	
+	# Compile the ReGex
+	p = re.compile(regex)
+
+	# If the string is empty
+	# return false
+	if (str == None):
+		return False
+
+	# Return if the string
+	# matched the ReGex
+	if(re.search(p, str)):
+		return True
+	else:
+		return False
+
+    # Driver code
 
 class SpecificAuthorQuotesSpider(scrapy.Spider):
     """Extracts the quotes from specific author"""
@@ -51,58 +80,63 @@ class SpecificAuthorQuotesSpider(scrapy.Spider):
     def parse_book(self, response):
         # print(response)
         item = JobItem()
+
+        #header work post
         JobData = response.css('div.listing-header-container')
         job_title = JobData.css('h1::text').extract()
-        companyLogo = response.css("div.listing-logo")
-        companyLog = companyLogo.css('img').xpath('@src').extract()
+        job_post_Data= JobData.css('time::text').extract()      
+
+        companyLogo = response.css("div.listing-logo")        
+        url = companyLogo.css('img').xpath('@src').extract()
+        post_tag=response.css('span.listing-tag::text').extract()
+        Logo_url=urljoin(url[0], urlparse(url[0]).path)  # 'http://example.com/'
+       
+
         content = response.css('div.listing-container').extract()
         aurl = response.css('div.apply_tooltip')
-        appl_url = aurl.css('a::attr(href)').extract()
-        post_tag=response.css('span.listing-tag::text').extract()
+        apply_url = aurl.css('a::attr(href)').extract()#apply link grap
+
         company = response.css("div.company-card")
         companyCountry = company.css('h3::text').extract()
         company_website = company.css('a::attr(href)').extract()
         company_name = company.css('a::text').extract()
+        companyDetail=company_website[2]
 
-        # print(company_website[2])
-        # print(post_tag[1])
+        if(isValidURL(companyDetail) == True):
+            companyUrl = companyDetail
+            print("Yes")
+        else:
+            companyUrl =''
 
-        # print(content)
+            print("No")
+        
+        # companyUrl = self.base_url + company_website[1]
+        c = len(apply_url[0])
 
-        # print(url.extract())
+        l_apply_url = 'a:1:{s:3:"url";s:' + str(c) + ':"' + apply_url[0] + '";}'
 
-        # print(url[1].extract())
-        # title = response.xpath('//div/h1/text()').extract_first()
-
-        # for book in all_div_quotes.css('li.feature'):
-        # book_url = self.start_urls[0] + \
-        #     book.xpath('.//h3/a/@href').extract_first()
-        # yield scrapy.Request(book_url, callback=self.parse_book)
-        # url = quote.css('a::attr(href)')
-        # print(url[1].extract())
-
-        # # replace(
-        # #     '”', '').replace("“", "")
-        # author = quote.css('li.feature::text').extract_first()
 
         item['job_title'] = job_title[0]
         item['job_description'] = content[0]
-        item['company_logo'] = companyLog[0]
-        item['company_website'] = appl_url[0]
+        item['company_logo'] = Logo_url
+        item['company_website'] = companyUrl
         item['company_name']=company_name[0]
-        item['company_email']=company_website[2]
-        item['company_url']=company_website[2]
+        item['company_email']='admin@remotejobhunt.com'
+        item['company_url']=companyUrl
         item['job_country']=companyCountry[-1]
-        item['job_state']=companyCountry[0]
-        item['job_city']=companyCountry[0]
-        item['job_address']=companyCountry[0]
+        item['job_state']=companyCountry[-1]
+        item['job_city']=companyCountry[-1]
+        item['job_address']=companyCountry[-1]
         item['category']=post_tag[1]
-        item['type']=post_tag[1]
-        # # item['payment_method']="cash"
-        # # item['job_created_at']=
-        # # item['job_expires_at']=
-
+        item['type']=post_tag[0]
+        item['job_zip_code']='145521'
+        item['company_country']=companyCountry[-1]
+        item['company_state']=companyCountry[-1]
+        item['company_zip_code']='45458'
+        item['company_location']=companyCountry[-1]  
+        item['wpjobboard_am_data'] =l_apply_url
         yield item
+
 
         next_page = response.css('li.next a::attr(href)').get()
         if next_page is not None:

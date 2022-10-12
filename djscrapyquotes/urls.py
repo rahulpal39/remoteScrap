@@ -19,7 +19,6 @@ from jobs import views as jobsView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-
+    path('tag/', jobsView.get_by_tag, name='get_by_tag'),
     path('scrap/', jobsView.page_view, name='scrap')
 ]
