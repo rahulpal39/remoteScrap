@@ -127,7 +127,7 @@ class SpecificAuthorQuotesSpider(scrapy.Spider):
         item['job_state']=companyCountry[-1]
         item['job_city']=companyCountry[-1]
         item['job_address']=companyCountry[-1]
-        item['category']=post_tag[1]
+        item['category']=self.author
         item['type']=post_tag[0]
         item['job_zip_code']='145521'
         item['company_country']=companyCountry[-1]
