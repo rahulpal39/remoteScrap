@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from jobs import views as jobsView
+from product import views as ProductView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', jobsView.get_by_tag, name='get_by_tag'),
-    path('scrap/', jobsView.page_view, name='scrap')
+    path('scrap/', jobsView.page_view, name='scrap'),
+    path('product/', ProductView.get_product, name='get_product'),
+
 ]
