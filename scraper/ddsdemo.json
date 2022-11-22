@@ -1,0 +1,23 @@
+{
+  "vendor": "MOXA",
+  "Product": "WAC-2004A Series",
+  "series": {
+    "Name": [
+      "WAC-2004A Series",
+      "\r\n                                WAC-2004A\r\n                            "
+    ],
+    "Title": [
+      "Industrial wireless access controllers",
+      "\r\n                                WAC-2004A Series\r\n                            "
+    ],
+    "Features and Benefits": [
+      "2-in-1 AP controller and mobile IP home agent",
+      "Millisecond-level controller-based Turbo Roaming",
+      "IEEE 802.11i-compliant wireless security",
+      "Layer-3 mobile IP technology",
+      "Scalable tunneling capacity"
+    ]
+  },
+  "Overview": {},
+  "Specifications": {}
+}

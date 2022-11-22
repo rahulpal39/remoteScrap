@@ -39,6 +39,15 @@ def isValidURL(str):
     else:
         return False
 
+
+def log(data, name=None):
+    PrettyJson = json.dumps(
+        data, indent=4, separators=(',', ': '), sort_keys=True)
+
+    print(
+        '#################################################{name}##################################')
+    print(PrettyJson)
+    return PrettyJson
     # Driver code
 
 
@@ -68,8 +77,8 @@ class QuotesSpider(scrapy.Spider):
             for ur in url:
                 # print(ur)
 
-                book_url = self.base_url + ur
-                # book_url = 'https://www.moxa.com/en/products/industrial-edge-connectivity/controllers-and-ios/rugged-controllers-and-i-os/iologik-e1500-series'
+                # book_url = self.base_url + ur
+                book_url = 'https://www.moxa.com/en/products/industrial-edge-connectivity/controllers-and-ios/rugged-controllers-and-i-os/iologik-e1500-series'
                 print(book_url)
                 yield scrapy.Request(book_url, callback=self.parse_book)
 
@@ -95,60 +104,101 @@ class QuotesSpider(scrapy.Spider):
             "p.module-block__paragraph::text").extract()
         oversubhedding = overview.css(
             "h4.module-block__subheading::text").extract()
+        print(oversubhedding)
+        print(overperagraph)
+        
+
+        
 #################################################specifications##################################
         specifications = prouctD.css('div.side-section__main')
-        specifTitle = specifications.css(
-            'h3.basic-accordion__heading::text').extract()
-        specifsubH3 = specifications.css(
-            'h4.title-list__heading::text').extract()
-        specifsubparaG = specifications.css(
-            'p.title-list__paragraph::text').extract()
-        print(overtitile, specifsubparaG)
+        # specifTitle = specifications.css(
+        #     '.basic-accordion__heading::text').extract()
+        # specifsubH3 = specifications.css(
+        #     '.title-list__heading::text').extract()
+        # specifsubparaG = specifications.css(
+        #     'p.title-list__paragraph::text').extract()
+        # # print(overtitile, specifsubparaG)
 
-        # for para in overperagraph:
-        #     print(para)
-        over={}
+        # specifdat = specifications.css(
+        #     'div.basic-accordion__block').extract()
+        # print(json.dump(specifdat))
+        # json.dump(student, write_file, indent=4)
+        # res=log(specifsubH3,'demo')
+        spec = []
+        dates_dict = dict()
+        num_list=[] 
+        # dict = dict() 
 
+        num_listparagrap=[]
+        num_listspTitls=[]
+        property_data = {}
+
+        for para in specifications.css('.basic-accordion__block'):
+            # print(para.css(".basic-accordion__heading::text").extract())
+            # print(para)
+            sptitile = para.css(".basic-accordion__heading::text").extract()
+
+            # print(sptitile[0])
+            d=sptitile[0]
+            # dict
+            spec.append(sptitile[0])
             
+          
 
-        for spHubH3 in specifsubH3:
-            print(spHubH3)
-        for Title in specifTitle:
-            print(Title)
+            for pa  in para.css('.title-list'):
+                paragrap = pa.css(".title-list__paragraph::text").extract()
+                pTitls = pa.css(".title-list__heading::text").extract()
+                data = {}
+                num_listparagrap.append(paragrap)
+                num_listspTitls.append(pTitls)
+                dic=[]
 
-        dictionary = {
-            'vendor': "MOXA",
-            'Product': pTitle,
-            # 'Feature':,
-            'series': {
-                'Name': pTitle,
-                'Title': pheading,
-                'Features and Benefits': prouctFeature,
-            },
-            'Overview': {
-                # overtitile[0]:overperagraph,
-                
-                # overdetail: overperagraph,
-                # oversubhedding: overperagraph,
+                for pare in pTitls: 
+                    for itit in paragrap:       
+                        dic.append(itit) 
+                    for i in dic:
+                                        
+                        data[pare]=i
+                        property_data[d]=data
 
-
-            },
-            "Specifications": {
-                # specifTitle
-                # : {
-                #     # spHubH3: specifsubparaG
-
-                # }
+                # print(pa.css(".title-list__heading::text").extract())
+                # print(pa.css(".title-list__paragraph::text").extract())
+                # spec.append(sptitile[0])
+                # # data={
+                # d[sptitile].append(pTitls)
+                # print(key) 
 
 
-            },
+        
+            # print(property_data)
+        # tle=pTitle[0]
+        # pT=pTitle[0]
+        # phe=pheading[0]
+        # dictionary = {
+        #     'vendor': "MOXA",
+        #     'Product':tle ,
+        #     # 'Feature':,
+        #     'series': {
+        #         'Name': pT,
+        #         'Title': phe,
+        #         'Features and Benefits': prouctFeature,
+        #     },
+        #     'Overview': {
+        #         'overtitile':'demo',
 
+        #         # overdetail: overperagraph,
+        #         # oversubhedding: overperagraph,
 
-        }
-        name=f"{pTitle}.json"
+        #     },
+        #     "speacification":property_data,
 
-        with open(name, "w") as outfile:
-            json.dump(dictionary, outfile)
+          
+
+        # }
+        # # name=f"{tle}.json"
+        # # print(dictionary)
+        # # with open(name, "w") as outfile:
+        # #     json.dump(dictionary, outfile)
 
         next_page = response.css('li.next a::attr(href)').get()
         if next_page is not None:
