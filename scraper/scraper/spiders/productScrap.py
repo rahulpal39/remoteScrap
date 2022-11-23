@@ -223,14 +223,16 @@ class QuotesSpider(scrapy.Spider):
         modelImage=models.css('.model-table__img::attr(src)').extract()
         # modelImage = companyLogo.css('img').xpath('@src').extract()
         modelTD=models.css('td::text').extract()
-        print(modelTD)
+        # print(modelTD)
         # print(model_url)
 
-        # reslist=[]
+        # resdata={}  
+        # resdata['NAME']=filename[i].replace("\r\n","") 
+        reslist={}
             
-        # reslist['name']+=model_Text
-        # reslist['image']+=modelImage
-        # reslist['table']+=modelTD
+        reslist['models']=model_Text
+        reslist['modelImageUrl']=modelImage
+        reslist['compare']=modelTD
 
 
 
@@ -258,13 +260,13 @@ class QuotesSpider(scrapy.Spider):
 
             },
             "speacification":property_data,
-            'Resources':'reslist',
+            'Resources':reslist,
 
         }
-        # name=f"{tle}.json"
-        # # print(dictionary)
-        # with open(name, "w") as outfile:
-        #     json.dump(dictionary, outfile)
+        name=f"{tle}.json"
+        # print(dictionary)
+        with open(name, "w") as outfile:
+            json.dump(dictionary, outfile,ensure_ascii=False, indent=4)
 
         next_page = response.css('li.next a::attr(href)').get()
         if next_page is not None:
