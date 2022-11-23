@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from jobs import views as jobsView
 from product import views as ProductView
-
+from django.conf import settings
+from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', jobsView.get_by_tag, name='get_by_tag'),
@@ -25,3 +26,7 @@ urlpatterns = [
     path('product/', ProductView.get_product, name='get_product'),
 
 ]
+urlpatterns += (
+        static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) +
+        static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+        )
