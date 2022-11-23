@@ -14,7 +14,18 @@
       "Wide operating temperature range: -40 to 85\u00b0C (-40 to 185\u00b0F)"
     ]
   },
-  "Overview": { "overtitile": "demo" },
+  "Overview": {
+    "overtitile": {
+      "introducation": [
+        "The ioLogik E1500 Series Ethernet Remote I/O devices have a ruggedized aluminum housing, and are compliant with EN 50121-3-2, EN 50121-4, and essential sections of EN 50155 standard, which are essential for electronic equipment used in rolling stock applications. This rugged platform also features a wide operating temperature range of -40 to 85\u00b0C to deliver consistent performance even in harsh environments.",
+        "The ioLogik E1500 Series Ethernet remote I/O devices have a durable aluminum housing and are compliant with EN 50121-4 and a portion of EN 50155 specifications required for electronic equipment used in railway applications. The ioLogik E1500 design strictly conforms to EN standards, including not only EMC requirements but also with regards to shock, vibration, extended temperature range, humidity, and power supply variations.",
+        "With this topology, I/O channels on the ioLogik E1500 are individually isolated from one another to ensure that data communication is highly stable. For example, a lightning strike that affects one channel will not affect devices connected to other channels on the same ioLogik E1500.",
+        "The railway I/O module is an EN 50155/50121 remote Ethernet I/O device for use on rolling stock. It features an anti-vibration design, channel isolation, and operates reliably in temperatures ranging from -40 to 85\u00b0C, making it the ideal solution for data acquisition on rolling stock. Capable of both monitoring system status and triggering I/O events, this railway I/O is a great choice for simultaneously enhancing system reliability and maintaining efficiency in rolling stock environments.",
+        "\r\n ",
+        "\r\n"
+      ]
+    }
+  },
   "speacification": {
     "Input/Output Interface": {
       "Digital Input Channels": "Reset button",
@@ -89,5 +100,126 @@
     "Declaration": { "Green Product": "RoHS, CRoHS, WEEE" },
     "MTBF": { "Time": "Telcordia SR332", "Standards": "Telcordia SR332" },
     "Warranty": { "Warranty Period": "See ", "Details": "See " }
-  }
+  },
+  "Resources": [
+    {
+      "NAME": "                                                    ioSearch Configuration Utility                                                ",
+      "TYPE": "                                            Utility",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/getmedia/7b62dfec-c4a3-4bbe-b243-2ae42dca72ed/moxa-iologik-e1200-series-iosearch-utility-v2.2.zip",
+      "OPERATING SYSTEM": [
+        "Windows 10",
+        "Windows 11",
+        "Windows 7",
+        "Windows 8",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "Windows Server 2012",
+        "Windows Server 2016",
+        "Windows Server 2019",
+        "Windows Server 2022"
+      ],
+      "RELEASE DATE": "                                            Aug 01, 2022"
+    },
+    {
+      "NAME": "                                                    MX-AOPC UA Server                                                ",
+      "TYPE": "                                            Utility",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-iologik-e1200-series-iosearch-utility-v2.2.zip_Software%20Release%20History.pdf",
+      "OPERATING SYSTEM": [
+        "Windows 10",
+        "Windows 7",
+        "Windows 8",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "Windows Server 2008 R2",
+        "Windows Server 2012",
+        "Windows Server 2012 R2"
+      ],
+      "RELEASE DATE": "                                            May 16, 2019"
+    },
+    {
+      "NAME": "                                                    MX-AOPC UA Logger                                                ",
+      "TYPE": "                                            Utility",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/getmedia/8063b9b0-c982-4db0-ba2e-2065c5396bec/moxa-mx-aopc-ua-server-utility-v2.1.zip",
+      "OPERATING SYSTEM": [
+        "Windows 10",
+        "Windows 7",
+        "Windows 8",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "Windows Server 2008 R2",
+        "Windows Server 2012",
+        "Windows Server 2012 R2"
+      ],
+      "RELEASE DATE": "                                            May 16, 2019"
+    },
+    {
+      "NAME": "                                                    Firmware for ioLogik E1500 Series                                                ",
+      "TYPE": "                                            Firmware",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-mx-aopc-ua-server-utility-v2.1.zip_Software%20Release%20History.pdf",
+      "OPERATING SYSTEM": [],
+      "RELEASE DATE": "                                            Feb 11, 2018"
+    },
+    {
+      "NAME": "                                                    MX-AOPC UA Logger                                                ",
+      "TYPE": "                                            Utility",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/getmedia/6f2d7e2b-2c81-4bc6-8ff0-4fed07595056/moxa-mx-aopc-ua-logger-utility-v2.1.zip",
+      "OPERATING SYSTEM": [
+        "Windows 10",
+        "Windows 7",
+        "Windows 8",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "Windows Server 2008 R2",
+        "Windows Server 2012",
+        "Windows Server 2012 R2"
+      ],
+      "RELEASE DATE": "                                            Jun 14, 2017"
+    },
+    {
+      "NAME": "                                                    MX-AOPC UA Server                                                ",
+      "TYPE": "                                            Utility",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-mx-aopc-ua-logger-utility-v2.1.zip_Software%20Release%20History.pdf",
+      "OPERATING SYSTEM": [
+        "Windows 10",
+        "Windows 7",
+        "Windows 8",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "Windows Server 2008 R2",
+        "Windows Server 2012",
+        "Windows Server 2012 R2"
+      ],
+      "RELEASE DATE": "                                            Jun 14, 2017"
+    },
+    {
+      "NAME": "                                                    Software Package for ioLogik E1500 Series                                                ",
+      "TYPE": "                                            Software Package",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/getmedia/9f5e44a0-3e14-4959-82c3-d5e86a9c5ad2/moxa-iologik-e1500-series-firmware-v1.0.zip",
+      "OPERATING SYSTEM": [],
+      "RELEASE DATE": "                                            Jan 10, 2017"
+    },
+    {
+      "NAME": "                                                    Firmware for ioLogik E1500 Series (E1510-T)                                                ",
+      "TYPE": "                                            Firmware",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-iologik-e1500-series-firmware-v1.0.zip_Software%20Release%20History.pdf",
+      "OPERATING SYSTEM": [],
+      "RELEASE DATE": "                                            Dec 16, 2012"
+    },
+    {
+      "NAME": "                                                    Firmware for ioLogik E1500 Series (E1512-T)                                                ",
+      "TYPE": "                                            Firmware",
+      "Details": "SHA-512",
+      "Release notes": "https://cdn-cms.azureedge.net/getmedia/1592d089-fde4-40a2-9438-3e4010cd0744/moxa-mx-aopc-ua-logger-utility-v1.1.zip",
+      "OPERATING SYSTEM": [],
+      "RELEASE DATE": "                                            Dec 16, 2012"
+    }
+  ]
 }
