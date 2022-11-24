@@ -121,10 +121,10 @@ USE_L10N = True
 USE_TZ = True
 
 STATICFILES_DIRS = [
-'/root/vcrm/vcrm1/static/'
+'/static/'
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'vcrm/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
