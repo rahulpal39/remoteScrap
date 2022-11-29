@@ -1,0 +1,92 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/secure-routers/en-50155-routers/tn-5900-etbn-series",
+    "vendor": "MOXA",
+    "Product": "TN-5900-ETBN Series",
+    "series": {
+        "Name": "TN-5900-ETBN Series",
+        "Title": "EN 50155 ETBN routers",
+        "Features and Benefits": [
+            "IEC 61375-2-3 and IEC 61375-2-5",
+            "-40 to 75°C operating temperature range",
+            "Dual bypass relay",
+            "Isolated power input range from 24 to 110 VDC",
+            "Turbo Ring and RSTP/STP for network redundancy",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The ToughNet\nTN-5900–ETBN Series, designed for rolling stock backbone networks,\nare high-performance M12 routers with four bypass relay backbone ports.\nThey support NAT and routing functionality to facilitate the deployment\nof applications across networks. The TN-5900–ETBN Series routers use\nM12 and other circular connectors to ensure tight, robust connections\nthat guarantee reliability against environmental disturbances, such\nas vibration and shock.",
+                "The TN-5900–ETBN\nSeries routers provide a wide power input range of 24 to 110 VDC.\nTN-5900–ETBN Series switches operate in an extended operating temperature\nrange of -40 to 75°C and are compliant with the mandatory requirements\nof EN 50155/50121-4, making them suitable for a variety of industrial\napplications.",
+                "Routing functionality to divide\na large network into hierarchical subnets and allow data and information\nto communicate across networks",
+                "NAT makes IP management easier,\nsince end devices in different carriages can use the same IP addresses",
+                "Leading EN 50155 Ethernet router\nfor rolling stock applications",
+                "Turbo Ring and RSTP/STP for network\nredundancy",
+                "IGMP V1/V2 snooping for filtering\nmulticast traffic",
+                "IEEE 802.1Q VLAN to ease network\nplanning",
+                "QoS (IEEE 802.1p/1Q and TOS/DiffServ)\nto improve reliability",
+                "Panel mounting or DIN-rail mounting\ninstallation capability",
+                "SNMPv3, HTTPS, and SSH to enhance\nnetwork security",
+                "SNMP v1/v2c/v3 for different levels\nof network management",
+                "Port mirroring for online debugging",
+                "Automatic warning by exception\nthrough email and relay output",
+                "Line-swap fast recovery",
+                "Automatic recovery of connected\ndevice’s IP addresses",
+                "LLDP for automatic topology discovery\nin network management software",
+                "Configurable by web browser, Telnet/serial\nconsole, and CLI Windows utility"
+            ]
+        }
+    },
+    "speacification": {
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "2 x relay output in one M12 A-coded 5-pin male connector with current carrying capacity of 1 A @ 30 VDC"
+        },
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "12",
+            "Standards": "IEC 61375-2-3",
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector with bypass relay)": " IEC 61375-2-5"
+        },
+        "LED Interface": {
+            "LED Indicators": "STATE, PWR1, PWR2, FAULT, 10/100M"
+        },
+        "Serial Interface": {
+            "Console Port": "M12 A-coded male connector"
+        },
+        "Physical Characteristics": {
+            "Protection": "TN-5916-ETBN-WV-CT-T: PCB conformal coating",
+            "Dimensions": "250 x 175.8 x 116.3 mm (9.84 x 6.92 x 4.58 in)",
+            "Housing": "Metal",
+            "Installation": "DIN-rail mounting (optional)",
+            "IP Rating": " Wall mounting",
+            "Weight": "IP54"
+        },
+        "Environmental Limits": {
+            "Altitude": "2000 m",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Operating Temperature": "-40 to 75°C (-40 to 167°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Radio Frequency": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": " IEC 61000-4-6 CS: 10 V",
+            "Safety": " IEC 61000-4-8 PFMF",
+            "Shock": "IEC 60068-2-31",
+            "Vibration": "FCC"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "Warranty": {
+            "Details": "See ",
+            "Warranty Period": "5 years"
+        }
+    },
+    "Resources": [],
+    "Models": []
+}

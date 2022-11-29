@@ -1,0 +1,420 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/uc-8410a-series",
+    "vendor": "MOXA",
+    "Product": "UC-8410A Series",
+    "series": {
+        "Name": "UC-8410A Series",
+        "Title": "Arm Cortex-A7 dual-core 1 GHz IIoT gateways with 1 Mini PCIe expansion slot for a wireless module, 3 LAN ports, 8 serial ports, 4 DIs, 4 DOs",
+        "Features and Benefits": [
+            "Freescale LS1021A Cortex-A7 1 GHz dual-core processor",
+            "1 GB DDR3 SDRAM",
+            "8 RS-232/422/485 serial ports",
+            "3 10/100/1000 Mbps Ethernet ports",
+            "Wireless-enabled with PCIe mini slot",
+            "2 USB 2.0 hosts for mass storage devices",
+            "Wall-mounting installation",
+            "Robust, fanless design",
+            "-40 to 75°C wide-temperature model available",
+            "Moxa Industrial Linux with 10-year superior long term support"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The UC-8410A Series embedded computers support a rich collection of communication interfaces, including 8 RS-232/422/485 serial ports, 3 Ethernet ports, 1 PCIe mini slot for a wireless module, 4 digital input channels, 4 digital output channels, 1 mSATA slot, and 2 USB 2.0 hosts.",
+                "The UC-8410A computer uses the Freescale Cortex-A7 dual-core 1 GHz RISC CPU. This powerful computing engine supports several useful communications functions, without generating too much heat. The built-in 8 GB eMMC card and 1 GB DDR3 SDRAM give you enough memory to run your application software, and the mSATA slot provides the flexibility of adding additional data storage.",
+                "The UC-8410A computers come with a variety of communication interfaces, including serial ports, Ethernet ports, wireless communication slot, and digital input/output channels, making them ideal as communication platforms for industrial applications that require network and device communications.",
+                "The UC-8410A Series comes with Linux Debian 8 preinstalled to provide an open software operating system for software program development. This makes the UC-8410A computer an optimal solution for use with industrial applications, but at minimal cost and effort. In addition to the standard model of the UC-8410A, a -40 to 75°C wide-temperature model is available for harsh industrial environments.",
+                "Front View",
+                "\r\n ",
+                "\r\n",
+                "Rear View",
+                "\r\n ",
+                "\r\n",
+                "Left View",
+                "\r\n ",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Computer": {
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "System Memory Pre-installed": "1 GB DDR3L",
+            "Storage Pre-installed": "8 GB eMMC",
+            "Pre-installed OS": "Linux Debian 8 (kernel 4.4)",
+            "Storage Slot": "Moxa Industrial Linux (Debian 9, Kernel 4.4)"
+        },
+        "Computer Interface": {
+            "Ethernet Ports": "Auto-sensing 10/100/1000 Mbps ports (RJ45 connector) x 3",
+            "USB 2.0": "USB 2.0 hosts x 2, type-A connectors",
+            "Digital Input": "DIs x 4",
+            "Digital Output": "DOs x 4",
+            "Expansion Slots": "UC-8410A-LX Series: 1",
+            "Cellular Antenna Connector": "UC-8410A-LX Series: 2",
+            "Number of SIMs": "UC-8410A-LX Series: 1",
+            "SIM Format": "UC-8410A-LX Series: Mini",
+            "Console Port": "1 x 4-pin header to DB9 console port",
+            "Serial Ports": "RS-232/422/485 ports x 8, software-selectable (RJ45)"
+        },
+        "Digital Inputs": {
+            "Channel-to-Channel Isolation": "3000 VDC",
+            "Connector": "Screw-fastened Euroblock terminal",
+            "Dry Contact": "On: short to GND",
+            "Sensor Type": " Off: open",
+            "Wet Contact (DI to COM)": "Dry contact"
+        },
+        "Digital Outputs": {
+            "Connector": "Screw-fastened Euroblock terminal",
+            "Current Rating": "200 mA per channel",
+            "I/O Type": "Sink",
+            "Voltage": "Open-drain to 30 VDC"
+        },
+        "LED Indicators": {
+            "System": "Power x 1",
+            "LAN": " System Ready x 1",
+            "Serial": " Storage x 1"
+        },
+        "Serial Interface": {
+            "Baudrate": "50 bps to 115.2 kbps",
+            "Flow Control": "RTS/CTS, XON/XOFF, ADDC® (automatic data direction control) for RS-485, RTS Toggle (RS-232 only)",
+            "Parity": "None, Even, Odd, Space, Mark",
+            "Data Bits": "5, 6, 7, 8",
+            "Stop Bits": "1, 1.5, 2"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND"
+        },
+        "Power Parameters": {
+            "Power Connector": "Terminal block (for DC models)",
+            "Input Current": "1.57A @ 12 VAC max.",
+            "Input Voltage": "12 to 48 VDC",
+            "Power Consumption": "19 W (max.)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP30",
+            "Dimensions": "200 x 120 x 48.6 mm (7.87 x 4.72 x 1.91 in)",
+            "Weight": "1,000 g (2.21 lb)",
+            "Installation": "Wall mounting (standard)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "Standard Models: -10 to 60°C (14 to 140°F)",
+            "Storage Temperature (package included)": "Wide Temp. Models: -40 to 75°C (-40 to 167°F)",
+            "Ambient Relative Humidity": "Wide Temp. Models with LTE/Wi-Fi: -40 to 70°C (-40 to 158°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Safety": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Shock": " IEC 61000-4-4 EFT: Power: 0.5 kV; Signal: 0.5 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 0.5 kV; Signal: 1 kV"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    OS Image for UC-8410A Series                                                ",
+            "Size": "                                            146.7 MB",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-8410A Series                                                ",
+                "Version": "                                            v4.1.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/40fe4251-d889-488e-91a2-ab49d2c99045/moxa-uc-8410a-series-os-image-v4.1.2.zip",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v4.1.2",
+            "RELEASE DATE": "                                            May 05, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8410A Series (Debian 9)                                                ",
+            "Size": "                                            143.2 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8410A Series (Debian 9)                                                ",
+                "Version": "                                            v4.0.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-os-image-v4.1.2.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v4.0.2",
+            "RELEASE DATE": "                                            Nov 26, 2020"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (toolchain)                                                ",
+            "Size": "                                            217.3 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (toolchain)                                                ",
+                "Version": "                                            v4.9"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/738e0a03-2b7e-43d0-afd1-e0b3e16b7d79/moxa-uc-8410a-series-debian-9-firmware-v4.0.2.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v4.9",
+            "RELEASE DATE": "                                            Jun 14, 2019"
+        },
+        {
+            "NAME": "                                                    Software Package for UC-8410A Series (Examples)                                                ",
+            "Size": "                                            29.5 KB",
+            "Details": {
+                "File Name": "                                                    Software Package for UC-8410A Series (Examples)                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-debian-9-firmware-v4.0.2.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            Feb 26, 2019"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series                                                ",
+            "Size": "                                            104.8 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/bfa6b012-b6e9-4881-b9c4-318095b3176a/moxa-uc-8410a-series-toolchain-utility-v4.9.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            May 02, 2018"
+        },
+        {
+            "NAME": "                                                    Driver for UC-8410A Series                                                ",
+            "Size": "                                            6.4 MB",
+            "Details": {
+                "File Name": "                                                    Driver for UC-8410A Series                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-toolchain-utility-v4.9.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            May 01, 2018"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8410A Series                                                ",
+            "Size": "                                            350.8 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8410A Series                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/9cf5b52d-16c4-431e-b85c-9a3b40087bc6/moxa-uc-8410a-series-examples-software-package-v3.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            May 01, 2018"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8410A Series (OS Image)                                                ",
+            "Size": "                                            380.9 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8410A Series (OS Image)                                                ",
+                "Version": "                                            v2.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-examples-software-package-v3.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v2.2",
+            "RELEASE DATE": "                                            Nov 05, 2017"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8410A Series (Source code)                                                ",
+            "Size": "                                            96.3 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8410A Series (Source code)                                                ",
+                "Version": "                                            v2.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/9ac69e5e-ce25-4e35-8512-1c51b7922bb3/moxa-uc-8410a-series-utility-v3.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v2.2",
+            "RELEASE DATE": "                                            Nov 09, 2016"
+        },
+        {
+            "NAME": "                                                    Library for UC-8410A Series                                                ",
+            "Size": "                                            3.4 KB",
+            "Details": {
+                "File Name": "                                                    Library for UC-8410A Series                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/888caaf0-53fb-4028-b265-240ffedd98ae/moxa-uc-8410a-series-driver-v3.0.gz",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Nov 09, 2016"
+        },
+        {
+            "NAME": "                                                    Driver for UC-8410A Series                                                ",
+            "Size": "                                            279.2 MB",
+            "Details": {
+                "File Name": "                                                    Driver for UC-8410A Series                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-driver-v3.0.gz_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Nov 09, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Push-button)                                                ",
+            "Size": "                                            6.3 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Push-button)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/fe2c8bb6-b412-40d0-bd0d-40c7199f43f6/moxa-uc-8410a-series-firmware-v3.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Diagnostic)                                                ",
+            "Size": "                                            3.2 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Diagnostic)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-firmware-v3.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Cellular Utility)                                                ",
+            "Size": "                                            1.8 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Cellular Utility)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4f161b97-093d-4d8e-a9d3-2ad738bd2835/moxa-uc-8410a-series-os-image-firmware-v2.2.rar",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Wi-Fi Utility)                                                ",
+            "Size": "                                            7.2 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Wi-Fi Utility)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-os-image-firmware-v2.2_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Set interface)                                                ",
+            "Size": "                                            4.1 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Set interface)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4712debd-1fa0-4b40-9fb7-ec3e1c725398/moxa-uc-8410a-series-source-code-firmware-v2.2.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8410A Series (Debian Key)                                                ",
+            "Size": "                                            1.7 KB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8410A Series (Debian Key)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000017/UC-8410A%20Series_moxa-uc-8410a-series-source-code-firmware-v2.2_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jun 06, 2016"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "UC-8410A-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8410A-Series/UC-8410A-LX/moxa-uc-8410a-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "OS": "Debian 8",
+            "mPCIe Slot for Wireless Module": "✓",
+            "SIM Slots": "1",
+            "Operating Temp.": "-10 to 60°C"
+        },
+        {
+            "Name": "UC-8410A-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8410A-Series/UC-8410A-T-LX/moxa-uc-8410a-t-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "OS": "Debian 8",
+            "mPCIe Slot for Wireless Module": "✓",
+            "SIM Slots": "1",
+            "Operating Temp.": "-40 to 75°C"
+        },
+        {
+            "Name": "UC-8410A-NW-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8410A-Series/UC-8410A-NW-LX/moxa-uc-8410a-nw-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "OS": "Debian 8",
+            "mPCIe Slot for Wireless Module": "–",
+            "SIM Slots": "–",
+            "Operating Temp.": "-40 to 70°C (with Wi-Fi)"
+        },
+        {
+            "Name": "UC-8410A-NW-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8410A-Series/UC-8410A-NW-T-LX/moxa-uc-8410a-nw-t-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "OS": "Debian 8",
+            "mPCIe Slot for Wireless Module": "–",
+            "SIM Slots": "–",
+            "Operating Temp.": "-10 to 60°C"
+        }
+    ]
+}

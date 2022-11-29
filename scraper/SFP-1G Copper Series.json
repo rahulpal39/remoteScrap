@@ -1,0 +1,55 @@
+{
+    "url": "https://www.moxa.com/en/products/accessories/sfp-modules/gigabit-ethernet-sfp-modules/sfp-1g-copper-series",
+    "vendor": "MOXA",
+    "Product": "SFP-1G Copper Series",
+    "series": {
+        "Name": "SFP-1G Copper Series",
+        "Title": "1-port Gigabit Ethernet copper SFP modules",
+        "Features and Benefits": [
+            "Compliant with IEEE 802.3, 2002",
+            "Fixed 1000BaseT speed",
+            "Hot Pluggable RJ45 Connector",
+            "TTL signal detection (RX los)",
+            "RoHS compliant and lead free"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The SFP-1G Copper Series 1-port Gigabit Ethernet\nSFP modules are available as optional accessories for a wide range\nof Moxa Ethernet switches."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Ports": "1",
+            "1000BaseT(X) Ports (RJ45 connector)": "1",
+            "Note": "The port can not be used for Turbo Ring v1, Turbo Ring v2, and Turbo Chain."
+        },
+        "Power Parameters": {
+            "Power Consumption": "Max. 1.2 W"
+        },
+        "Environmental Limits": {
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Operating Temperature": "-40 to 75°C (-40 to 167°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "Safety": "CE, FCC, EN 60825-1, UL 60950-1",
+            "Maritime": "DNV-GL"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "SFP-1GTXRJ45-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/Gigabit-Ethernet-SFP-Modules/SFP-1G-Copper-Series/SFP-1GTXRJ45-T/moxa-sfp-1gtxrj45-t-image.jpg",
+            "Connector": "1 x 1000BaseT(X) RJ45 connector",
+            "Operating Temp.": "-40 to 75°C"
+        }
+    ]
+}

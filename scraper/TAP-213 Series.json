@@ -1,0 +1,248 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/wireless-ap-bridge-client/rail-wireless-lan/tap-213-series",
+    "vendor": "MOXA",
+    "Product": "TAP-213 Series",
+    "series": {
+        "Name": "TAP-213 Series",
+        "Title": "Rail onboard 802.11n IP68 wireless AP/client",
+        "Features and Benefits": [
+            "IEEE 802.11a/b/g/n compliant",
+            "Can be powered by redundant dual DC power inputs or PoE",
+            "QoS (WMM) and VLAN for efficient network traffic",
+            "Controller-based Turbo Roaming (less than 50 ms)\r\n    ",
+            "\r\n",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n",
+            "Rugged IP68-rated housing and -40 to 75°C operating temperature",
+            "Wireless network redundancy with AeroLink Protection"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TAP-213 outdoor wireless AP/client is the ideal ruggedized wireless solution for railway onboard and train-to-ground applications such as CCTV and CBTC communications. The TAP-213’s dust-tight, weatherproof design is IP68-rated, allowing you to extend wireless networks to outdoor locations and critical environments. The two redundant DC power inputs increase the reliability of the power supply and the device can also be powered via PoE for easier deployment. The TAP-213 is compliant with the mandatory test items of the EN 50155 standard to ensure suitability for rolling stock applications. With many hardened industrial-grade features, the TAP-213 will provide stable and reliable wireless connectivity, especially for rail onboard environments.",
+                "IP68-rated metal housing and -40 to 75°C wide operating temperature",
+                "Anti-vibration M12 design with waterproof and dustproof connectors",
+                "PoE and dual DC power inputs",
+                "High-power 400 mW (max.) radio",
+                "Wide range power input from 24 to 110 VDC",
+                "Client-based Turbo Roaming handover time less than 150 ms with 3 channels and WPA2",
+                "Controller-based Turbo Roaming handover time (available only when used with the WAC-1001 or WAC-2004) less than 50 ms with 3 channels and WPA2",
+                "Multiple roaming parameters for different installation structures and antenna types"
+            ]
+        }
+    },
+    "speacification": {
+        "WLAN Interface": {
+            "Channel Bandwidth": "20 MHz, 40 MHz",
+            "Frequency Band for EU (20 MHz operating channels)": "2.412 to 2.472 GHz (13 channels)",
+            "Frequency Band for JP (20 MHz operating channels)": " 5.180 to 5.240 GHz (4 channels)",
+            "Frequency Band for US (20 MHz operating channels)": " 5.260 to 5.320 GHz (4 channels)",
+            "Receiver Sensitivity for 802.11a (measured at 5.680 GHz)": " 5.500 to 5.700 GHz (11 channels)",
+            "Receiver Sensitivity for 802.11n (5 GHz; measured at 5.680 GHz)": "2.412 to 2.484 GHz (14 channels)",
+            "Receiver Sensitivity for 802.11b (measured at 2.437 GHz)": " 5.180 to 5.240 GHz (4 channels)",
+            "Receiver Sensitivity for 802.11g (measured at 2.437 GHz)": " 5.260 to 5.320 GHz (4 channels)",
+            "Receiver Sensitivity for 802.11n (2.4 GHz; measured at 2.437 GHz)": " 5.500 to 5.700 GHz (11 channels)",
+            "Modulation Type": "2.412 to 2.462 GHz (11 channels)",
+            "Transmission Rate": " 5.180 to 5.240 GHz (4 channels)",
+            "Transmitter Power for 802.11a": " 5.260 to 5.320 GHz (4 channels)\r\n    ",
+            "Transmitter Power for 802.11n (5 GHz)": "\r\n",
+            "Transmitter Power for 802.11b": " 5.500 to 5.700 GHz (8 channels) Excludes 5.600 to 5.640 \r\n    ",
+            "Transmitter Power for 802.11g": "\r\n",
+            "Transmitter Power for 802.11n (2.4 GHz)": " 5745 to 5825 GHz (5 channels)",
+            "Wireless Security": "Typ. -90 @ 6 Mbps",
+            "WLAN Antenna Connector": " Typ. -88 @ 9 Mbps",
+            "WLAN Operation Mode": " Typ. -88 @ 12 Mbps",
+            "WLAN Standards": " Typ. -85 @ 18 Mbps",
+            "Frequency Band": " Typ. -81 @ 24 Mbps"
+        },
+        "Input/Output Interface": {
+            "Buttons": "Reset button"
+        },
+        "Ethernet Interface": {
+            "1000BaseSFP Slots": "1",
+            "Standards": "IEEE 802.1p for Class of Service",
+            "Total Port Count": " IEEE 802.1Q for VLAN Tagging",
+            "Highest Speed": " IEEE 802.1X for authentication",
+            "Connections": " IEEE 802.3 for 10BaseT",
+            "10/100/1000BaseT(X) Ports (M12 X-coded 8-pin female connector)": " IEEE 802.3ab for 1000BaseT(X)"
+        },
+        "Ethernet Software Features": {
+            "Management": "SNMPv1/v2c/v3, DHCP Server/Client, IPv4, LLDP, SMTP, Syslog, TCP/IP, Telnet, TFTP, UDP, Web Console, Wireless Search Utility",
+            "Security": "HTTPS/SSL, RADIUS, SSH",
+            "Time Management": "NTP Client, SNTP",
+            "Unicast Routing": "Static Route"
+        },
+        "Switch Properties": {
+            "VLAN ID Range": "VID 1 to 4094"
+        },
+        "USB Interface": {
+            "M12 Connector": "M12 A-coded 5-pin female (for ABC-02 USB storage)"
+        },
+        "Firewall": {
+            "Filter": "IP address, MAC address, Ports"
+        },
+        "NAT": {
+            "Features": "Port forwarding"
+        },
+        "Serial Interface": {
+            "Console Port": "USB-M12 console (M12 B-coded 5-pin female connector)",
+            "Flow Control": "RTS/CTS, XON/XOFF",
+            "Parity": "None, Even, Odd, Space, Mark"
+        },
+        "Power Parameters": {
+            "Input Current": "0.65 A @ 24 VDC, 0.16 A @ 110 VDC",
+            "Input Voltage": "24 to 110 VDC, Redundant dual inputs",
+            "Power Connector": "M12 A-coded 4-pin male connector",
+            "Power Consumption": "17.6 W (max.)",
+            "Reverse Polarity Protection": "Supported",
+            "Source of Input Power": "PoE (IEEE 802.3at)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP68",
+            "Dimensions (without ears)": "220 x 150 x 50.5 mm (8.66 x 5.91 x 1.99 in)",
+            "Weight": "1,500 g (3.31 lb)",
+            "Installation": "Wall mounting (standard), DIN-rail mounting (optional), Pole mounting (optional)",
+            "Protection": "PCB conformal coating"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 75°C (-40 to 167°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 61000-6-2/-6-4",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Radio Frequency": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Railway": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Safety": " IEC 61000-4-6 CS: 10 V"
+        },
+        "MTBF": {
+            "Time": "758,369 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    Library for TAP-213 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Library for TAP-213 Series                                                ",
+                "Version": "                                            v1.8"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.8",
+            "RELEASE DATE": "                                            Nov 24, 2021"
+        },
+        {
+            "NAME": "                                                    Firmware for TAP-213 Series                                                ",
+            "Size": "                                            181.7 KB",
+            "Details": {
+                "File Name": "                                                    Firmware for TAP-213 Series                                                ",
+                "Version": "                                            v1.8"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/970ac46b-3c08-453c-9eec-f4a48022538f/moxa-tap-213-series-library-v1.8.my",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.8",
+            "RELEASE DATE": "                                            Nov 24, 2021"
+        },
+        {
+            "NAME": "                                                    Wireless Search Utility                                                ",
+            "Size": "                                            7.8 MB",
+            "Details": {
+                "File Name": "                                                    Wireless Search Utility                                                ",
+                "Version": "                                            v2.6"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000303/TAP-213%20Series_moxa-tap-213-series-library-v1.8.my_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows 2000",
+                "Windows 7",
+                "Windows 95",
+                "Windows 98",
+                "Windows ME",
+                "Windows NT",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v2.6",
+            "RELEASE DATE": "                                            Nov 26, 2017"
+        },
+        {
+            "NAME": "                                                    Turbo Roaming Analyzer                                                ",
+            "Size": "                                            1.8 MB",
+            "Details": {
+                "File Name": "                                                    Turbo Roaming Analyzer                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/3af14f8d-248e-4488-b6a4-cc0edca57535/moxa-tap-213-series-firmware-v1.8.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Oct 02, 2017"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "TAP-213-EU-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Wireless-AP-Bridge-Client/Rail-Wireless-LAN/TAP-213-Series/TAP-213-EU-CT-T/moxa-tap-213-eu-ct-t-image.jpg",
+            "Band": "EU",
+            "Wi-Fi Standard": "802.11a/b/g/n",
+            "Application": "Railway onboard AP/client",
+            "Operating Temp.": "-40 to 75°C",
+            "Indoor/Outdoor, IP Code": "Outdoor, IP68",
+            "Single/Dual RF": "Single RF"
+        },
+        {
+            "Name": "TAP-213-JP-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Wireless-AP-Bridge-Client/Rail-Wireless-LAN/TAP-213-Series/TAP-213-JP-CT-T/moxa-tap-213-jp-ct-t-image.jpg",
+            "Band": "JP",
+            "Wi-Fi Standard": "802.11a/b/g/n",
+            "Application": "Railway onboard AP/client",
+            "Operating Temp.": "-40 to 75°C",
+            "Indoor/Outdoor, IP Code": "Outdoor, IP68",
+            "Single/Dual RF": "Single RF"
+        },
+        {
+            "Name": "TAP-213-US-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Wireless-AP-Bridge-Client/Rail-Wireless-LAN/TAP-213-Series/TAP-213-US-CT-T/moxa-tap-213-us-ct-t-image.jpg",
+            "Band": "US",
+            "Wi-Fi Standard": "802.11a/b/g/n",
+            "Application": "Railway onboard AP/client",
+            "Operating Temp.": "-40 to 75°C",
+            "Indoor/Outdoor, IP Code": "Outdoor, IP68",
+            "Single/Dual RF": "Single RF"
+        }
+    ]
+}

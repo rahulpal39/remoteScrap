@@ -1,0 +1,87 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-edge-series",
+    "vendor": "MOXA",
+    "Product": "ThingsPro Edge Series",
+    "series": {
+        "Name": "ThingsPro Edge Series",
+        "Title": "IIoT gateway software for device-to-cloud connectivity",
+        "Features and Benefits": [
+            "Comprehensive device data processing to prepare field data for cloud platforms",
+            "Built-in SDK for popular cloud platforms Azure, AWS, and Sparkplug",
+            "Web-based GUI for remotely monitoring device configuration and data visualization",
+            "Secure and robust OTA design to ensure continuous connectivity to IIoT gateways",
+            "RESTful APIs for extending the existing functionalities and integrating them with IT services",
+            "Provisioning tool for batch configuration of Moxa IIoT gateways",
+            "Trigger edge-computing actions using predefined conditions such as a change in the value of tags or a specific event"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "ThingsPro Edge is an IIoT gateway software that helps\ntransform your edge computer into a secure and reliable IIoT gateway\nto suit your business needs. System administrators on the operation\ntechnology (OT) side can use its intuitive web GUI to ensure continuous\noperation while IT developers can use RESTful APIs to configure, monitor,\nand effectively control IIoT gateway devices. ThingsPro Edge also\nprovides:",
+                "Modbus polling engine with easy-to-use web-based UI for\ndata acquisition from end devices deployed in industrial field sites",
+                "Simplified transfer of Modbus device data to a MQTT broker\nin cloud applications",
+                "Supports configurable data transmission for telemetry\ndata upload to cloud. Leverages message groups, custom payload, and\nJSON-based configurable scheme, to meet the demands of cloud applications.",
+                "A network manager that handles field device connectivity\nto a WAN",
+                "\r\n ",
+                "\r\n",
+                "Supports\nAzure IoT Device, AWS IoT Core, Sparkplug, and MQTT client",
+                "Supports\nremote device management via cloud portals such as Azure Direct Method,\nenabling device reboots and configuration updates",
+                "Supports\nMQTT input and output topics for invoking RESTful APIs",
+                "Modbus\nmaster to acquire data from edge devices and publish tagged data to\ncloud connectivity applications",
+                "Caching\nof device-to-cloud messages in a specified location and sending the\nmessages to the cloud based on predefined policies",
+                "Customized\nmessage formats to publish acquired data to cloud platforms based\non the needs of your applications and systems",
+                "Dashboard\noverview to monitor tag data, hardware resource consumption, and device\nconfigurations such as GPS settings and cellular strength signal",
+                "Supports\nkeep-alive check and default route priority to ensure continuous network\nconnectivity",
+                "Supports\nthe Wi-Fi access point mode\r\n    ",
+                "\r\n to remotely connect\nto devices for troubleshooting",
+                "Supports\nNetwork Address Translation (NAT) for connected devices to access\nthe Internet via the IIoT gateway",
+                "Supports\nimport and export of system configuration to create backups and golden\nsamples",
+                "Over-the-air\n(OTA) upgrades to keep software and device firmware up-to-date",
+                "Resume\ncapability that ensures the integrity of the upgrade packs and a roll-back\nmechanism to recover the gateway from failed installations",
+                "Firewall\nto manage inbound traffic based on predefined rules",
+                "ThingsPro Proxy (TPP) for batch configuring and provisioning of IIoT\ngateways. TPP is a Windows-based utility, which can be download from\nthe Moxa website and install in a Windows 10 environment.",
+                "Supports\nThingsPro Edge installation",
+                "Effortless\nprovisioning of devices including software upgrade, cloud enrollment,\nrunning Linux scripts, and device configuration update."
+            ]
+        }
+    },
+    "speacification": {
+        "System Requirements": {
+            "Supported Devices": "\r\n    "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Utility for ThingsPro Edge Series (ThingsPro Proxy)                                                ",
+            "Size": "                                            106.1 MB",
+            "Details": {
+                "File Name": "                                                    Utility for ThingsPro Edge Series (ThingsPro Proxy)                                                ",
+                "Version": "                                            v1.3.3"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/65da9be2-baf0-4ef1-8cb2-e3974fa0b02f/moxa-thingspro-edge-series-thingspro-proxy-utility-v1.3.3.exe",
+            "OPERATING SYSTEM": [
+                "Windows 10"
+            ],
+            "VERSION": "                                            v1.3.3",
+            "RELEASE DATE": "                                            Aug 16, 2022"
+        },
+        {
+            "NAME": "                                                    Software Package for ThingsPro Edge Series (v2.3.0 build 3571 for UC-2112, UC-8112, UC-3100, UC-8100A-ME-T, and UC-8200 Series)                                                ",
+            "Size": "                                            290.6 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for ThingsPro Edge Series (v2.3.0 build 3571 for UC-2112, UC-8112, UC-3100, UC-8100A-ME-T, and UC-8200 Series)                                                ",
+                "Version": "                                            v2.3.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S000000621/ThingsPro%20Edge%20Series_moxa-thingspro-edge-series-utility-v1.3.3.exe_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux 1.x (Debian 9)"
+            ],
+            "VERSION": "                                            v2.3.0",
+            "RELEASE DATE": "                                            Jul 06, 2022"
+        }
+    ],
+    "Models": []
+}

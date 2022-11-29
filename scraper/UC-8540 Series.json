@@ -1,0 +1,232 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/uc-8540-series",
+    "vendor": "MOXA",
+    "Product": "UC-8540 Series",
+    "series": {
+        "Name": "UC-8540 Series",
+        "Title": "Arm Cortex-A7 dual-core 1 GHz train-to-ground computers with 2 Mini PCIe expansion slots for wireless modules",
+        "Features and Benefits": [
+            "Supports 1 WWAN connection with 2 SIM card slots",
+            "Supports 1 WLAN (IEEE 802.11 a/b/g/n/ac) connection",
+            "Single-panel I/O design for reduced installation space and easier maintenance",
+            "Front-side access panel for easy maintenance",
+            "Isolated 24 to 110 VDC power input with power-ignition function suitable for vehicle applications",
+            "EN 50155 Tx (-40 to 70°C) operating temperature for harsh environments",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n",
+            "5-year warranty"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "Moxa’s UC-8540\nis an innovative computing platform designed specifically for transportation\napplications. Its single-sided I/O design is ideal for vehicle applications,\nwhich typically do not have enough room for installing communication\ndevices. Front-side access makes it easy to install or change SIM\ncards and wiring cables. Users can install or change wireless modules,\nmSATA cards, and the RTC battery from the top or the bottom for easy\nmaintenance.",
+                "The UC-8540\nhas 1 miniPCIe slot with USB signal to support a 4G/LTE module, and\n1 slot with PCIe/USB signal to support a Wi-Fi module. The 4G/LTE\nmodule has two SIM card slots, which can be used to enable redundant\ncellular network communications or geo-fencing SIM card selection\nby leveraging the built-in MIRF 2.0, a Moxa device remote-management\nplatform with wireless management.",
+                "The\nUC-8540 can be used as a communication-centric computing platform\nin applications such as vehicle-to-ground communication gateway, TCMS\nT2G (train-to-ground) gateway, mobile condition monitoring unit, Ethernet\nConsist Network T2G gateway, and onboard wireless automated fare collection\nunit.\r\n    ",
+                "\r\n",
+                "The UC-8540 uses an open platform based on Debian 8 with Linux kernel\n4.1, allowing solution providers to manage software packages via Debian’s\nAPT (advanced packaging tools), or develop software applications with\nMoxa’s API Library and GNU C Library.",
+                "\r\n ",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Computer": {
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "Storage Pre-installed": "8 GB eMMC",
+            "Supported OS": "Linux Debian 8 (Linux kernel v4.1)",
+            "System Memory Pre-installed": "1 GB DDR3L",
+            "Storage Slot": "mSATA slots x 1, internal mini-PCIe socket"
+        },
+        "Computer Interface": {
+            "TPM": "TPM v2.0",
+            "Expansion Slots": " (HW V1.1.0 and later)",
+            "Ethernet Ports": "mPCIe slots x 2",
+            "Cellular Antenna Connector": "Auto-sensing 10/100/1000 Mbps ports (M12 X-coded) x 2",
+            "USB 3.0": "QMA x 2",
+            "Wi-Fi Antenna Connector": "USB 3.0 hosts x 1, type-A connectors",
+            "Serial Ports": "QMA x 3",
+            "Number of SIMs": "RS-232/422/485 ports x 1, software selectable (DB9 male)",
+            "Console Port": "2",
+            "GPS Antenna Connector": "RS-232 (TxD, RxD, GND), 4-pin header output (115200, n, 8, 1)",
+            "SIM Format": "TNC x 1"
+        },
+        "Input/Output Interface": {
+            "Buttons": "Reset button"
+        },
+        "LED Indicators": {
+            "System": "Power x 1",
+            "LAN": " System Ready x 1",
+            "Serial": " Programmable x 1",
+            "Wireless Signal Strength": "2 per port (10/100/1000 Mbps)"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND"
+        },
+        "GPS Interface": {
+            "Heading Accuracy": "0.3 degrees",
+            "Industrial Protocols": "NMEA 0183, version 4.0 (V2.3 or V4.1 configurable), UBX, RTCM",
+            "Receiver Types": "72-channel u-blox M8 engine",
+            "Time Pulse": "0.25 Hz to 10 MHz",
+            "Velocity Accuracy": "0.05 ms"
+        },
+        "Power Parameters": {
+            "Input Current": "1.66 A @ 24 VDC, 0.36 A @ 110 VDC",
+            "Input Voltage": "24 to 110 VDC",
+            "Power Connector": "M12 A-coded 4-pin male connector",
+            "Power Consumption": "40 W (max.)"
+        },
+        "Physical Characteristics": {
+            "Protection": "UC-8540-T-CT-LX: PCB conformal coating",
+            "Dimensions (with ears)": "190 x 120 x 125 mm (7.46 x 4.72 x 4.92 in)",
+            "Dimensions (without ears)": "160 x 120 x 120 mm (6.30 x 4.72 x 4.72 in)",
+            "Housing": "Metal",
+            "Installation": "Wall mounting",
+            "IP Rating": "IP40",
+            "Weight": "Product only: 1,600 g (3.53 lb)"
+        },
+        "Environmental Limits": {
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Operating Temperature": "Standard Models: -25 to 55°C (-13 to 131°F)",
+            "Storage Temperature (package included)": "Wide Temp. Models: -40 to 70°C (-40 to 158°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Railway": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Railway Fire Protection": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Safety": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Shock": " IEC 61000-4-6 CS: 10 V",
+            "Vibration": " IEC 61000-4-8 PFMF"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Firmware for UC-8540 Series (Debian 9.x)                                                ",
+            "Size": "                                            291.9 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8540 Series (Debian 9.x)                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/9e04cbaa-66b6-4bf3-b350-4dbd61228a6f/moxa-uc-8540-series-debian-9.x-firmware-v2.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 9.x"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Nov 11, 2021"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8540 Series (Debian 8.x)                                                ",
+            "Size": "                                            340.2 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8540 Series (Debian 8.x)                                                ",
+                "Version": "                                            v1.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000586/UC-8540%20Series_moxa-uc-8540-series-debian-9.x-firmware-v2.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.2",
+            "RELEASE DATE": "                                            Nov 11, 2021"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8540 Series (64-bit toolchain)                                                ",
+            "Size": "                                            109.0 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8540 Series (64-bit toolchain)                                                ",
+                "Version": "                                            v4.9"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/e423a576-b909-48e1-b0c8-b4f18280997c/moxa-uc-8540-series-debian-8.x-firmware-v1.2.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v4.9",
+            "RELEASE DATE": "                                            Apr 20, 2020"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8540 Series (32-bit toolchain)                                                ",
+            "Size": "                                            108.4 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8540 Series (32-bit toolchain)                                                ",
+                "Version": "                                            v4.9"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000586/UC-8540%20Series_moxa-uc-8540-series-debian-8.x-firmware-v1.2.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v4.9",
+            "RELEASE DATE": "                                            Apr 20, 2020"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8540 Series (Debian 8.x)                                                ",
+            "Size": "                                            422.5 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8540 Series (Debian 8.x)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/960e915b-5cc9-410e-a2e8-1b89f86bedfb/moxa-uc-8540-series-64-bit-toolchain-utility-v4.9.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Apr 06, 2020"
+        },
+        {
+            "NAME": "                                                    Library for UC-8540 Series (examples)                                                ",
+            "Size": "                                            43.3 KB",
+            "Details": {
+                "File Name": "                                                    Library for UC-8540 Series (examples)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000586/UC-8540%20Series_moxa-uc-8540-series-64-bit-toolchain-utility-v4.9.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Mar 30, 2020"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "UC-8540-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8540-Series/UC-8540-LX/moxa-uc-8540-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "Antenna Connector Type": "QMA",
+            "Operating Temp.": "-25 to 55°C",
+            "Conformal Coating": "–"
+        },
+        {
+            "Name": "UC-8540-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8540-Series/UC-8540-T-LX/moxa-uc-8540-t-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "Antenna Connector Type": "QMA",
+            "Operating Temp.": "-40 to 70°C",
+            "Conformal Coating": "–"
+        },
+        {
+            "Name": "UC-8540-T-CT-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8540-Series/UC-8540-T-CT-LX/moxa-uc-8540-t-ct-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A7 dual-core 1 GHz",
+            "Antenna Connector Type": "QMA",
+            "Operating Temp.": "-40 to 70°C",
+            "Conformal Coating": "✓"
+        }
+    ]
+}

@@ -77,13 +77,13 @@ class QuotesSpider(scrapy.Spider):
             for ur in url:
                 # print(ur)
 
-                # book_url = self.base_url + ur
-                book_url = 'https://www.moxa.com/en/products/industrial-edge-connectivity/controllers-and-ios/rugged-controllers-and-i-os/iologik-e1500-series'
+                book_url = self.base_url + ur
+                # book_url = 'https://www.moxa.com/en/products/industrial-network-infrastructure/secure-routers/secure-routers/edr-810-series'
                 print(book_url)
                 yield scrapy.Request(book_url, callback=self.parse_book)
 
     def parse_book(self, response):
-        print(response)
+        # print(response)
     #     item = JobItem()
         import json
 
@@ -136,13 +136,13 @@ class QuotesSpider(scrapy.Spider):
                 paragrap = pa.css(".title-list__paragraph::text").extract()
                 pTitls = pa.css(".title-list__heading::text").extract()
                 data = {}
-                print(len(pTitls))
+                # print(len(pTitls))
                 num_listparagrap.append(paragrap)
                 num_listspTitls.append(pTitls)
                 dic = []
                 i = 0
                 while i < len(pTitls):
-                    print(pTitls[i],paragrap[i])
+                    # print(pTitls[i],paragrap[i])
                     data[pTitls[i]] = paragrap[i]
                     property_data[d] = data
                     
@@ -163,7 +163,7 @@ class QuotesSpider(scrapy.Spider):
         #################################resource###############################################
 
         dataaa = pageData.css('.bold-title-heading::text').extract()
-        rheading = dataaa[0]
+        # rheading = dataaa[0]
         # filename = []
         tableHeading = pageData.css(".border-table__th::text").extract()
         filename = pageData.css(".js-checksum-filename::text").extract()
@@ -190,25 +190,7 @@ class QuotesSpider(scrapy.Spider):
         # print(osList)
         version= pageData.css(
             ".version-short::text").extract()
-        # print(datalunch)
-        print(len(filename))
-        print(fileDataSha)
-        # print(filen)
-
-        # {
-        #     "NAME": "Firmware for VPort 06EC-2V Series",
-        #     "size": "43.4 MB",
-        #     "TYPE": "Firmware",
-        #     "Details":  {
-        #         "File Name": "Firmware for VPort 06EC-2V Series",
-        #         "Version": "v1.2",
-        #         "SHA-512 Checksum": "aa16fb972f0ed12ecaf78341509c4574c55aaf7d38b9f43f2dd89cca0418aa228b55c1ba4b03eb4dd732b21a9857a7083074a05a83e9ef61d3eede3a49eb48d6"
-        #     },
-        #     "VERSION": "v1.2",
-        #     "OPERATING SYSTEM": "-",
-        #     "RELEASE DATE": "Dec 03, 2021",
-        #     "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000358/VPort%2006EC-2V%20Series_moxa-vport-06ec-2v-series-firmware-v1.2.rom_Software%20Release%20History.pdf"
-        # },
+       
        
         filenam=filename
         l = []
@@ -224,7 +206,6 @@ class QuotesSpider(scrapy.Spider):
             resdata['Details']={
                 "File Name":filename[i].replace("\r\n","") ,
                 'Version':version[i].replace("\r\n","") ,
-                # 'SHA-512 Checksum':fileDataSha,
                 
             }            
        
@@ -246,28 +227,53 @@ class QuotesSpider(scrapy.Spider):
             l.append(resdata)
             i += 1
 
-        # print(l)
-        # model-table"
-
+       
         #############################Models#################################
         # d=pageData.css('.model-table').extract():
+        com=[]
         models= pageData.css(".model-table")
+        for da in models.css("tr"):
+            modelsTitle = da.css('td::text').extract()
+            # print(modelsTitle)
+            com.append(modelsTitle)
+       
+            
+            
         model_Text = models.css('a::text').extract()#apply link grap
         modelImage=models.css('.model-table__img::attr(src)').extract()
         # modelImage = companyLogo.css('img').xpath('@src').extract()
-        modelTD=models.css('td::text').extract()
+        
         # print(modelTD)
         # print(model_url)
 
         # resdata={}  
         # resdata['NAME']=filename[i].replace("\r\n","") 
-        reslist={}
             
-        reslist['models']=model_Text
-        reslist['modelImageUrl']=modelImage
-        reslist['compare']=modelTD
+        # reslist['models']=model_Text
+        # reslist['modelImageUrl']=modelImage
+        # reslist['compare']=modelTD
+        # print(modelTD)
+        md=[]
+        
+        i = 0
+        while i < len(model_Text):
+            reslist={}
+            
+            reslist["Name"]=model_Text[i]
+            reslist["link"]=modelImage[i]
+            for  ms in com:
+                
+                if len(ms) >0: 
+                    c =i+1                      
+                    b = 0
+                    reslist[ms[0]]=ms[c ]
+            
+            md.append(reslist)
 
+            i += 1
+        
 
+        # print(md)
 
         # print(resdata)
         # for a in pageData.css(".js-checksum-filename::text").extract():
@@ -295,6 +301,7 @@ class QuotesSpider(scrapy.Spider):
             },
             "speacification":property_data,
             'Resources':l,
+            "Models":md,
 
         }
         name=f"{tle}.json"

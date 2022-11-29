@@ -1,0 +1,187 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/en-50155-switches/tn-g6500-series",
+    "vendor": "MOXA",
+    "Product": "TN-G6500 Series",
+    "series": {
+        "Name": "TN-G6500 Series",
+        "Title": "EN 50155 Full Gigabit Ethernet switches with up to 8 PoE ports",
+        "Features and Benefits": [
+            "12 Gigabit ports with push-pull M12 connectors",
+            "Isolated power with 24 to 110 VDC power supply range",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n",
+            "-40 to 70°C operating temperature range",
+            "IP67-rated housing protection",
+            "Turbo Ring and Turbo Chain (recovery time < 50 ms @ 250 switches), and RSTP/STP for network redundancy",
+            "8 IEEE 802.3at/af compliant PoE and Ethernet combo ports",
+            "Provides up to 30 W per PoE port"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The ToughNet\nTN-G6500 Series M12 managed Ethernet switches are designed for railway\napplications, including rolling stock and wayside installations. The\nswitches use M12 and other circular connectors to ensure tight, robust\nconnections, and guarantee reliable operation in industrial environments\nwhere vibration and shock are commonplace. The TN-G6500 Series Ethernet\nswitches provide 12 Gigabit Ethernet M12 ports; 8 ports support IEEE\n802.3at/af-compliant PoE functionality. These PoE switches are classified\nas power source equipment (PSE); they provide up to 30 watts of power\nper port, and can be used to power IEEE 802.3at/af-compliant powered\ndevices (PDs), such as IP cameras, wireless access points, and IP\nphones. ",
+                "The TN-G6500 Series has push-pull\nM12 connectors that are tailor-made for push-pull cables in order\nto facilitate quick installation, and also allow M12 rotary cables\nto be utilized. The 24 to 110 VDC wide power input range and isolated\ndual power inputs not only allow you to use the same type of power\nsource at different sites around the globe, but also increase the\nreliability of your communications system. Furthermore, the -40 to\n70°C operating temperature and IP67-rated enclosure allow deployment\nin harsh environments. The TN-G6512 Series Ethernet switches are compliant\nwith the essential sections of the EN 50155 standard, covering operating\ntemperature, power input voltage, surge, ESD, vibration, power isolation,\nand includes a model with conformal coating to ensure suitability\nfor a variety of industrial applications.",
+                "Provides up to 30 watts per PoE\nport with a total power budget of 96 watts per switch",
+                "IPv6 Ready logo awarded (IPv6 Logo\nCommittee certified)",
+                "DHCP Option 82 for IP address assignment\nwith different policies",
+                "IGMP snooping and GMRP for filtering\nmulticast traffic",
+                "EtherNet/IP and Modbus/TCP industrial\nEthernet protocols supported",
+                "Port-based VLAN, IEEE 802.1Q VLAN,\nand GVRP to ease network planning",
+                "QoS (IEEE 802.1p/1Q and ToS/DiffServ)\nallows real-time traffic classification and prioritization",
+                "IEEE 802.3ad, LACP for optimal\nbandwidth utilization",
+                "SNMPv1/v2c/v3 for different levels\nof network management",
+                "TACACS+, SNMPv3, IEEE 802.1X, HTTPS,\nand SSH to enhance network security",
+                "RMON for efficient network monitoring\nand proactive capability",
+                "Bandwidth management prevents unpredictable\nnetwork conditions",
+                "Port locking to only allow access\nto authorized MAC addresses",
+                "Port mirroring for online debugging",
+                "Automatic warning notifications\nthrough email and relay output",
+                "Line-swap fast recovery",
+                "LLDP for automatic topology discovery\nin network management software",
+                "Configurable by web browser, Telnet/serial\nconsole, CLI, and Windows utility",
+                "Loop protection to prevent network\nloops",
+                "Panel mounting installation"
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100/1000BaseT(X) Ports (M12 A-coded 8-pin female connector)": "4",
+            "PoE Ports (100/1000BaseT(X), M12 X-coded 8-pin female connector)": "8",
+            "Standards": "IEEE 802.1D-2004 for Spanning Tree Protocol"
+        },
+        "Ethernet Software Features": {
+            "Broadcast Forwarding": "IP directed broadcast, broadcast forwarding",
+            "Configuration Options": "Command Line Interface (CLI), Command Line Interface (CLI) through Serial/Telnet/SSH, Web Console (HTTP/HTTPS), Windows Utility",
+            "Filter": "802.1Q, GMRP, GVRP, IGMP v1/v2, Port-based VLAN, Static Multicast",
+            "Industrial Protocols": "SNMPv1/v2c/v3",
+            "Management": "Account Management, Back Pressure Flow Control, DHCP Option 66/67/82, DHCP Server/Client, Flow control, HTTP, IPv4/IPv6, LLDP, Port Mirror, QoS/CoS/ToS, RARP, RMON, SMTP, SNMP Inform, Syslog, Telnet, SNMP Trap",
+            "MIB": "Bridge MIB, Ethernet-like MIB, MIB-II, P-BRIDGE MIB, Q-BRIDGE MIB, RMON MIB Groups 1, 2, 3, 9, RSTP MIB",
+            "Redundancy Protocols": "Link Aggregation, MSTP, RSTP, STP, Turbo Chain, Turbo Ring v1/v2, Turbo Ring with DRC",
+            "Security": "TACACS+, Broadcast storm protection, HTTPS/SSL, Local Account Accessibility, Port Lock, RADIUS, Rate Limit, SSH",
+            "Time Management": "NTP Server/Client, SNTP"
+        },
+        "Switch Properties": {
+            "IGMP Groups": "256",
+            "Max. No. of VLANs": "256",
+            "Priority Queues": "4",
+            "VLAN ID Range": "VID 1 to 4094"
+        },
+        "LED Interface": {
+            "LED Indicators": "PWR1, PWR2, FAULT, MSTR/HEAD, CPLR/TAIL, 10/100/1000M, PoE"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 (M12 B-coded 5-pin female connector)"
+        },
+        "Power Parameters": {
+            "Input Voltage": "24/36/48/72/96/110 VDC",
+            "No. of Power Inputs": "2",
+            "Operating Voltage": "16.8 to 137.5 VDC",
+            "Overload Current Protection": "Supported",
+            "Reverse Polarity Protection": "Supported",
+            "Total PoE Power Budget": "96 W",
+            "Input Current": "5.8 A @ 24 VDC",
+            "Power Connector": "M12 K-coded 5-pin male connector"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP67",
+            "Dimensions": "159 x 97 x 100 mm (6.26 x 3.82 x 3.94 in)",
+            "Weight": "1,750 g (3.86 lb)",
+            "Installation": "Wall mounting",
+            "Protection": "TN-G6512-8GPoE-WV-CT-T: PCB conformal coating"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 70°C (-40 to 158°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Altitude": "2000 m"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 6 GHz: 20 V/m",
+            "Radio Frequency": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": " IEC 61000-4-6 CS: 10 V",
+            "Safety": " IEC 61000-4-8 PFMF",
+            "Shock": "IEC 60068-2-31",
+            "Vibration": "FCC"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "471,356 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for TN-G6500 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for TN-G6500 Series                                                ",
+                "Version": "                                            v5.4"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.4",
+            "RELEASE DATE": "                                            Nov 16, 2021"
+        },
+        {
+            "NAME": "                                                    Firmware for TN-G6500 Series                                                ",
+            "Size": "                                            6.8 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for TN-G6500 Series                                                ",
+                "Version": "                                            v5.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/7148cde7-87f8-4626-83b1-b91a5b8fbe60/moxa-tn-g6500-series-firmware-v5.4.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.0",
+            "RELEASE DATE": "                                            Nov 29, 2018"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "TN-G6512-8GPoE-WV-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G6500-Series/TN-G6512-8GPoE-WV-T-(1)/moxa-tn-g6512-8gpoe-wv-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, 10M12 X-Coded 8-Pin Female Connector": "4",
+            "PoE Ports 100/1000BaseT(X), 10M12 X-Coded 8-Pin Female Connector": "8",
+            "Conformal Coating": "–"
+        },
+        {
+            "Name": "TN-G6512-8GPoE-WV-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G6500-Series/TN-G6512-8GPoE-WV-CT-T-(1)/moxa-tn-g6512-8gpoe-wv-ct-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, 10M12 X-Coded 8-Pin Female Connector": "4",
+            "PoE Ports 100/1000BaseT(X), 10M12 X-Coded 8-Pin Female Connector": "8",
+            "Conformal Coating": "✓"
+        }
+    ]
+}

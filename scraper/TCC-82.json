@@ -1,0 +1,82 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/serial-converters/serial-to-serial-converters/tcc-82",
+    "vendor": "MOXA",
+    "Product": "TCC-82",
+    "series": {
+        "Name": "TCC-82",
+        "Title": "Port-powered RS-232 4-channel isolators",
+        "Features and Benefits": [
+            "Four channels of 4 kV RMS isolation for 1 minute",
+            "External power source supported but not required",
+            "Automatic baudrate detection",
+            "Compact size"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TCC-82 provides full electrical isolation for bidirectional serial communication between two RS-232 devices in a compact, industrial-grade package. Both sides of an RS-232 connection are isolated optically to provide perfect protection against lightning surges, accidental high-voltage shorts, and ground loops. The built-in, wide range isolators are tested to ensure that they can withstand more than 4 kV rms input to output for one minute. This means that the TCC-82 not only meets the requirements of general serial data communications, but also the high standards required by industrial automation and medical applications. The TCC-82 protects the TxD and RxD data lines, and it also protects the RTS and CTS handshake lines for a total of four isolated channels to provide complete protection of your RS-232 applications.",
+                "\r\n",
+                "The TCC-82 supports port-powered operation, which means that it can obtain power directly from the attached serial devices. Power is obtained from the RS-232 TxD, RTS, or DTR lines, regardless of whether the signal is high or low, eliminating the need for an external power supply. However, external power can be used if handshake lines are not available, if the serial cable is too long, or if the serial device is a low-power device. For external power, the TCC-82 can use a 5 to 12 VDC adapter or a USB power cord. Note that both sides of the connection are powered independently, so if necessary, one side can rely on port power and the other on an external power source.",
+                "When installing the TCC-82, we recommend that you connect all output signals. The TCC-82 obtains power from these signals even if they are not used by your system. Care should be taken when choosing the external power supply if your application requires the full 4 kV of isolation. Most commercial power supplies provide only 1500 VAC isolation between the primary and secondary windings. If you are using external power for both sides of the TCC-82, make sure that separate power sources are used, each with sufficient isolation protection.",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Serial Interface": {
+            "Connector": "DB9 male",
+            "No. of Ports": "2",
+            "Serial Standards": "RS-232",
+            "Baudrate": "50 bps to 921.6 kbps (supports non-standard baudrates)"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, GND\r\n    "
+        },
+        "Power Parameters": {
+            "Input Current": "5 to 12 VDC, 20 mA (max.)",
+            "Input Voltage": "5 to 12 VDC",
+            "No. of Power Inputs": "1",
+            "Overload Current Protection": "Supported",
+            "Source of Input Power": "Power input jack"
+        },
+        "Physical Characteristics": {
+            "Housing": "Plastic",
+            "IP Rating": "IP30",
+            "Dimensions": "42 x 80 x 23.6 mm (1.65 x 3.15 x 0.93 in)",
+            "Weight": "60 g (0.13 lb)",
+            "Installation": "Desktop"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "0 to 60°C (32 to 140°F)",
+            "Storage Temperature (package included)": "-20 to 75°C (-4 to 167°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class B",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 1 kV; Signal: 0.5 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 1 kV"
+        },
+        "MTBF": {
+            "Time": "959,780 hrs",
+            "Standards": "MIL-HDBK-217F"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "TCC-82",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Serial-Converters/TCC-82/TCC-82/moxa-tcc-82-image.jpg",
+            "Port Power": "✓",
+            "Isolation": "4 kV",
+            "Serial Connector": "DB9"
+        }
+    ]
+}

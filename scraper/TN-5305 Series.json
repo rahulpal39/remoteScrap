@@ -1,0 +1,97 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/en-50155-switches/tn-5305-series",
+    "vendor": "MOXA",
+    "Product": "TN-5305 Series",
+    "series": {
+        "Name": "TN-5305 Series",
+        "Title": "EN 50155 5-port IP67 unmanaged Ethernet switches",
+        "Features and Benefits": [
+            "10/100BaseT(X), 4-pin M12 (D-coded), F/H duplex mode, and auto MDI/MDI-X connection",
+            "IP67-rated housing protection",
+            "Power input: 12 to 45 VDC, 18 to 30 VAC",
+            "Complies with all EN 50155 mandatory test items ",
+            "-40 to 75°C operating temperature range (-T models)"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TN-5305 Series Ethernet switches are IP67-rated for tough industrial applications. By using M12 connectors, you can rest assured that Ethernet cables will connect tightly to the switch, and will be robust enough to protect your applications from external disturbances, such as the vibration and shock encountered in the transportation industry.",
+                "The space-saving TN-5305 switches can be mounted virtually anywhere, and wide operating temperature (-40 to 75°C) models are also available for use in the most extreme weather conditions. TN-5305 Series Ethernet switches comply with a portion of EN 50155 specifications, covering operating temperature, power input voltage, surge, ESD, and vibration, making the switches suitable for a variety of industrial applications."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "5",
+            "Standards": "IEEE 802.3 for 10BaseT"
+        },
+        "Power Parameters": {
+            "Input Current": "0.1 A @ 24 VDC, 0.08 A @ 36 VDC",
+            "Input Voltage": "18 to 30 VAC (47 to 63 Hz), 24 to 36 VDC",
+            "Inrush Current (Max.)": "0.28 A @ 24 VDC",
+            "No. of Power Inputs": "1",
+            "Operating Voltage": "18 to 30 VAC",
+            "Power Connector": "\r\n\t12 to 45 VDC"
+        },
+        "Physical Characteristics": {
+            "Housing": "Plastic top cover, metal bottom plate",
+            "IP Rating": "IP67",
+            "Dimensions": "60 x 125 x 29.6 mm (2.36 x 4.92 x 1.09 in)",
+            "Weight": "Packaged: 270 g (0.56 lb)",
+            "Installation": "DIN-rail mounting (with optional kit), Wall mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "TN-5305: -25 to 60°C (-13 to 140°F)",
+            "Storage Temperature (package included)": "\r\n\tTN-5305-T: -40 to 75°C (-40 to 167°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)",
+            "Altitude": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Freefall": "IEC 60068-2-32",
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Environmental Testing": "\r\n\tIEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "International Approval": "\r\n\tIEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway": "\r\n\tIEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": "\r\n\tIEC 61000-4-6 CS: 10 V",
+            "Safety": "\r\n\tIEC 61000-4-8 PFMF",
+            "Salt Spray Test": "IEC 60068-2-1, EN 50155",
+            "Shock": "\r\n\tIEC 60068-2-14, EN 50155",
+            "Vibration": "\r\n\tIEC 60068-2-2, EN 50155"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "3,451,678 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "TN-5305",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-5305-Series/TN-5305/moxa-tn-5305-image.jpg",
+            "PoE, 10/100BaseT(X) Ports, M12 D-Coded Female Connector": "–",
+            "10/100BaseT(X) Ports, M12 D-Coded Female Connector": "5",
+            "Power Input": "Single input",
+            "Input Voltage": "24/36 VDC, 18 to 30 VAC",
+            "Operating Temp.": "-25 to 60°C"
+        },
+        {
+            "Name": "TN-5305-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-5305-Series/TN-5305-T/moxa-tn-5305-t-image.jpg",
+            "PoE, 10/100BaseT(X) Ports, M12 D-Coded Female Connector": "–",
+            "10/100BaseT(X) Ports, M12 D-Coded Female Connector": "5",
+            "Power Input": "Single input",
+            "Input Voltage": "24/36 VDC, 18 to 30 VAC",
+            "Operating Temp.": "-40 to 75°C"
+        }
+    ]
+}

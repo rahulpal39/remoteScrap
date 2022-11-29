@@ -1,0 +1,97 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-media-converters/ethernet-to-fiber-media-converters/ptc-101-m12-series",
+    "vendor": "MOXA",
+    "Product": "PTC-101-M12 Series",
+    "series": {
+        "Name": "PTC-101-M12 Series",
+        "Title": "IEC 61850-3 and railway Ethernet-to-fiber media converters",
+        "Features and Benefits": [
+            "10/100BaseT(X) auto-negotiation and auto-MDI/MDI-X",
+            "Link Fault Pass-Through (LFPT)",
+            "Power failure alarm by relay output (LV model only)",
+            "-40 to 85°C operating temperature range",
+            "Redundant dual DC power inputs (LV model only)",
+            "Integrated high-reliability power supply eliminates the need for external power transformer",
+            "Compliant with EN 50121-4",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The PTC-101 Ethernet-to-fiber media converters convert from 10/100BaseT(X) to 100BaseFX. Models are available with either SC, ST, or LC connectors. The PTC-101 converters eliminate the need for additional wiring, and support IEEE 802.3 and IEEE 802.3u/x protocols with 10/100M, full/half-duplex, and MDI/MDI-X auto-sensing to provide a total solution for your industrial Ethernet networks. The PTC-101 is compliant with mandatory sections of EN 50155, covering operating temperature, power input voltage, surge, ESD, and vibration, as well as conformal coating and power insulation, making the switches suitable for a variety of industrial applications."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "1",
+            "100BaseFX Ports (single-mode SC connector)": "PTC-101-M12-S-SC Series: 1",
+            "100BaseFX Ports (single-mode ST connector)": "PTC-101-M12-S-ST Series: 1",
+            "Magnetic Isolation Protection": "1.5 kV (built-in)",
+            "Optical Fiber": "\r\n    "
+        },
+        "Power Parameters": {
+            "Input Current": "150 mA @ 20 to 72 VDC",
+            "Input Voltage": "20 to 72 VDC",
+            "Overload Current Protection": "Supported",
+            "Power Consumption": "150 mA @ 20 to 72 VDC"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions": "152.15 x 126.46 x 66.65 mm (5.99 x 4.86 x 2.62 in)",
+            "Weight": "Packaged: 875 g (1.92 lb)",
+            "Installation": " Product only: 690 g (1.52 lb)",
+            "Protection": "DIN-rail mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 4 kV; Signal: 4 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 4 kV; Signal: 4 kV"
+        },
+        "MTBF": {
+            "Time": "1,211,613 hrs",
+            "Standards": "MIL-HDBK-217F"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "PTC-101-M12-S-SC-LV-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/PTC-101-M12-Series/PTC-101-M12-S-SC-LV-T/moxa-ptc-101-m12-s-sc-lv-t-image.jpg",
+            "Fiber Module Type": "Single-mode SC",
+            "Conformal Coating": "–"
+        },
+        {
+            "Name": "PTC-101-M12-S-ST-LV-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/PTC-101-M12-Series/PTC-101-M12-S-ST-LV-T/moxa-ptc-101-m12-s-st-lv-t-image.jpg",
+            "Fiber Module Type": "Single-mode ST",
+            "Conformal Coating": "–"
+        },
+        {
+            "Name": "PTC-101-M12-S-SC-LV-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/PTC-101-M12-Series/PTC-101-M12-S-SC-LV-CT-T/moxa-ptc-101-m12-s-sc-lv-ct-t-image.jpg",
+            "Fiber Module Type": "Single-mode SC",
+            "Conformal Coating": "✓"
+        },
+        {
+            "Name": "PTC-101-M12-S-ST-LV-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/PTC-101-M12-Series/PTC-101-M12-S-ST-LV-CT-T/moxa-ptc-101-m12-s-st-lv-ct-t-image.jpg",
+            "Fiber Module Type": "Single-mode ST",
+            "Conformal Coating": "✓"
+        }
+    ]
+}

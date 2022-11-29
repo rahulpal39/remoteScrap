@@ -1,0 +1,142 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/en-50155-switches/tn-5800a-series",
+    "vendor": "MOXA",
+    "Product": "TN-5800A Series",
+    "series": {
+        "Name": "TN-5800A Series",
+        "Title": "EN 50155 16/16+2G-port layer 3 Gigabit managed Ethernet switches",
+        "Features and Benefits": [
+            "Layer 3 routing interconnects multiple LAN segments",
+            "4 Fast Ethernet ports and 2 optional Gigabit ports with bypass relay function",
+            "Isolated power with 24 to 110 VDC power supply range",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n",
+            "-40 to 75°C operating temperature range",
+            "Turbo Ring and Turbo Chain (recovery time < 20 ms @ 250 switches), and STP/RSTP/MSTP for network redundancy"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The ToughNet TN-5800A Series switches are high-performance M12 Layer 3 Ethernet switches that support Layer 3 routing to facilitate the deployment of applications across networks. By using M12 and other circular connectors, the TN-5800A Series ensures tight, robust connections and reliability against environmental disturbances, such as vibration and shock. TN-5800A Series switches provide isolated power with 24 to 110 VDC power input range, which allows you to use the same model at different sites around the globe.",
+                "In addition, TN-5800A Series switches provide up to 16 Fast Ethernet M12 ports with 4 bypass relay ports, and 2 Gigabit Ethernet ports with bypass relay function. Furthermore, the -40 to 75°C operating temperature and IP54-rated water and dust resistant enclosure allow deployment in harsh environments. The TN-5800A Series Ethernet switches are compliant with mandatory sections of EN 50155, covering operating temperature, power input voltage, surge, ESD, and vibration, as well as conformal coating and power insulation, making the switches suitable for a variety of industrial applications.",
+                "Layer 3 switching functionality to divide a large network into hierarchical subnets and allow data and information to communicate across networks",
+                "Leading EN 50155 L3 Ethernet switches for rolling stock applications",
+                "DHCP Option 82 for IP address assignment with different policies",
+                "Turbo Ring, Turbo Chain, and STP/RSTP/MSTP for network redundancy",
+                "IGMP snooping and GMRP for filtering multicast traffic",
+                "IEEE 802.1Q VLAN, and GVRP to ease network planning",
+                "EtherNet/IP and Modbus TCP industrial Ethernet protocols supported",
+                "QoS (IEEE 802.1p/1Q and ToS/DiffServ) allows real-time traffic classification and prioritization",
+                "IEEE 802.3ad, LACP for optimum bandwidth utilization",
+                "TACACS+, SNMPv3, IEEE 802.1X, HTTPS, and SSH to enhance network security",
+                "SNMPv1/v2c/v3 for different levels of network management",
+                "RMON for proactive and efficient network monitoring",
+                "Bandwidth management to prevent unpredictable network status",
+                "Lock port allows access by only authorized MAC addresses",
+                "Port mirroring for online debugging",
+                "Automatic warning by exception through email and relay output",
+                "Line-swap fast recovery",
+                "LLDP for automatic topology discovery in network management software",
+                "Configurable by web browser, Telnet/serial console, and Windows utility",
+                "Panel mounting or DIN-rail mounting installation capability",
+                "Loop protection to prevent network loops"
+            ]
+        }
+    },
+    "speacification": {
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "2 x relay output in one M12 A-coded 5-pin male connector with current carrying capacity of 1 A @ 30 VDC"
+        },
+        "Ethernet Interface": {
+            "10/100/1000BaseT(X) Ports (M12 X-coded 8-pin female connector with bypass relay)": "TN-5818A-2GTXBP Series: 2",
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "12",
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector with bypass relay)": "4",
+            "Standards": "IEEE 802.1D-2004 for Spanning Tree Protocol"
+        },
+        "Ethernet Software Features": {
+            "Filter": "802.1Q, GMRP, GVRP, IGMP v1/v2/v3, Port-based VLAN, QinQ VLAN, Static Multicast",
+            "Configuration Options": "Command Line Interface (CLI), Command Line Interface (CLI) through Serial/Telnet/SSH, Web Console (HTTP/HTTPS), Windows Utility",
+            "Industrial Protocols": "EtherNet/IP Adapter (Slave), Modbus TCP Server (Slave)",
+            "Management": "Back Pressure Flow Control, DHCP Option 66/67/82, Flow control, HTTP, IPv4, LLDP, Port Mirror, QoS/CoS/ToS, RARP, RMON, SMTP, SNMP Inform, SNMPv1/v2c/v3, Syslog, Telnet",
+            "MIB": "Bridge MIB, Ethernet-like MIB, MIB-II, P-BRIDGE MIB, Q-BRIDGE MIB, RMON MIB Groups 1, 2, 3, 9, RSTP MIB",
+            "Multicast Routing": "DVMRP, PIM-DM",
+            "Redundancy Protocols": "Link Aggregation, RSTP, STP, Turbo Chain, Turbo Ring v1/v2",
+            "Routing Redundancy": "VRRP",
+            "Security": "Broadcast storm protection, HTTPS/SSL, Port Lock, RADIUS, Rate Limit, SSH",
+            "Time Management": "IEEE 1588 PTP v1/v2, NTP Server/Client, SNTP"
+        },
+        "Switch Properties": {
+            "IGMP Groups": "256",
+            "Max. No. of VLANs": "64",
+            "Priority Queues": "4",
+            "VLAN ID Range": "VID 1 to 4094"
+        },
+        "LED Interface": {
+            "LED Indicators": "STATE, PWR1, PWR2, FAULT, 10/100/1000M"
+        },
+        "Serial Interface": {
+            "Console Port": "M12 A-coded male connector"
+        },
+        "Power Parameters": {
+            "Input Current": "TN-5816A Series: 1.1 A @ 24 VDC, 0.23 A @ 110 VDC",
+            "Input Voltage": "TN-5818A Series: 1.24 A @ 24 VDC, 0.24 A @ 110 VDC",
+            "No. of Power Inputs": "24/36/48/72/96/110 VDC",
+            "Operating Voltage": "2",
+            "Overload Current Protection": "16.8 to 137.5 VDC",
+            "Power Connector": "Supported",
+            "Reverse Polarity Protection": "M23 connector"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP54",
+            "Dimensions": "250 x 181.4 x 115 mm (9.84 x 7.14 x 4.53 in)",
+            "Weight": "TN-5816A Series: 2,290 g (5.62 lb)",
+            "Installation": "TN-5818A Series: 3,160 g (6.97 lb)",
+            "Protection": "DIN-rail mounting (optional), Wall mounting (standard)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 75°C (-40 to 167°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Altitude": "2000 m"
+        },
+        "Standards and Certifications": {
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Radio Frequency": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": " IEC 61000-4-6 CS: 10 V",
+            "Safety": " IEC 61000-4-8 PFMF",
+            "Shock": "IEC 60068-2-31",
+            "Vibration": "FCC"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "TN-5816A Series: 577,026 hrs",
+            "Standards": "TN-5818A Series: 525,091 hrs"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Firmware for TN-5800A Series                                                ",
+            "Size": "                                            2.7 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for TN-5800A Series                                                ",
+                "Version": "                                            v3.5"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/e96e80ef-dc67-4ce0-a175-5d5d52874544/moxa-tn-5800a-series-firmware-v3.5.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v3.5",
+            "RELEASE DATE": "                                            Sep 22, 2016"
+        }
+    ],
+    "Models": []
+}

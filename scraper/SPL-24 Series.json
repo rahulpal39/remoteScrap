@@ -1,0 +1,80 @@
+{
+    "url": "https://www.moxa.com/en/products/accessories/poe-accessories/poe-splitters/spl-24-series",
+    "vendor": "MOXA",
+    "Product": "SPL-24 Series",
+    "series": {
+        "Name": "SPL-24 Series",
+        "Title": "PoE splitters",
+        "Features and Benefits": [
+            "IEEE 802.3af compliant; splits power and data from PoE equipment",
+            "Supports output power up to 12.95 W at 24 VDC",
+            "Short-circuit protection for power output",
+            "-40 to 75°C operating temperature range (-T model)",
+            "DIN-rail mounting ability"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The main benefit of PoE is that it can transfer data and power to Ethernet-enabled devices using a standard Ethernet CAT5 cable. Moxa’s SPL-24 PoE splitters perform the role of powered devices (PDs) and split power from the injector to Ethernet devices. When using Moxa’s devices, power and data can be transmitted up to 100 meters (328 feet) from the power source equipment (PSE).",
+                "The standard model in can operate in temperatures from 0 to 60°C (32 to 140°F) and the wide-temperature model can operate in temperatures from -40 to 75°C (-40 to 167°F). In addition, the rugged hardware means that these devices will perform reliably even when used in demanding industrial applications."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (RJ45 connector)": "1",
+            "PoE Ports (PD), 10/100BaseT(X), RJ45 Connector": " Full/Half duplex mode",
+            "Standards": " Auto MDI/MDI-X connection"
+        },
+        "Power Parameters": {
+            "Operating Voltage": "44 to 75 VDC (PoE)",
+            "Overload Current Protection": "Supported",
+            "Output Voltage Rating": "24 VDC",
+            "Output Power Rating": "12.95 W (max.)",
+            "Connection": "1 removable 3-contact terminal block(s)"
+        },
+        "Physical Characteristics": {
+            "Dimensions": "24.9 x 100 x 86.2 mm (0.98 x 3.93 x 3.39 in)",
+            "Installation": "DIN-rail mounting",
+            "IP Rating": "IP30",
+            "Weight": "95 g (0.21 lb)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "SPL-24: 0 to 60°C (32 to 140°F)",
+            "Storage Temperature (package included)": "SPL-24-T: -40 to 75°C (-40 to 167°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "Safety": "UL 60950-1",
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Shock": " IEC 61000-4-4 EFT: Signal: 2 kV",
+            "Maritime": " IEC 61000-4-5 Surge: Signal: 1 kV",
+            "Vibration": " IEC 61000-4-6 CS: 10 V"
+        },
+        "MTBF": {
+            "Time": "5,104,703 hrs",
+            "Standards": "MIL-HDBK-217F"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "SPL-24",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/PoE-Accessories/PoE-Splitters/SPL-24-Series/SPL-24/moxa-spl-24-image.jpg",
+            "Operating Temp.": "0 to 60°C"
+        },
+        {
+            "Name": "SPL-24-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/PoE-Accessories/PoE-Splitters/SPL-24-Series/SPL-24-T/moxa-spl-24-t-image.jpg",
+            "Operating Temp.": "-40 to 75°C"
+        }
+    ]
+}

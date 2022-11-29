@@ -1,0 +1,43 @@
+{
+    "url": "https://www.moxa.com/en/products/accessories/mounting-kits/rack-mounting-kits/rack-mounting-kits",
+    "vendor": "MOXA",
+    "Product": "Rack-mounting Kits",
+    "series": {
+        "Name": "Rack-mounting Kits",
+        "Title": "Rack-mounting kits",
+        "Features and Benefits": [
+            "Detachable design for easy mounting",
+            "Standard 19-inch rackmount size"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The rack-mounting\nkits help to mount Moxa’s products on a rack."
+            ]
+        }
+    },
+    "speacification": {
+        "Physical Characteristics": {
+            "Dimensions": "WK-44-01: "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "WK-44-01",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/mounting-kits/rack-mounting-kits/Rack-mounting-Kits/WK-44-01/moxa-wk-44-01-image.jpg",
+            "Related Products": "NPort 6600-8 Series"
+        },
+        {
+            "Name": "WK-45-01",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/mounting-kits/rack-mounting-kits/Rack-mounting-Kits/WK-45-01/moxa-wk-45-01-image.jpg",
+            "Related Products": "NPort 6600-16 Series"
+        },
+        {
+            "Name": "RK-3U-02",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/mounting-kits/rack-mounting-kits/Rack-mounting-Kits/RK-3U-02/moxa-rk-3u-02-image.jpg",
+            "Related Products": "NPort 6600-32 Series"
+        }
+    ]
+}

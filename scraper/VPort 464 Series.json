@@ -1,0 +1,214 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/ip-cameras-and-video-servers/video-servers/vport-464-series",
+    "vendor": "MOXA",
+    "Product": "VPort 464 Series",
+    "series": {
+        "Name": "VPort 464 Series",
+        "Title": "Superior video performance, 4-channel industrial video encoders",
+        "Features and Benefits": [
+            "Each channel supports 2 D1 30 fps streams simultaneously, or merge 1 quad stream 30 fps image into 4 channels",
+            "Video latency under 200 ms",
+            "2 Ethernet ports for cascading or Ethernet port redundancy",
+            "DynaStream™ for optimized network efficiency",
+            "ONVIF support for standardization and interoperability",
+            "Local storage capability with microSD card slot",
+            "Industrial design with -40 to 75°C operating temperature"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The VPort 464 4-channel industrial video encoder uses the H.264 video compression algorithm to provide the best video quality on the market, but with a smaller bandwidth requirement than other video compression standards. In addition, to meet various requirements, each channel of the VPort 464 can support 2 video streams simultaneously or you can merge all 4 channels into 1 quad view stream using H.264 and MJPEG compression formats, providing greater flexibility for a variety of uses, including viewing, recording, and analysis. The rugged industrial design, which includes a -40 to 75°C operating temperature, IP30 protection, and industrial certifications, make the VPort 464 suitable for harsh environments.",
+                "The VPort 464 comes with two Gigabit Ethernet ports and supports cascade mode and network redundancy. In addition, Moxa’s innovative DynaStream™ technology lets you change the video frame rate automatically, allowing you to control your network bandwidth budget and simplify network system management. The CBR Pro™ function guarantees the lowest packet loss for limited bandwidth transmissions to ensure that images will not exhibit the mosaic effect."
+            ]
+        }
+    },
+    "speacification": {
+        "Memory": {
+            "microSD Slot": "SDXC"
+        },
+        "Input/Output Interface": {
+            "Digital Input Channels": "4",
+            "Digital Inputs": "+13 to +30 V for state 1",
+            "Relay Channels": " -30 to +1 V for state 0",
+            "Contact Current Rating": " Max. input current: 8 mA",
+            "Connector": "2"
+        },
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (RJ45 connector)": "2"
+        },
+        "Ethernet Software Features": {
+            "Protocols": "TCP/IP, IPv4/IPv6, UDP, HTTP, RTP/RTSP, ARP, UPnP, FTP, TFTP, SMTP, NTP Client, DNS, DDNS, QoS, IGMP v3, ICMP, SNMPv1/v2c/v3, Modbus TCP, HTTPS, 802.1X, NTCIP"
+        },
+        "Security Functions": {
+            "Password": "User-level password protection",
+            "Filter": "IP address",
+            "Authentication": "802.1X",
+            "Encryption": "HTTPS"
+        },
+        "LED Interface": {
+            "LED Indicators": "STAT: Indicates if system is booted up properly or not"
+        },
+        "Serial Interface": {
+            "PTZ Port": "1, RS-232 or RS-422/485 port, terminal block connector, 115.2 kbps",
+            "COM Port": "1, RS-232 or RS-485 port, DB9 male connector, 115.2 kbps",
+            "Console Port": "1 RS-232 port, 10-pin RJ45 (115200, n, 8, 1)"
+        },
+        "Power Parameters": {
+            "No. of Power Inputs": "2",
+            "Input Voltage": "Redundant dual inputs",
+            "Operating Voltage": "12 to 32 VDC, 18 to 30 VAC",
+            "Input Current": "0.5 A @ 24 VDC",
+            "Power Connector": " 0.83 A @ 24 VAC"
+        },
+        "Video Interface": {
+            "Video Compression": "H.264 (ISO/IEC 14496-10) or MJPEG",
+            "Video Input": "4, BNC connector (1.0 Vpp, 75 ohm)",
+            "Video Output": "via Ethernet",
+            "Video Streams": "2 independent H.264 or MJPEG video streams",
+            "NTSC/PAL": " 1 quad (4-channel images) stream",
+            "Video Resolution and FPS (frames per second)": "Auto-sensing or manual",
+            "Video Viewing": "\r\n    "
+        },
+        "Audio Interface": {
+            "Audio Inputs": "1 Line-in or MIC-in with 3.5 mm phone jack",
+            "Audio Outputs": "1 Line-out, with 3.5 mm phone jack",
+            "Audio Format": "Mono, PCM (G.711)"
+        },
+        "Camera Software Development": {
+            "VPort SDK PLUS": "Includes CGI commands, ActiveX Control, and API library for customized applications or system integration for third-party developers",
+            "Video Standards": "ONVIF Profile S"
+        },
+        "Camera PAN/TILT/ZOOM": {
+            "PTZ Camera Control": "Via PTZ port or COM port",
+            "PTZ Control Functions": "Pan, tilt, zoom, focus, move speed, preset position (max. 128 positions)",
+            "PTZ Function Updates": "Driver upload supported",
+            "Protocols": "Pelco D, Pelco P, Custom Camera"
+        },
+        "Camera Alarm Software Features": {
+            "Intelligent Video": "Camera tampering detection",
+            "Video Motion Detection": "3 independently configurable areas",
+            "Scheduling": "Daily repeat timing schedule",
+            "Imaging": "JPEG snapshots for pre/trigger/post alarm images",
+            "Custom Alarms": "HTTP event servers for setting customized alarm actions",
+            "Email/FTP Messaging": "Automatic transfer of stored images via email or FTP as event-triggered actions",
+            "Pre-Alarm Buffer": "50 MB video buffer for JPEG snapshot images",
+            "Video Recording": "Event recordings stored on the SD card"
+        },
+        "Software Requirements": {
+            "Memory Size": "1 GB",
+            "Operating System": "Windows 7 or above",
+            "Browser": "Internet Explorer 9.x or above",
+            "Multimedia": "DirectX 9.0C or above"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions": "80.2 x 135 x 105 mm (3.16 x 5.31 x 4.13 in)",
+            "Weight": "1130 g (2.49 lb)",
+            "Installation": "DIN-rail mounting, Wall mounting (with optional kit)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "Standard Models: -25 to 60°C (-13 to 140°F)",
+            "Storage Temperature (package included)": "Wide Temp. Models: -40 to 75°C (-40 to 167°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)",
+            "Altitude": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Shock": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 1 kV",
+            "Vibration": " IEC 61000-4-6 CS: 10 V"
+        },
+        "MTBF": {
+            "Time": "569,152 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Firmware for VPort 464 Series                                                ",
+            "Size": "                                            41.0 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for VPort 464 Series                                                ",
+                "Version": "                                            v1.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/8bb44de1-ce5f-4958-8c45-adea47192609/moxa-vport-464-series-firmware-v1.2.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.2",
+            "RELEASE DATE": "                                            Sep 13, 2022"
+        },
+        {
+            "NAME": "                                                    Software Package for VPort 464 Series (MIB file)                                                ",
+            "Size": "                                            28.1 KB",
+            "Details": {
+                "File Name": "                                                    Software Package for VPort 464 Series (MIB file)                                                ",
+                "Version": "                                            v1.0.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000348/VPort%20464%20Series_moxa-vport-464-series-firmware-v1.2.rom_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0.0",
+            "RELEASE DATE": "                                            Dec 12, 2017"
+        },
+        {
+            "NAME": "                                                    SoftNVR-IA IP Surveillance Software Trial Version                                                ",
+            "Size": "                                            48.1 MB",
+            "Details": {
+                "File Name": "                                                    SoftNVR-IA IP Surveillance Software Trial Version                                                ",
+                "Version": "                                            v3.5"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/0330c708-2be7-4bf9-83b4-0da83d14944f/moxa-vport-464-series-mib-file-software-package-v1.0.0.my",
+            "OPERATING SYSTEM": [
+                "Windows 7",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v3.5",
+            "RELEASE DATE": "                                            Nov 08, 2017"
+        },
+        {
+            "NAME": "                                                    Moxa VPort and EtherDevice Configurator Utility                                                ",
+            "Size": "                                            1.6 MB",
+            "Details": {
+                "File Name": "                                                    Moxa VPort and EtherDevice Configurator Utility                                                ",
+                "Version": "                                            v5.3"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000348/VPort%20464%20Series_moxa-vport-464-series-mib-file-software-package-v1.0.0_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows"
+            ],
+            "VERSION": "                                            v5.3",
+            "RELEASE DATE": "                                            Apr 09, 2012"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "VPort 464",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/IP-Cameras-and-Video-Servers/Video-Servers/VPort-464-Series/VPort-464/moxa-vport-464-image.jpg",
+            "Video Interface": "4-channel analog video input",
+            "Audio Interface": "1 x line-in, 1 x line-out",
+            "Local Storage": "microSD slot, SDXC interface",
+            "Power Input": "Redundant power inputs with 2 x 12/24 VDC, 24 VAC power supplies",
+            "Operating Temp.": "-25 to 60°C",
+            "Mounting": "DIN-rail mount or Panel mount (with optional kit)"
+        },
+        {
+            "Name": "VPort 464-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/IP-Cameras-and-Video-Servers/Video-Servers/VPort-464-Series/VPort-464-T/moxa-vport-464-t-image.jpg",
+            "Video Interface": "4-channel analog video input",
+            "Audio Interface": "1 x line-in, 1 x line-out",
+            "Local Storage": "microSD slot, SDXC interface",
+            "Power Input": "Redundant power inputs with 2 x 12/24 VDC, 24 VAC power supplies",
+            "Operating Temp.": "-40 to 75°C",
+            "Mounting": "DIN-rail mount or Panel mount (with optional kit)"
+        }
+    ]
+}

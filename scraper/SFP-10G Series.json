@@ -1,0 +1,80 @@
+{
+    "url": "https://www.moxa.com/en/products/accessories/sfp-modules/10-gigabit-ethernet-sfp-modules/sfp-10g-series",
+    "vendor": "MOXA",
+    "Product": "SFP-10G Series",
+    "series": {
+        "Name": "SFP-10G Series",
+        "Title": "1-port 10 Gigabit Ethernet SFP+ modules",
+        "Features and Benefits": [
+            "Digital Diagnostic Monitor Function",
+            "Compliant with IEEE 802.3ae",
+            "SFF-8432 SFP+ MSA compliant",
+            "Hot pluggable LC duplex connector",
+            "Class 1 Laser International Safety Standard IEC 60825-1 compliant",
+            "RoHS compliant"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The SFP-10G Series 1-port 10 Gigabit Ethernet SFP+ modules are available as optional accessories for a wide range of Moxa switches."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Connectors": "Duplex LC connector",
+            "Optical Fiber": "Typical Distance: To reach the typical distance of specified fiber transceiver, please refer to formula: Link budget(dB) > dispersion penalty(dB) + total link loss(dB)"
+        },
+        "Power Parameters": {
+            "Power Consumption": "SFP-10GERLC-T: Max. 2.2 W"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": " Note: Wide temperature SFP-10G can be used with ICS-G7526A/G7528A/G7826A/G7828A series only. When the SFP-10GZRLC-T used, the operating temperature is -40 to 60°C (-40 to 140°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "Safety": "CE, FCC, IEC 60825-1, UL 62368-1, IEC 62368-1, EN 62368-1"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "SFP-10GZRLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/10-Gigabit-Ethernet-SFP-modules/SFP-10G-Series/SFP-10GZRLC-T/moxa-sfp-10gzrlc-t-image.jpg",
+            "Ports": "1 x 10GBase-ZR, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "80 km",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-10GSRLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/10-Gigabit-Ethernet-SFP-modules/SFP-10G-Series/SFP-10GSRLC-T/moxa-sfp-10gsrlc-t-image.jpg",
+            "Ports": "1 x 10GBase-SR, multi-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "33 m/82 m/300 m/400 m",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-10GLRLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/10-Gigabit-Ethernet-SFP-modules/SFP-10G-Series/SFP-10GLRLC-T/moxa-sfp-10glrlc-t-image.jpg",
+            "Ports": "1 x 10GBase-LR, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "10 km",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-10GERLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/10-Gigabit-Ethernet-SFP-modules/SFP-10G-Series/SFP-10GERLC-T/moxa-sfp-10gerlc-t-image.jpg",
+            "Ports": "1 x 10GBase-ER, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "40 km",
+            "Operating Temp.": "-40 to 85°C"
+        }
+    ]
+}

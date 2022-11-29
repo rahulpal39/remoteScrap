@@ -1,0 +1,244 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/rackmount-switches/pt-7710-series",
+    "vendor": "MOXA",
+    "Product": "PT-7710 Series",
+    "series": {
+        "Name": "PT-7710 Series",
+        "Title": "IEC 61850-3 8+2G-port Layer 2 Gigabit modular managed rackmount Ethernet switches",
+        "Features and Benefits": [
+            "IEC 61850-3, IEEE 1613 (power substations), and EN50121-4 (railway applications) compliant",
+            "Complies with a portion of EN 50155 specifications",
+            "VLAN Unaware: Supports priority-tagged frames to be received by specific IEDs",
+            "Up to 4 ports with M12 connectors",
+            "Turbo Ring and Turbo Chain (recovery time < 20 ms @ 250 switches),\r\n    ",
+            "\r\n RSTP/STP, and MSTP for network redundancy",
+            "Universal power supply range, 12/24/48 VDC or 110/220 VDC/VAC",
+            "-40 to 85°C operating temperature range"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The PT-7710 is designed to meet the demands of power substation automation systems (IEC 61850-3, IEEE 1613), and railway applications (EN 50121-4). The PT-7710’s Gigabit and Fast Ethernet backbone, redundant ring, and 12/24/48 VDC redundant power inputs increase the reliability of the communications and reduce cabling and wiring costs. The modular design of the PT-7710 makes network planning easy, and allows greater flexibility by letting you install up to 2 Gigabit ports and 8 Fast Ethernet ports, or 10 Fast Ethernet ports.",
+                "Command line interface (CLI) for quickly configuring major managed functions",
+                "VLAN Unaware: Supports priority-tagged frames to be received by specific IEDs",
+                "DHCP Option 82 for IP address assignment with different policies",
+                "EtherNet/IP and Modbus TCP industrial Ethernet protocols supported",
+                "Automatic recovery of connected device’s IP addresses",
+                "Line-swap fast recovery",
+                "IGMP snooping and GMRP for filtering multicast traffic from industrial Ethernet protocols",
+                "IEEE 802.3ad, LACP for optimum bandwidth utilization",
+                "Bandwidth management to prevent unpredictable network status",
+                "Multi-port mirroring for online debugging",
+                "Automatic warning by exception through email and relay output",
+                "RMON for proactive and efficient network monitoring",
+                "Configurable by Web browser, Telnet/Serial console, CLI, Windows utility, and ABC-01 automatic backup configurator",
+                "Turbo Ring and Turbo Chain (recovery time < 20 ms @ 250 switches),\r\n    ",
+                "\r\n RSTP/STP, and MSTP for network redundancy",
+                "User passwords with multiple levels of security protect against unauthorized configuration",
+                "SSH/HTTPS is used to encrypt passwords and data",
+                "Lock switch ports with 802.1X port-based network access control so that only authorized clients can access the port",
+                "RADIUS/TACACS+ allows you to manage passwords from a central location",
+                "802.1Q VLAN allows you to logically partition traffic transmitted between selected switch ports",
+                "Secure switch ports so that only specific devices and/or MAC addresses can access the ports",
+                "Disable one or more ports to block network traffic",
+                "SNMPv3 provides encrypted authentication and access security"
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Cabling Direction": "PT-7710-F Series: Front cabling",
+            "Compatible Modules": "PT-7710-D Series: Down cabling",
+            "Standards": "Slot 1: PM-7200-8TX, PM-7200-2MSC4TX, PM-7200-2MST4TX, PM-7200-2SSC4TX, PM-7200-4MSC2TX, PM-7200-4MST2TX, PM-7200-4SSC2TX, PM-7200-6MSC, PM-7200-6MST, PM-7200-6SSC, PM-7200-8SFP, PM-7200-4M12, PM-7200-8MTRJ"
+        },
+        "Ethernet Software Features": {
+            "Filter": "802.1Q, GMRP, GVRP, IGMP v1/v2c, Port-based VLAN, VLAN unaware",
+            "Industrial Protocols": "EtherNet/IP, Modbus TCP",
+            "Management": "Back Pressure Flow Control, BOOTP, DHCP Option 66/67/82, DHCP Server/Client, Flow control, HTTP, IPv4/IPv6, LLDP, Port Mirror, RARP, RMON, SMTP, SNMP Inform, SNMPv1/v2c/v3, Syslog, Telnet, TFTP",
+            "MIB": "Bridge MIB, Ethernet-like MIB, MIB-II, P-BRIDGE MIB, Q-BRIDGE MIB, RMON MIB Groups 1, 2, 3, 9, RSTP MIB",
+            "Power Substation": "IEC 61850 QoS",
+            "Redundancy Protocols": "Link Aggregation, MSTP, RSTP, STP, Turbo Chain, Turbo Ring v1/v2",
+            "Security": "Broadcast storm protection, HTTPS/SSL, TACACS+, Port Lock, RADIUS, Rate Limit, SSH",
+            "Time Management": "NTP Server/Client, SNTP"
+        },
+        "Switch Properties": {
+            "IGMP Groups": "256",
+            "Max. No. of VLANs": "64",
+            "VLAN ID Range": "VID 1 to 4094",
+            "Priority Queues": "4"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 (RJ45)"
+        },
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "Resistive load: 3 A @ 30 VDC, 240 VAC"
+        },
+        "Power Parameters": {
+            "Connection": "10-pin terminal block",
+            "Input Voltage": "PT-7710-LV Series: 12/24/48 VDC (9 to 60 VDC)",
+            "Overload Current Protection": "PT-7710-HV Series: 110/220 VAC/VDC (88 to 300 VAC, 85 to 264 VDC)",
+            "Reverse Polarity Protection": "Supported",
+            "Input Current": "Supported"
+        },
+        "Physical Characteristics": {
+            "Housing": "Aluminum",
+            "IP Rating": "IP30",
+            "Dimensions (without ears)": "266.5 x 44 x 195 mm (10.5 x 1.7 x 7.7 in)",
+            "Weight": "2200 g (4.89 lb)",
+            "Installation": "PT-7710-F Series: 19-inch rack mounting, PT-7710-D Series: Wall mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": " Note: Cold start requires minimum of 100 VAC @ -40°C",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "Safety": "EN 60950-1, UL 60950-1, CSA C22.2 No. 60950-1",
+            "EMI": "EN 55032 Class A, CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Power Substation": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 35 V/m",
+            "Railway": " IEC 61000-4-4 EFT: Power: 4 kV; Signal: 4 kV",
+            "Traffic Control": " PT-7710-HV Series: IEC 61000-4-5 Surge: Power: 4 kV; Signal: 4 kV"
+        },
+        "MTBF": {
+            "Time": "316,716 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    EDS file for PT-7710 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    EDS file for PT-7710 Series                                                ",
+                "Version": "                                            v1.2"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.2",
+            "RELEASE DATE": "                                            Jan 18, 2018"
+        },
+        {
+            "NAME": "                                                    EtherNet/IP AOI (10P) for PT-7710 Series                                                ",
+            "Size": "                                            3.9 KB",
+            "Details": {
+                "File Name": "                                                    EtherNet/IP AOI (10P) for PT-7710 Series                                                ",
+                "Version": "                                            v1.2.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/bc571056-da47-42be-99c7-c6d969cbecc5/moxa-pt-7710-series-eds-file-software-package-v1.2.zip",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.2.0",
+            "RELEASE DATE": "                                            Jan 18, 2018"
+        },
+        {
+            "NAME": "                                                    Firmware for PT-7710 Series                                                ",
+            "Size": "                                            82.9 KB",
+            "Details": {
+                "File Name": "                                                    Firmware for PT-7710 Series                                                ",
+                "Version": "                                            v3.8"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000131/PT-7710%20Series_moxa-pt-7710-series-eds-file-software-package-v1.2.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v3.8",
+            "RELEASE DATE": "                                            May 24, 2017"
+        },
+        {
+            "NAME": "                                                    SNMP MIB file for PT-710 Series                                                ",
+            "Size": "                                            1.8 MB",
+            "Details": {
+                "File Name": "                                                    SNMP MIB file for PT-710 Series                                                ",
+                "Version": "                                            v3.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/71b058d0-a0da-4e9a-9bfb-be799e10ef36/moxa-pt-7710-series-aoi-10p-software-package-v1.2.0.L5X",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v3.8",
+            "RELEASE DATE": "                                            May 24, 2017"
+        },
+        {
+            "NAME": "                                                    Moxa Ethernet Switch and Video Server Configurator                                                ",
+            "Size": "                                            136.5 KB",
+            "Details": {
+                "File Name": "                                                    Moxa Ethernet Switch and Video Server Configurator                                                ",
+                "Version": "                                            v5.3"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000131/PT-7710%20Series_moxa-pt-7710-series-aoi-10p-software-package-v1.2.0.L5X_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v5.3",
+            "RELEASE DATE": "                                            Apr 09, 2012"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "PT-7710-F-HV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Rackmount-Switches/PT-7710-Series/PT-7710-F-HV/moxa-pt-7710-f-hv-image.jpg",
+            "Max. No. of Ports": "10",
+            "Max. No. of Gigabit Ports": "2",
+            "Max. No. of Fast Ethernet Ports": "8",
+            "Cabling": "Front",
+            "Input Voltage": "110/220 VDC/VAC",
+            "Operating Temp.": "-45 to 85°C"
+        },
+        {
+            "Name": "PT-7710-F-LV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Rackmount-Switches/PT-7710-Series/PT-7710-F-LV/moxa-pt-7710-f-lv-image.jpg",
+            "Max. No. of Ports": "10",
+            "Max. No. of Gigabit Ports": "2",
+            "Max. No. of Fast Ethernet Ports": "8",
+            "Cabling": "Front",
+            "Input Voltage": "12/24/48 VDC",
+            "Operating Temp.": "-45 to 85°C"
+        },
+        {
+            "Name": "PT-7710-D-HV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Rackmount-Switches/PT-7710-Series/PT-7710-D-HV/moxa-pt-7710-d-hv-image.jpg",
+            "Max. No. of Ports": "10",
+            "Max. No. of Gigabit Ports": "2",
+            "Max. No. of Fast Ethernet Ports": "8",
+            "Cabling": "Down",
+            "Input Voltage": "110/220 VDC/VAC",
+            "Operating Temp.": "-45 to 85°C"
+        },
+        {
+            "Name": "PT-7710-D-LV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Rackmount-Switches/PT-7710-Series/PT-7710-D-LV/moxa-pt-7710-d-lv-image.jpg",
+            "Max. No. of Ports": "10",
+            "Max. No. of Gigabit Ports": "2",
+            "Max. No. of Fast Ethernet Ports": "8",
+            "Cabling": "Down",
+            "Input Voltage": "12/24/48 VDC",
+            "Operating Temp.": "-45 to 85°C"
+        }
+    ]
+}

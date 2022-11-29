@@ -1,0 +1,222 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/en-50155-switches/tn-g4500-series",
+    "vendor": "MOXA",
+    "Product": "TN-G4500 Series",
+    "series": {
+        "Name": "TN-G4500 Series",
+        "Title": "EN 50155 Layer 2 multi-Gigabit switches",
+        "Features and Benefits": [
+            "4 10G ports and 12 Gigabit ports with push-pull M12 connectors",
+            "Isolated power with 24 to 110 VDC power supply range",
+            "Complies with all EN 50155 mandatory test items\r\n    ",
+            "\r\n",
+            "-40 to 70°C operating temperature range",
+            "Turbo Ring and Turbo Chain (recovery time < 50 ms @ 250 switches), and RSTP/STP for network redundancy",
+            "12 IEEE 802.3at/af compliant PoE and Ethernet combo ports",
+            "Provides up to 30 W per PoE port"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The ToughNet\nTN-G4500 Series M12 managed Ethernet switches are designed for railway\napplications, including rolling stock and wayside installations. These\nswitches are equipped with M12 and similar circular connectors to\nensure tight, robust connections, and guarantee reliable operation\nin industrial environments where vibrations and shock are commonplace.\nThe TN-G4500 Series Ethernet switches provide 4 10G Ethernet M12 ports\nwith PoE functionality, 16 Gigabit Ethernet M12 ports, and 8 ports\nwith PoE functionality. These PoE switches are classified as power\nsource equipment (PSE), capable of providing up to 30 watts of power\nper port to IEEE 802.3at/af-compliant powered devices (PDs), such\nas IP cameras and wireless access points.",
+                "The TN-G4500 Series has M12 connectors that are tailor-made for push-pull\ncables to facilitate quick installation and allow M12 rotary cables\nto be utilized. The 24 to 110 VDC wide power input range and isolated\ndual power inputs not only allow you to use the same type of power\nsource at different sites around the globe, but also increase the\nreliability of your communications system. Furthermore, the -40 to\n70°C wide operating temperature range allows deployment in harsh environments.\nThe TN-G4500 Series complies with the essential sections of the EN\n50155 standard, covering operating temperature, power input voltage,\nsurge, ESD, vibration, power isolation, and features models with conformal\ncoating to ensure suitability for a variety of industrial applications.",
+                "Provides up to 30 watts per PoE\nport with a total power budget of 120 watts per switch",
+                "DHCP Option 82 for IP address assignment\nwith different policies",
+                "IGMP snooping and GMRP for filtering\nmulticast traffic",
+                "Supports the EtherNet/IP and Modbus/TCP\nindustrial Ethernet protocols",
+                "Port-based VLAN, IEEE 802.1Q VLAN,\nand GVRP to ease network planning",
+                "QoS (IEEE 802.1p/1Q and ToS/DiffServ)\nallows real-time traffic classification and prioritization",
+                "IEEE 802.3ad LACP for optimal bandwidth\nutilization",
+                "SNMPv1/v2c/v3 for different levels\nof network management",
+                "TACACS+, SNMPv3, IEEE 802.1X, HTTPS,\nand SSH to enhance network security",
+                "RMON for efficient network monitoring\nand proactive capability",
+                "Bandwidth management prevents unpredictable\nnetwork conditions",
+                "Port locking to only allow access\nto authorized MAC addresses",
+                "Port mirroring for online debugging",
+                "Automatic warning notifications\nthrough email and relay output",
+                "Line-swap fast recovery",
+                "LLDP for automatic topology discovery\nin network management software",
+                "Configurable by web browser, Telnet/serial\nconsole, CLI, and Windows utility",
+                "Loop protection to prevent network\nloops",
+                "Wall mounting installation"
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10GBaseT(X) Ports (M12 X-coded 8-pin female connector with bypass relay)": "TN-G4516 BP models: 2",
+            "10/100/1000BaseT(X) Ports (M12 X-coded 8-pin female connector)": "4",
+            "PoE Ports (10GBaseT(X), M12 X-coded 8-pin female connector)": "TN-G4516 non-BP models: 4",
+            "PoE Ports (100/1000BaseT(X), M12 X-coded 8-pin female connector)": "TN-G4516 BP models: 2",
+            "Standards": "8"
+        },
+        "Ethernet Software Features": {
+            "Broadcast Forwarding": "IP directed broadcast, broadcast forwarding",
+            "Configuration Options": "Command Line Interface (CLI), Command Line Interface (CLI) through Serial/Telnet/SSH, Web Console (HTTP/HTTPS), Windows Utility",
+            "Filter": "802.1Q, GMRP, GVRP, IGMP v1/v2, Port-based VLAN, Static Multicast",
+            "Industrial Protocols": "SNMPv1/v2c/v3",
+            "Management": "Account Management, Back Pressure Flow Control, DHCP Option 66/67/82, DHCP Server/Client, Flow control, HTTP, IPv4/IPv6, LLDP, Port Mirror, QoS/CoS/ToS, RARP, RMON, SMTP, SNMP Inform, Syslog, Telnet, SNMP Trap",
+            "MIB": "Bridge MIB, Ethernet-like MIB, MIB-II, P-BRIDGE MIB, Q-BRIDGE MIB, RMON MIB Groups 1, 2, 3, 9, RSTP MIB",
+            "Redundancy Protocols": "Link Aggregation, MSTP, RSTP, STP, Turbo Chain, Turbo Ring v1/v2, Turbo Ring with DRC",
+            "Security": "TACACS+, Broadcast storm protection, HTTPS/SSL, Local Account Accessibility, Port Lock, RADIUS, Rate Limit, SSH",
+            "Time Management": "NTP Server/Client, SNTP"
+        },
+        "Switch Properties": {
+            "IGMP Groups": "256",
+            "Max. No. of VLANs": "256",
+            "Priority Queues": "4",
+            "VLAN ID Range": "VID 1 to 4094"
+        },
+        "LED Interface": {
+            "LED Indicators": "PWR1, PWR2, FAULT, MSTR/HEAD, CPLR/TAIL, Ethernet, PoE"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 (M12 B-coded 5-pin female connector)"
+        },
+        "Power Parameters": {
+            "Input Voltage": "24/36/48/72/96/110 VDC",
+            "No. of Power Inputs": "2",
+            "Operating Voltage": "16.8 to 137.5 VDC",
+            "Overload Current Protection": "Supported",
+            "Reverse Polarity Protection": "Supported",
+            "Total PoE Power Budget": "120 W",
+            "Input Current": "7.5 A @ 24 VDC",
+            "Power Connector": "M12 K-coded 5-pin male connector"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP40",
+            "Dimensions": "291.6 x 117.7 x 132.2 mm (11.48 x 4.63 x 5.20 in)",
+            "Weight": "TN-G4516 without bypass: 2,730g(6.02lb)",
+            "Installation": "TN-G4516 with bypass: 2,740g(6.04lb) ",
+            "Protection": "Wall mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 70°C (-40 to 158°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Altitude": "2000 m"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Freefall": " IEC 61000-4-3 RS: 80 MHz to 6 GHz: 20 V/m",
+            "Radio Frequency": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Railway": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Railway Fire Protection": " IEC 61000-4-6 CS: 10 V",
+            "Safety": " IEC 61000-4-8 PFMF",
+            "Shock": "IEC 60068-2-31",
+            "Vibration": "FCC"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "TN-G4516 without bypass: 436,136 hrs",
+            "Standards": "TN-G4516 with bypass:  435,764 hrs"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for TN-G4500 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for TN-G4500 Series                                                ",
+                "Version": "                                            v5.3"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.3",
+            "RELEASE DATE": "                                            Nov 16, 2021"
+        },
+        {
+            "NAME": "                                                    Software Package for TN-G4500 Series                                                ",
+            "Size": "                                            6.9 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for TN-G4500 Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/863fa5f0-e851-4c70-957d-e7d880046643/moxa-tn-g4500-series-firmware-v5.3.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            May 06, 2020"
+        },
+        {
+            "NAME": "                                                    Firmware for TN-G4500 Series                                                ",
+            "Size": "                                            168.1 KB",
+            "Details": {
+                "File Name": "                                                    Firmware for TN-G4500 Series                                                ",
+                "Version": "                                            v5.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000622/TN-G4500%20Series_moxa-tn-g4500-series-firmware-v5.3.rom_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.2",
+            "RELEASE DATE": "                                            May 06, 2020"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "TN-G4516-8GPoE-2XGPoE-2XGTXBP-WV-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G4500-Series/TN-G4516-8GPoE-2XGPoE-2XGTXBP-WV-T/moxa-tn-g4516-8gpoe-2xgpoe-2xgtxbp-wv-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, M12 X-coded 8-pin Female Connector": "4",
+            "10G BaseT(X) Ports, M12 X-coded 8-pin Female Connector With Bypass Relay": "2",
+            "100/1000BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "8",
+            "10G BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "2",
+            "Conformal Coating": "No"
+        },
+        {
+            "Name": "TN-G4516-8GPoE-4XGPoE-WV-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G4500-Series/TN-G4516-8GPoE-4XGPoE-WV-T/moxa-tn-g4516-8gpoe-4xgpoe-wv-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, M12 X-coded 8-pin Female Connector": "4",
+            "10G BaseT(X) Ports, M12 X-coded 8-pin Female Connector With Bypass Relay": "-",
+            "100/1000BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "8",
+            "10G BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "4",
+            "Conformal Coating": "No"
+        },
+        {
+            "Name": "TN-G4516-8GPoE-4XGPoE-WV-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G4500-Series/TN-G4516-8GPoE-4XGPoE-WV-CT-T/moxa-tn-g4516-8gpoe-4xgpoe-wv-ct-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, M12 X-coded 8-pin Female Connector": "4",
+            "10G BaseT(X) Ports, M12 X-coded 8-pin Female Connector With Bypass Relay": "-",
+            "100/1000BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "8",
+            "10G BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "4",
+            "Conformal Coating": "Yes"
+        },
+        {
+            "Name": "TN-G4516-8GPoE-2XGPoE-2XGTXBP-WV-CT-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/EN-50155-Switches/TN-G4500-Series/TN-G4516-8GPoE-2XGPoE-2XGTXBP-WV-CT-T/moxa-tn-g4516-8gpoe-2xgpoe-2xgtxbp-wv-ct-t-image.jpg",
+            "10/100/1000BaseT(X) Ports, M12 X-coded 8-pin Female Connector": "4",
+            "10G BaseT(X) Ports, M12 X-coded 8-pin Female Connector With Bypass Relay": "2",
+            "100/1000BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "8",
+            "10G BaseT(X) PoE Ports, M12 X-coded 8-pin Female Connector": "2",
+            "Conformal Coating": "Yes"
+        }
+    ]
+}

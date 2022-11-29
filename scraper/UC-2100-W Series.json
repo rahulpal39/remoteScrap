@@ -1,0 +1,267 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/uc-2100-w-series",
+    "vendor": "MOXA",
+    "Product": "UC-2100-W Series",
+    "series": {
+        "Name": "UC-2100-W Series",
+        "Title": "Arm Cortex-A8 1 GHz palm-sized IIoT gateways with built-in LTE Cat. M1/NB-IoT module",
+        "Features and Benefits": [
+            "Armv7 Cortex-A8 1000 MHz processor",
+            "Integrated LTE NB-IoT/Cat. M1 module with global band support",
+            "LTE-ready computer with Verizon/AT&T certification and industrial-grade CE/FCC/UL certifications",
+            "Dual-SIM slots",
+            "Moxa Industrial Linux with 10-year long-term support",
+            "Dual auto-sensing Ethernet ports (10/100 Mbps and 10/100/1000 Mbps)",
+            "Dual CAN ports with industrial CAN 2.0 A/B protocol supported",
+            "microSD socket for storage expansion",
+            "Programmable LEDs and a programmable button for easy installation and maintenance",
+            "-40 to 75°C operating temperature range"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The UC-2100-W Series computing platform is designed for embedded\ndata acquisition and processing applications. The computer comes with\nup to two software selectable RS-232/422/485 full-signal serial ports\nand single or dual LAN ports. This palm-sized series of Arm-based\ncomputing platforms includes a variety of models for a wide range\nof interface requirements, such as serial and LAN ports, and wireless\nconnections. The versatile communication capabilities allow users\nto efficiently adapt the UC-2100-W Series for a variety of complex\ncommunications solutions running on a compact palm-sized computer.",
+                "The UC-2100-W Series has a built-in\nCortex-A8 Arm-based processor that has been optimized for a variety\nof industrial solutions. With flexible interface options, this tiny\nembedded computer is a reliable and secure gateway for data acquisition\nand processing at field sites and is a useful communication platform\nfor many other large-scale deployments. Models designed for wide-temperature\napplications are available for extreme environments such as those\nfound in the Oil and Gas industry. Furthermore, all models use Moxa’s\nindustrial-grade Linux platform, which provides optimized software\nfeatures and superior long-term support.",
+                "UC-2114",
+                "\r\n ",
+                "\r\n",
+                "UC-2116",
+                "\r\n ",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Computer": {
+            "CPU": "Armv7 Cortex-A8 1 GHz",
+            "DRAM": "512 MB DDR3",
+            "Storage Pre-installed": "8 GB eMMC",
+            "Pre-installed OS": "Moxa Industrial Linux (Debian 9, Kernel 4.4)"
+        },
+        "Computer Interface": {
+            "Storage Slot": "Micro SD Slot x 1",
+            "Ethernet Ports": "Auto-sensing 10/100 Mbps ports (RJ45 connector) x 1",
+            "Serial Ports": " Auto-sensing 10/100/1000 Mbps ports (RJ45 connector) x 1",
+            "CAN Ports": "RS-232/422/485 ports x 2, software selectable (DB9 male)",
+            "Cellular Antenna Connector": "CAN 2.0 A/B x 2 (5-pin terminal block)",
+            "GPS Antenna Connector": "SMA x 1",
+            "Number of SIMs": "UC-2116-T-LX: SMA x 1",
+            "SIM Format": "2",
+            "Console Port": "Nano",
+            "Buttons": "RS-232 (TxD, RxD, GND), 4-pin header output (115200, n, 8, 1)"
+        },
+        "Ethernet Interface": {
+            "Magnetic Isolation Protection": "1.5 kV (built-in)"
+        },
+        "Serial Interface": {
+            "Baudrate": "50 bps to 921.6 kbps",
+            "Data Bits": "5, 6, 7, 8",
+            "Stop Bits": "1, 1.5, 2",
+            "Parity": "None, Even, Odd, Space, Mark",
+            "Pull High/Low Resistor for RS-485": "1 kilo-ohm, 150 kilo-ohms",
+            "ESD Protection": "4 kV, for all signals",
+            "Flow Control": "RTS/CTS, XON/XOFF, ADDC® (automatic data direction control) for RS-485, RTS Toggle (RS-232 only)"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND"
+        },
+        "CAN Interface": {
+            "Industrial Protocols": "CAN 2.0A, CAN 2.0B",
+            "Baudrate": "10 to 1000 kbps",
+            "Isolation": "2 kV (built-in)",
+            "Signals": "GND, CAN_L, CAN_SHLD, CAN_H, CAN_V+"
+        },
+        "Cellular Interface": {
+            "Band Options": "LTE Bands: Band 1 (2100 MHz) / Band 2 (1900 MHz) / Band 3 (1800 MHz) / Band 4 (1700 MHz) / Band 5 (850 MHz) / Band 8 (900 MHz) / Band 12 (700 MHz) / Band 13 (700 MHz) / Band 18 (850 MHz) / Band 19 (850 MHz) / Band 20 (800 MHz) / Band 25 (1900 MHz) / Band 26 (850 MHz) / Band 28 (700 MHz)"
+        },
+        "LED Indicators": {
+            "System": "Power x 1",
+            "LAN": " Programmable x 1",
+            "Serial": "2 per port (10/100 Mbps)",
+            "Wireless Signal Strength": "2 per port (Tx, Rx)",
+            "CAN": "3"
+        },
+        "Power Parameters": {
+            "Input Voltage": "9 to 48 VDC",
+            "Power Consumption": "5.8 W",
+            "Input Current": "0.6 A @ 9 VDC, 0.12 A @ 48 VDC"
+        },
+        "Reliability": {
+            "Alert Tools": "External RTC (real-time clock)",
+            "Automatic Reboot Trigger": "External WDT (watchdog timer)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions (with ears)": "111 x 99 x 34.5 mm (4.37 x 3.90 x 1.36 in)",
+            "Weight": "396 g (0.87 lb)",
+            "Installation": "Wall-mounting, DIN-rail mounting (with optional kit)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 75°C (-40 to 167°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Safety": "EN 62368-1, IEC 62368-1, UL 62368-1",
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Shock": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Vibration": " IEC 61000-4-4 EFT: Power: 1 kV; Signal: 0.5 kV",
+            "Hazardous Locations": " IEC 61000-4-5 Surge: Power: 0.5 kV; Signal: 1 kV",
+            "Carrier Approvals": " IEC 61000-4-6 CS: 3 V",
+            "Green Product": " IEC 61000-4-8 PFMF"
+        },
+        "MTBF": {
+            "Time": "UC-2114-T-LX: 533,149 hrs",
+            "Standards": " UC-2116-T-LX: 496,650 hrs"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    OS Image for UC-2100 and UC-2100-W Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-2100 and UC-2100-W Series                                                ",
+                "Version": "                                            v1.11"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v1.11",
+            "RELEASE DATE": "                                            May 04, 2022"
+        },
+        {
+            "NAME": "                                                    OS Image for UC-2100-W Series                                                ",
+            "Size": "                                            161.9 MB",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-2100-W Series                                                ",
+                "Version": "                                            v1.9"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/153ebd77-83ae-4dc9-9e92-29e096eb8d91/moxa-uc-2100-uc-2100-w-series-os-image-v1.11.zip",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v1.9",
+            "RELEASE DATE": "                                            May 03, 2021"
+        },
+        {
+            "NAME": "                                                    OS Image for UC-2100 and UC-2100-W Series                                                ",
+            "Size": "                                            157.9 MB",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-2100 and UC-2100-W Series                                                ",
+                "Version": "                                            v1.6"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000623/UC-2100-W%20Series_moxa-uc-2100-uc-2100-w-series-os-image-v1.11.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v1.6",
+            "RELEASE DATE": "                                            Jun 05, 2020"
+        },
+        {
+            "NAME": "                                                    OS Image for UC-2100-W Series                                                ",
+            "Size": "                                            102.8 MB",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-2100-W Series                                                ",
+                "Version": "                                            v1.5"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/51e433c7-98ed-4fb6-8a8c-98daaacdfe08/moxa-uc-2100-w-series-os-image-v1.9.zip",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v1.5",
+            "RELEASE DATE": "                                            Oct 23, 2019"
+        },
+        {
+            "NAME": "                                                    Utility for UC-2100-W Series (toolchain)                                                ",
+            "Size": "                                            128.5 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-2100-W Series (toolchain)                                                ",
+                "Version": "                                            v6.3"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000623/UC-2100-W%20Series_moxa-uc-2100-w-series-os-image-v1.9.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 9.x"
+            ],
+            "VERSION": "                                            v6.3",
+            "RELEASE DATE": "                                            Oct 22, 2019"
+        },
+        {
+            "NAME": "                                                    Software Package for UC-2100-W Series (kernel source and example code)                                                ",
+            "Size": "                                            53.2 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for UC-2100-W Series (kernel source and example code)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/fff864fa-07fc-48a1-8549-a28143246717/moxa-uc-2100-uc-2100-w-series-os-image-v1.6.rar",
+            "OPERATING SYSTEM": [
+                "Debian 9.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Oct 22, 2019"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "UC-2114-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-2100-W-Series/UC-2114-T-LX/moxa-uc-2114-t-lx-image.jpg",
+            "CPU": "1000 MHz",
+            "RAM": "512 MB",
+            "Storage": "8 GB",
+            "Serial": "2",
+            "Ethernet": "2 (1 Giga LAN)",
+            "CAN": "2",
+            "Cellular": "NB-IoT/Cat. M1",
+            "GPS": "–",
+            "Operating Temp.": "-40 to 75°C"
+        },
+        {
+            "Name": "UC-2116-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-2100-W-Series/UC-2116-T-LX/moxa-uc-2116-t-lx-image.jpg",
+            "CPU": "1000 MHz",
+            "RAM": "512 MB",
+            "Storage": "8 GB",
+            "Serial": "2",
+            "Ethernet": "2 (1 Giga LAN)",
+            "CAN": "2",
+            "Cellular": "NB-IoT/Cat. M1",
+            "GPS": "Yes",
+            "Operating Temp.": "-40 to 75°C"
+        }
+    ]
+}

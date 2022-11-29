@@ -1,0 +1,121 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/layer-2-managed-switches/tsn-g5008-series",
+    "vendor": "MOXA",
+    "Product": "TSN-G5008 Series",
+    "series": {
+        "Name": "TSN-G5008 Series",
+        "Title": "8G-port full Gigabit managed Ethernet switch",
+        "Features and Benefits": [
+            "Compact and flexible housing design to fit into confined spaces",
+            "Web-based GUI for easy device configuration and management",
+            "Security features based on IEC 62443",
+            "IP40-rated metal housing"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TSN-G5008\nSeries switches are ideal for making manufacturing networks compatible\nwith the vision of Industry 4.0. The switches are equipped with 8\nGigabit Ethernet ports and up to 2 fiber-optic ports. The full Gigabit\ndesign makes them a good choice for upgrading an existing network\nto Gigabit speed or for building a new full-Gigabit backbone for future\nhigh-bandwidth applications. The compact design and user-friendly\nconfiguration interfaces provided by the new Moxa web GUI make network\ndeployment much easier. In addition, future firmware upgrades of the\nTSN-G5008 Series will support real-time communication using standard\nEthernet Time-Sensitive Networking (TSN) technology."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Standards": "IEEE 802.3 for 10BaseT",
+            "10/100/1000BaseT(X) Ports (RJ45 connector)": " IEEE 802.3u for 100BaseT(X)",
+            "Combo Ports (10/100/1000BaseT(X) or 100/1000BaseSFP+)": " IEEE 802.3ab for 1000BaseT(X)"
+        },
+        "Ethernet Software Features": {
+            "Management": "IPv4/IPv6, LLDP, SMTP, SNMP Inform, SNMPv1/v2c/v3, SNMP Trap, DHCP Server/Client, ARP, TFTP, SFTP, HTTP, HTTPS, SSH, Telnet, Private MIB, Syslog",
+            "MIB": "RFC1213, Ethernet-like MIB, IF MIB, LLDP MIB, Bridge MIB, Q-BRIDGE MIB, IEEE8021-PAE-MIB, IEEE8021-SPANNING-TREE-MIB, SNMPv2-MIB",
+            "Redundancy Protocols": "RSTP, STP",
+            "Security": "Broadcast storm protection, Trust access control, Login and Password Policy, HTTPS/SSL, SSH, SNMPv3, RADIUS, TACACS+",
+            "Time Management": "SNTP, NTP Server/Client",
+            "Filter": "802.1Q VLAN, Static Multicast"
+        },
+        "Switch Properties": {
+            "MAC Table Size": "9 K",
+            "Max. No. of VLANs": "256",
+            "VLAN ID Range": "VID 1 to 4094",
+            "Packet Buffer Size": "4 Mbits"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 (TxD, RxD, GND), 8-pin RJ45 (115200, n, 8, 1)"
+        },
+        "USB Interface": {
+            "USB Connector": "USB Type A (Reserved)"
+        },
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "1, Relay output with current carrying capacity of 1 A @ 24 VDC",
+            "Buttons": "Reset button",
+            "Digital Input Channels": "1",
+            "Digital Inputs": "+13 to +30 V for state 1"
+        },
+        "LED Interface": {
+            "LED Indicators": "STATE, FAULT, PWR1, PWR2, SYNC"
+        },
+        "Power Parameters": {
+            "Connection": "2 removable 4-contact terminal block(s)",
+            "Input Voltage": "12 to 48 VDC, Redundant dual inputs",
+            "Operating Voltage": "9.6 to 60 VDC",
+            "Input Current": "1.72 A @ 12 VDC",
+            "Overload Current Protection": "Supported",
+            "Reverse Polarity Protection": "Supported"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP40",
+            "Dimensions": "36 x 135 x 115 mm (1.42 x 5.32 x 4.53 in)",
+            "Weight": "787 g (1.74 lb)",
+            "Installation": "DIN-rail mounting, Wall mounting (with optional kit)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-10 to 60°C (14 to 140°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Safety": "UL 61010-2-201, EN 62368-1",
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 6 kV; Air: 8 kV",
+            "Shock": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Freefall": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 1 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 1 kV"
+        },
+        "MTBF": {
+            "Time": "809,568 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    SNMP MIB File for TSN-G5000 Series                                                ",
+            "Size": "                                            187.8 KB",
+            "Details": {
+                "File Name": "                                                    SNMP MIB File for TSN-G5000 Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/516c0fa6-7969-49f5-b4c8-796c64828c0a/moxa-tsn-g5008-series-snmp-mib-file-software-package-v1.0.zip",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jul 03, 2020"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "TSN-G5008-2GTXSFP",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Layer-2-Managed-Switches/TSN-G5008-Series/TSN-G5008-2GTXSFP/moxa-tsn-g5008-2gtxsfp-image.jpg",
+            "Layer": "2",
+            "No. of Ports": "8",
+            "10/100/1000BaseT(X) Ports": "RJ45 Connector",
+            "Combo Ports": "10/100/1000BaseT(X) or",
+            "Operating Temp.": "-10 to 60°C"
+        }
+    ]
+}

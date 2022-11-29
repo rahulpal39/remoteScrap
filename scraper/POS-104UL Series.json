@@ -1,0 +1,403 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/multiport-serial-boards/pcie-upci-pci-serial-cards/pos-104ul-series",
+    "vendor": "MOXA",
+    "Product": "POS-104UL Series",
+    "series": {
+        "Name": "POS-104UL Series",
+        "Title": "4-port RS-232 Universal PCI boards with power over serial",
+        "Features and Benefits": [
+            "Over 800 kbps data throughput for top performance",
+            "Power options for each port: 5 V (output), 12 V (output), and RI (input)",
+            "Serial port power from bus or power supply",
+            "921.6 kbps maximum baudrate for fast data transmission",
+            "128-byte FIFO and on-chip H/W, S/W flow control",
+            "Compatible with 3.3/5 V PCI and PCI-X",
+            "Low-profile board, suitable for compact-sized PCs",
+            "Drivers provided for a broad selection of operating systems, including Windows, Linux, and UNIX",
+            "Wide-temperature model available for -40 to 85°C environments"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The POS-104UL is a smart, 4-port Universal PCI serial board designed for POS and ATM applications and for use by industrial automation system manufacturers and system integrators. The POS-104UL is compatible with all major operating systems. In addition, each of the 4 RS-232 serial ports supports data rates up to 921.6 kbps and provides full modem control signals to ensure compatibility with a wide range of serial peripherals. The POS-104UL supplies 5 or 12 volts of power to each serial port, and it works with both 3.3 V and 5 V PCI buses, making it suitable for installation in most PC servers."
+            ]
+        }
+    },
+    "speacification": {
+        "Serial Interface": {
+            "Comm. Controller": "16C550C compatible",
+            "Baudrate": "50 bps to 921.6 kbps",
+            "Bus": "32-bit Universal PCI",
+            "Connector": "DB44 female",
+            "Data Bits": "5, 6, 7, 8",
+            "Flow Control": "None, RTS/CTS, XON/XOFF",
+            "Max. No. of Boards per PC": "8",
+            "No. of Ports": "4",
+            "Parity": "None, Even, Odd, Space, Mark",
+            "Serial Standards": "RS-232",
+            "Stop Bits": "1, 1.5, 2"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND, RI (optional)"
+        },
+        "Serial Software Features": {
+            "Windows Drivers": "DOS, Windows 95/98/ME/NT/2000, Windows XP/2003/Vista/2008/7/8/8.1/10 (x86/x64), Windows 2008 R2/2012/2012 R2 (x64), Windows Embedded CE 5.0/6.0, Windows XP Embedded",
+            "Linux Drivers": "Linux kernel 2.4.x, Linux kernel 2.6.x, Linux kernel 3.x, Linux kernel 4.x, Linux kernel 5.x",
+            "UNIX Drivers": "Solaris 10, UnixWare 7, SCO OpenServer 5, SCO OpenServer 6"
+        },
+        "Power Parameters": {
+            "Output Power Rating": "1 A @ 5 V, 1 A @ 12 V (per port)"
+        },
+        "Physical Characteristics": {
+            "Dimensions": "64.4 x 120 mm (2.53 x 4.72 in)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "POS-104UL-DB9M: 0 to 55°C (32 to 131°F)",
+            "Storage Temperature (package included)": " POS-104UL-T: -40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 61000-6-2/-6-4",
+            "EMI": "EN 61000-6-4, FCC Part 15B Class B",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Green Product": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m"
+        },
+        "MTBF": {
+            "Time": "2,124,022 hrs",
+            "Standards": "Telcordia (Bellcore) Standard TR/SR"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MSB Linux kernel 4.x.x driver                                                ",
+            "Size": "                                            161.9 KB",
+            "Details": {
+                "File Name": "                                                    MSB Linux kernel 4.x.x driver                                                ",
+                "Version": "                                            v4.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/36780fd1-493b-481c-bebd-7ec021de1657/moxa-msb-linux-kernel-4.x.x-driver-v4.1.tgz",
+            "OPERATING SYSTEM": [
+                "Linux Kernel 4.x"
+            ],
+            "VERSION": "                                            v4.1",
+            "RELEASE DATE": "                                            Oct 25, 2021"
+        },
+        {
+            "NAME": "                                                    MSB Linux kernel 5.x.x driver                                                ",
+            "Size": "                                            160.1 KB",
+            "Details": {
+                "File Name": "                                                    MSB Linux kernel 5.x.x driver                                                ",
+                "Version": "                                            v5.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-msb-linux-kernel-4.x.x-driver-v4.1.tgz_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Linux Kernel 5.x"
+            ],
+            "VERSION": "                                            v5.1",
+            "RELEASE DATE": "                                            Oct 25, 2021"
+        },
+        {
+            "NAME": "                                                    Driver for Windows (Windows 7 2008 R2 or later)                                                ",
+            "Size": "                                            1.9 MB",
+            "Details": {
+                "File Name": "                                                    Driver for Windows (Windows 7 2008 R2 or later)                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/5f7cdab0-a221-4167-8a79-6735e24785f3/moxa-msb-linux-kernel-5.x.x-driver-v5.1.tgz",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows 8",
+                "Windows 8.1",
+                "Windows Server 2008",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            May 18, 2020"
+        },
+        {
+            "NAME": "                                                    Driver for Linux kernel 2.x.x                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Driver for Linux kernel 2.x.x                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-msb-linux-kernel-5.x.x-driver-v5.1.tgz_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Linux Kernel 2.4.x",
+                "Linux Kernel 2.6.x"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Dec 31, 2019"
+        },
+        {
+            "NAME": "                                                    Driver for Linux kernel 3.x.x                                                ",
+            "Size": "                                            161.3 KB",
+            "Details": {
+                "File Name": "                                                    Driver for Linux kernel 3.x.x                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/5ec0ebe2-c36f-4e51-bb48-ae95b06061c9/moxa-windows-7-2008-r2-or-later-driver-v3.0.zip",
+            "OPERATING SYSTEM": [
+                "Linux Kernel 3.x"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            Dec 31, 2019"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (SCO 5)                                                ",
+            "Size": "                                            161.1 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (SCO 5)                                                ",
+                "Version": "                                            v1.13"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-windows-7-2008-r2-or-later-driver-v3.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "SCO OpenServer 5"
+            ],
+            "VERSION": "                                            v1.13",
+            "RELEASE DATE": "                                            Mar 30, 2014"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (SCO 6)                                                ",
+            "Size": "                                            649.5 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (SCO 6)                                                ",
+                "Version": "                                            v1.13"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/f1479b55-9701-4827-b587-1781b8b2fba4/moxa-linux-kernel-2.x.x-driver-v2.0.tgz",
+            "OPERATING SYSTEM": [
+                "SCO OpenServer 6"
+            ],
+            "VERSION": "                                            v1.13",
+            "RELEASE DATE": "                                            Mar 30, 2014"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (Sun Solaris)                                                ",
+            "Size": "                                            322.0 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (Sun Solaris)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-linux-kernel-2.x.x-driver-v2.0.tgz_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Solaris 10"
+            ],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Mar 30, 2014"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (UnixWare)                                                ",
+            "Size": "                                            118.0 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (UnixWare)                                                ",
+                "Version": "                                            v1.13"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/8de1e66b-1d40-44f2-a9fc-243fead2ee7e/moxa-linux-kernel-3.x.x-driver-v3.0.tgz",
+            "OPERATING SYSTEM": [
+                "SCO UnixWare 7"
+            ],
+            "VERSION": "                                            v1.13",
+            "RELEASE DATE": "                                            Mar 30, 2014"
+        },
+        {
+            "NAME": "                                                    PComm Lite - Serial Communication Tool for Windows                                                ",
+            "Size": "                                            330.0 KB",
+            "Details": {
+                "File Name": "                                                    PComm Lite - Serial Communication Tool for Windows                                                ",
+                "Version": "                                            v1.6"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-linux-kernel-3.x.x-driver-v3.0.tgz_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows 2000",
+                "Windows 7",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v1.6",
+            "RELEASE DATE": "                                            May 13, 2012"
+        },
+        {
+            "NAME": "                                                    Viewcom                                                ",
+            "Size": "                                            1.6 MB",
+            "Details": {
+                "File Name": "                                                    Viewcom                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/fec68643-fc69-429d-8c48-08985a75ec03/moxa-pos-104ul-series-sco-5-driver-v1.13.tar",
+            "OPERATING SYSTEM": [
+                "Windows 2000",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (UnixWare 2.1)                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (UnixWare 2.1)                                                ",
+                "Version": "                                            v1.7"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-pos-104ul-series-sco-5-driver-v1.13_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "SCO UnixWare 2.x"
+            ],
+            "VERSION": "                                            v1.7",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (WinCE 5)                                                ",
+            "Size": "                                            451.1 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (WinCE 5)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/e835d8cb-5b19-4c1f-95ec-646552586765/moxa-pos-104ul-series-sco-6-driver-v1.13.tar",
+            "OPERATING SYSTEM": [
+                "Windows CE 5.0"
+            ],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (WinCE 6)                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (WinCE 6)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-pos-104ul-series-sco-6-driver-v1.13_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows CE 6.0"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (Windows 95/98)                                                ",
+            "Size": "                                            270.0 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (Windows 95/98)                                                ",
+                "Version": "                                            v5.11"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/69b1d69e-d18a-468c-b8e8-969d303f6628/moxa-pos-104ul-series-sun-solaris-driver-v1.1.zip",
+            "OPERATING SYSTEM": [
+                "Windows 95",
+                "Windows 98",
+                "Windows 98 SE",
+                "Windows ME"
+            ],
+            "VERSION": "                                            v5.11",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (WinNT)                                                ",
+            "Size": "                                            370.8 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (WinNT)                                                ",
+                "Version": "                                            v5.11"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-pos-104ul-series-sun-solaris-driver-v1.1_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows NT"
+            ],
+            "VERSION": "                                            v5.11",
+            "RELEASE DATE": "                                            Jul 11, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (QNX6)                                                ",
+            "Size": "                                            280.7 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (QNX6)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/ba474016-bc27-4172-97ff-30c53c36f21e/moxa-pos-104ul-series-unixware-driver-v1.13.tar",
+            "OPERATING SYSTEM": [
+                "QNX 6.x"
+            ],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Feb 10, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (FreeBSD)                                                ",
+            "Size": "                                            341.1 KB",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (FreeBSD)                                                ",
+                "Version": "                                            v1.3"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000262/POS-104UL%20Series_moxa-pos-104ul-series-unixware-driver-v1.13_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "FreeBSD 4.x",
+                "FreeBSD 5.x"
+            ],
+            "VERSION": "                                            v1.3",
+            "RELEASE DATE": "                                            Feb 10, 2010"
+        },
+        {
+            "NAME": "                                                    Driver for POS-104UL Series (WinXP Embedded)                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Driver for POS-104UL Series (WinXP Embedded)                                                ",
+                "Version": "                                            v1.16"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/d91d288d-64ab-4c03-989b-5f074680a663/moxa-pcomm-lite-utility-v1.6.zip",
+            "OPERATING SYSTEM": [
+                "Windows XP Embedded"
+            ],
+            "VERSION": "                                            v1.16",
+            "RELEASE DATE": "                                            Feb 08, 2010"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "POS-104UL-DB9M",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Multiport-Serial-Boards/PCIe-UPCI-PCI-Serial-Cards/POS-104UL-Series/POS-104UL-DB9M/moxa-pos-104ul-db9m-image.jpg",
+            "Serial Standards": "RS-232",
+            "No. of Serial Ports": "4",
+            "Operating Temp.": "0 to 55°C",
+            "Included Cable": "CBL-M44M9x4-50"
+        },
+        {
+            "Name": "POS-104UL-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Multiport-Serial-Boards/PCIe-UPCI-PCI-Serial-Cards/POS-104UL-Series/POS-104UL-T/moxa-pos-104ul-t-image.jpg",
+            "Serial Standards": "RS-232",
+            "No. of Serial Ports": "4",
+            "Operating Temp.": "-40 to 85°C",
+            "Included Cable": "–"
+        }
+    ]
+}

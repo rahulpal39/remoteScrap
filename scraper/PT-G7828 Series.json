@@ -1,0 +1,189 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/rackmount-switches/pt-g7828-series",
+    "vendor": "MOXA",
+    "Product": "PT-G7828 Series",
+    "series": {
+        "Name": "PT-G7828 Series",
+        "Title": "IEC 61850-3 28-port Layer 3 full Gigabit modular managed Ethernet switches",
+        "Features and Benefits": [
+            "IEC 61850-3 Edition 2 Class 2 compliant",
+            "Hot-swappable interface and power modules for continuous operation",
+            "Built-in MMS server based on IEC 61850-90-4 switch data modeling for power SCADA",
+            "IEEE 1588 hardware time stamp supported"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The PT-G7828 modular switches provide up to 28 Gigabit ports, including 4 fixed ports, 6 interface module slots, and 2 power module slots to ensure sufficient flexibility for a variety of applications. The PT-G7828 Series is designed to meet evolving network requirements, including a hot-swappable module design that enables you to change or add devices without shutting down your device.",
+                "The multiple Ethernet modules (RJ45, SFP, and PoE) and power units (24/48 VDC, 110/220 VAC/VDC) provide even greater flexibility as well as suitability for different operating conditions. The switches support a full Gigabit platform that provides enough bandwidth to set up an Ethernet backbone. Certifications include IEC 61850 Edition 2 Class 2 to ensure high availability and wide usage."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100/1000BaseT(X) Ports (RJ45 connector)": "2",
+            "100/1000BaseSFP Ports": "2",
+            "Module": "6",
+            "Slot Combination": "See the LM-7000H datasheet for Gigabit Ethernet module and PoE+ module information",
+            "Standards": "IEEE 802.3 for 10BaseT"
+        },
+        "Ethernet Software Features": {
+            "Management": "IPv4/IPv6, SNMP Inform, SNMPv1/v2c/v3, DHCP Server/Client, DHCP Option 66/67/82, BOOTP, TFTP, LLDP, RARP, HTTP, HTTPS, Telnet, Flow control, Back Pressure Flow Control, Port Mirror, Fiber check, Dying Gasp, SMTP, Syslog",
+            "MIB": "MIB-II, Ethernet-like MIB, Bridge MIB, P-BRIDGE MIB, Q-BRIDGE MIB, RSTP MIB, RMON MIB Groups 1, 2, 3, 9",
+            "Filter": "802.1Q, GMRP, GVRP, IGMP v1/v2/v3, QinQ VLAN",
+            "Redundancy Protocols": "Link Aggregation, MSTP, RSTP, STP, Turbo Chain, Turbo Ring v1/v2, V-ON",
+            "Security": "RADIUS, TACACS+, SSH, Port Lock, Broadcast storm protection, MAB authentication, Sticky MAC, Access control list",
+            "Time Management": "NTP Server/Client, SNTP, IEEE 1588v2 PTP (hardware-based)",
+            "Power Substation": "IEC 61850 QoS, GOOSE Check",
+            "Industrial Protocols": "EtherNet/IP, Modbus TCP",
+            "Unicast Routing": "Static Route, RIPV1/V2, OSPF",
+            "Multicast Routing": "DVMRP, PIM-DM",
+            "Routing Redundancy": "VRRP"
+        },
+        "Switch Properties": {
+            "Priority Queues": "8",
+            "Max. No. of VLANs": "512",
+            "VLAN ID Range": "VID 1 to 4094",
+            "IGMP Groups": "4096",
+            "MAC Table Size": "16 K",
+            "Packet Buffer Size": "12 Mbits",
+            "Jumbo Frame Size": "9.6 KB"
+        },
+        "Serial Interface": {
+            "Console Port": "Micro USB Type B"
+        },
+        "USB Interface": {
+            "Storage Port": "USB Type A"
+        },
+        "Power Parameters": {
+            "Input Voltage": "with PWR-HV-P48 installed:",
+            "Operating Voltage": "110/220 VDC/VAC for the switch system",
+            "Input Current": "48 VDC for PoE system (53 to 57 VDC is recommended for PoE+ devices)"
+        },
+        "Physical Characteristics": {
+            "IP Rating": "IP30",
+            "Dimensions": "443 x 44 x 280 mm (17.44 x 1.73 x 11.02 in)",
+            "Weight": "3080 g (6.8 lb)",
+            "Installation": "19-inch rack mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Power Substation": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Railway": " IEC 61000-4-4 EFT: Power: 4 kV; Signal: 4 kV",
+            "Safety": " IEC 61000-4-5 Surge: Power: 4 kV; Signal: 4 kV"
+        },
+        "MTBF": {
+            "Time": "449,542 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    Software Package for PT-G7828 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Software Package for PT-G7828 Series                                                ",
+                "Version": "                                            v1.2"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.2",
+            "RELEASE DATE": "                                            Feb 11, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for PT-G7828 Series                                                ",
+            "Size": "                                            256.1 KB",
+            "Details": {
+                "File Name": "                                                    Firmware for PT-G7828 Series                                                ",
+                "Version": "                                            v6.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/c51dbd6c-b3a1-429a-9810-08b039e90c0e/moxa-pt-g7828-series-software-package-v1.2.mib",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v6.2",
+            "RELEASE DATE": "                                            Feb 11, 2022"
+        },
+        {
+            "NAME": "                                                    EtherNet IP Factory Talk View for PT-G7828                                                 ",
+            "Size": "                                            3.9 MB",
+            "Details": {
+                "File Name": "                                                    EtherNet IP Factory Talk View for PT-G7828                                                 ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000147/PT-G7828%20Series_moxa-pt-g7828-series-software-package-v1.2.mib_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Jan 28, 2019"
+        },
+        {
+            "NAME": "                                                    PROFINET GSD file for PT-G7828 Series                                                ",
+            "Size": "                                            363.4 KB",
+            "Details": {
+                "File Name": "                                                    PROFINET GSD file for PT-G7828 Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/69970e4b-f127-4e25-814a-675640bbb3f8/moxa-pt-g7828-series-firmware-v6.2.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 14, 2018"
+        },
+        {
+            "NAME": "                                                    SNMP MIB file for PT-G7828 Series                                                ",
+            "Size": "                                            11.5 KB",
+            "Details": {
+                "File Name": "                                                    SNMP MIB file for PT-G7828 Series                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000147/PT-G7828%20Series_moxa-pt-g7828-series-firmware-v6.2.rom_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Jan 11, 2018"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "PT-G7828",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Rackmount-Switches/PT-G7828-Series/PT-G7828/moxa-pt-g7828-image.jpg",
+            "Layer": "3",
+            "100/1000Base SFP Slots": "2 to 26",
+            "10/100/1000BaseT(X) Ports": "RJ45 Connector",
+            "PoE Ports, 10/100/1000Base T(X)": "RJ45 Connector",
+            "Operating Temp.": "-40 to 85°C"
+        }
+    ]
+}

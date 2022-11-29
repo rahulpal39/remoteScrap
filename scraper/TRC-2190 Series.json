@@ -1,0 +1,146 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-media-converters/ethernet-to-fiber-media-converters/trc-2190-series",
+    "vendor": "MOXA",
+    "Product": "TRC-2190 Series",
+    "series": {
+        "Name": "TRC-2190 Series",
+        "Title": "18-slot rackmount chassis managed media converter",
+        "Features and Benefits": [
+            "19-inch chassis for rackmount use",
+            "18 slots for high-density applications",
+            "Supports dual power inputs with redundancy",
+            "Fanless chassis design reduces servicing costs",
+            "SNMP/web console for easy management",
+            "-20 to 55°C operating temperature range"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TRC-2190 Series provides 18 slots for media converter modules from the CSM-400 Series of Ethernet-to-fiber management modules. It also supports SNMP/web console for remote management and monitoring. A TRC-2190 chassis comes with one AC or DC power input, with an optional redundant power expansion module available for greater reliability. The TRC-2190 Series’ power input module supports a fanless chassis design, as well as a -20 to 55°C operating temperature range."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100BaseT(X) Ports (RJ45 connector)": "2"
+        },
+        "Ethernet Software Features": {
+            "Industrial Protocols": "SNMPv1/v2c, SNMPv1/v2c Trap",
+            "Management": "DHCP Client, IPv4/IPv6, SNMPv1/v2c, Syslog, TCP/IP, Telnet, TFTP, UDP, Web Console",
+            "MIB": "MIB-II",
+            "Security": "HTTPS/SSL, Local Account Accessibility, TACACS+, RADIUS, SSH",
+            "Time Management": "NTP Client"
+        },
+        "Security Functions": {
+            "Authentication": "Local database (password only)",
+            "Encryption": " RADIUS",
+            "Security Protocols": " TACACS+"
+        },
+        "Power Parameters": {
+            "Input Voltage": "TRC-2190-AC: 110 to 240 VAC ",
+            "No. of Power Inputs": "TRC-2190-DC-48V: 48 VDC",
+            "Overload Current Protection": "2",
+            "Power Consumption": "Supported"
+        },
+        "Physical Characteristics": {
+            "IP Rating": "IP30",
+            "Dimensions": "440 x 260 x 77 mm (18.6 x 11 x 3.3 in)",
+            "Weight": "5.2 g (11.4 lb)",
+            "Installation": "19-inch rack mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-20 to 55°C (-4 to 131°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 1 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV(AC), 1 kV(DC); Signal: 1 kV"
+        },
+        "MTBF": {
+            "Time": "1,055,112 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Device Search Utility                                                ",
+            "Size": "                                            1.1 MB",
+            "Details": {
+                "File Name": "                                                    Device Search Utility                                                ",
+                "Version": "                                            v2.4"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/e8199ab7-506e-4d84-81ea-6658d96dfb81/moxa-device-search-utility-v2.4.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 2000",
+                "Windows 7",
+                "Windows 8",
+                "Windows 8.1",
+                "Windows 95",
+                "Windows 98 SE",
+                "Windows ME",
+                "Windows NT",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Server 2012",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v2.4",
+            "RELEASE DATE": "                                            Mar 31, 2021"
+        },
+        {
+            "NAME": "                                                    Firmware for TRC-2190 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for TRC-2190 Series                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000235/TRC-2190%20Series_moxa-device-search-utility-v2.4.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Mar 26, 2018"
+        },
+        {
+            "NAME": "                                                    Software Package for TRC-2190 Series (MIB file)                                                ",
+            "Size": "                                            2.4 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for TRC-2190 Series (MIB file)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/0fc9c74d-85fa-47ce-a539-6ec28742aee1/moxa-trc-2190-series-firmware-v1.1.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Dec 22, 2017"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "TRC-2190-AC",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/TRC-2190-Series/TRC-2190-AC/moxa-trc-2190-ac-image.jpg",
+            "Input Voltage": "100-240 VAC (47-63 Hz)"
+        },
+        {
+            "Name": "TRC-2190-DC-48V",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/TRC-2190-Series/TRC-2190-DC-48V/moxa-trc-2190-dc-48v-image.jpg",
+            "Input Voltage": "48 VDC"
+        }
+    ]
+}

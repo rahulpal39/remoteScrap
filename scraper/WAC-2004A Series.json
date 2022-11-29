@@ -1,0 +1,128 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/wireless-ap-bridge-client/rail-wireless-access-controller/wac-2004a-series",
+    "vendor": "MOXA",
+    "Product": "WAC-2004A Series",
+    "series": {
+        "Name": "WAC-2004A Series",
+        "Title": "Industrial wireless access controllers",
+        "Features and Benefits": [
+            "2-in-1 AP controller and mobile IP home agent",
+            "Millisecond-level controller-based Turbo Roaming",
+            "IEEE 802.11i-compliant wireless security",
+            "Layer-3 mobile IP technology",
+            "Scalable tunneling capacity"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The goal of zero-latency roaming is to allow clients\nto seamlessly maintain their connection as they move from one access\npoint to another. Moxa's WAC-2004A Industrial Wireless Access Controller\nfeatures Controller-based Turbo Roaming technology to enable millisecond-level\nroaming across different IP subnets. The advanced roaming algorithm\nalong with Mobile IP technology allows wireless clients to roam between\nAPs in different IP subnets within milliseconds, while upholding stringent\nsecurity in extremely demanding environments. The rugged WAC-2004A\nis capable of operating at temperatures of 0 to 50°C and is suitable\nfor on-site installation in harsh industrial environments. ",
+                "Device-level redundancy via hot standby controller",
+                "Millisecond-level Turbo Roaming",
+                "Inter-controller roaming",
+                "Mobile\nIP tunneling",
+                "Care-of-Address\n(CoA) assignment",
+                "Cross\nLayer 3 subnet roaming"
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "10/100/1000BaseT(X) Ports (RJ45 connector)": "2",
+            "Standards": "Port 1: Communications port for WAC/HA"
+        },
+        "Ethernet Software Features": {
+            "Management": "IPv4, SNMPv1/v2c/v3, Syslog, TCP/IP, Telnet, TFTP, Web Console, Wireless Search Utility",
+            "Security": "HTTPS/SSL, RADIUS, SSH",
+            "Time Management": "NTP Client, SNTP"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 ports x 1 (DB9 male)",
+            "Flow Control": "RTS/CTS, XON/XOFF",
+            "Parity": "None, Even, Odd, Space, Mark"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND"
+        },
+        "Wireless Access Control": {
+            "Controller Failover Mode": "1-on-1 hot backup",
+            "Handover Time": "50 ms",
+            "Roaming Support": "Turbo Roaming (L2/L3) with inter-controller capabilities",
+            "WLAN Products Supported": "Layer 2 networks: Up to 190 clients roaming between 400 APs "
+        },
+        "Supported Devices": {
+            "TAP Products": "TAP-213/323 Series",
+            "AWK Products": "AWK-3131A-RTG Series"
+        },
+        "Power Parameters": {
+            "Input Current": "1.2 A @ 100 VAC",
+            "Input Voltage": "100 to 240 VAC",
+            "No. of Power Inputs": "2",
+            "Operating Voltage": "100 to 240 VAC"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions (without ears)": "304 x 440 x 44 mm (11.97 x 17.32 x 1.73 in)",
+            "Weight": "4,550 g (10.03 lb)",
+            "Installation": "19-inch rack mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "0 to 50°C (32 to 122°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Safety": "IEC 60950-1, UL 62368-1, IEC 62368-1",
+            "EMC": "EN 55032/35, EN 61000-6-2/-6-4",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "447,959 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Firmware for WAC-2004A                                                ",
+            "Size": "                                            27.7 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for WAC-2004A                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/00d13769-1eb4-4933-989f-eb8ac90444e0/moxa-wac-2004a-firmware-v1.1.rom",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Oct 29, 2021"
+        },
+        {
+            "NAME": "                                                    Library for WAC-2004A                                                ",
+            "Size": "                                            68.3 KB",
+            "Details": {
+                "File Name": "                                                    Library for WAC-2004A                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S000000785/WAC-2004A_moxa-wac-2004a-firmware-v1.1.rom_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Oct 29, 2021"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "WAC-2004A",
+            "link": "",
+            "Application": "Industrial wireless access controller",
+            "Operating Temp.": "0 to 50°C"
+        }
+    ]
+}

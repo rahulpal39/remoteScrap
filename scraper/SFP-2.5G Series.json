@@ -1,0 +1,78 @@
+{
+    "url": "https://www.moxa.com/en/products/accessories/sfp-modules/2-5-gigabit-ethernet-sfp-modules/sfp-2-5g-series",
+    "vendor": "MOXA",
+    "Product": "SFP-2.5G Series",
+    "series": {
+        "Name": "SFP-2.5G Series",
+        "Title": "1-port 2.5 Gigabit Ethernet SFP modules",
+        "Features and Benefits": [
+            "Digital Diagnostic Monitor Function",
+            "Hot pluggable LC duplex connector",
+            "Class 1 Laser International Safety Standard IEC 60825-1 compliant",
+            "RoHS compliant"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The SFP-2.5G Series 1-port 2.5 Gigabit Ethernet SFP modules\nare available as optional accessories for a wide range of Moxa switches."
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Connectors": "Duplex LC connector",
+            "Optical Fiber": "Typical Distance: To reach the typical distance of specified fiber transceiver, please refer to formula: Link budget(dB) > dispersion penalty(dB) + total link loss(dB)"
+        },
+        "Power Parameters": {
+            "Power Consumption": "Max. 1 W"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Safety": "CE, FCC, IEC 60825-1, UL 62368-1, IEC 62368-1, EN 62368-1"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "SFP-2.5GMLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/2-5-Gigabit-Ethernet-SFP-Modules/SFP-2-5G-Series/SFP-2-5GMLC-T/moxa-sfp-2-5gmlc-t-image.jpg",
+            "Ports": "1 x 2.5GBase-M, multi-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "170 m/200 m/550 m/600 m",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-2.5GSLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/2-5-Gigabit-Ethernet-SFP-Modules/SFP-2-5G-Series/SFP-2-5GSLC-T/moxa-sfp-2-5gslc-t-image.jpg",
+            "Ports": "1 x 2.5GBase-S, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "5 km",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-2.5GLSLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/2-5-Gigabit-Ethernet-SFP-Modules/SFP-2-5G-Series/SFP-2-5GLSLC-T/moxa-sfp-2-5glslc-t-image.jpg",
+            "Ports": "1 x 2.5GBase-LS, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "20 km",
+            "Operating Temp.": "-40 to 85°C"
+        },
+        {
+            "Name": "SFP-2.5GSLHLC-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/Accessories/SFP-Modules/2-5-Gigabit-Ethernet-SFP-Modules/SFP-2-5G-Series/SFP-2-5GSLHLC-T/moxa-sfp-2-5gslhlc-t-image.jpg",
+            "Ports": "1 x 2.5GBase-SLH, single-mode",
+            "Connector": "LC ",
+            "Transmission Distance": "45 km",
+            "Operating Temp.": "-40 to 85°C"
+        }
+    ]
+}

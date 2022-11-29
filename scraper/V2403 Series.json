@@ -1,0 +1,247 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/x86-computers/v2403-series",
+    "vendor": "MOXA",
+    "Product": "V2403 Series",
+    "series": {
+        "Name": "V2403 Series",
+        "Title": "Intel® 3rd Gen Core™ processor industrial computers",
+        "Features and Benefits": [
+            "Intel® Core™ i Series processor with three performance options",
+            "-40 to 70°C (system and LTE) operating temperature",
+            "Dual CFast sockets for storing OS and OS backup",
+            "Triple mini-PCIe sockets for storage and wireless modules that support mSATA, Wi-Fi, 3G, LTE, GPS, and Bluetooth",
+            "Variety of interfaces: 4 serial ports, 2 Ethernet LAN ports, 4 DIs, 4 DOs, USB, HDMI, wireless",
+            "EN 61000-6-2 and EN 61000-6-4 certification\r\n    ",
+            "\r\n and meets the EMC standard for heavy industry",
+            "Up to 5 Grms anti-vibration and 100 g/11 ms anti-shock protection",
+            "Ready-to-run Debian 8, Windows Embedded Standard 7, and Windows 10 Embedded IoT Enterprise 2016 LTSB platforms",
+            "Moxa Proactive Monitoring utility for system hardware health monitoring",
+            "Moxa Smart Recovery utility to recover system from boot failure (W7E only)"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The V2403 Series fanless x86 embedded computer is based on the Intel® 3rd gen Core-i™ Series processor, features the most reliable I/O design to maximize connectivity, and supports dual wireless modules, making it suitable for a diverse range of communication applications. The computer’s thermal design ensures reliable system operation in temperatures ranging from -40 to 70°C (with a special purpose Moxa wireless module installed). The V2403 Series supports “Moxa Proactive Monitoring” for device I/O status monitoring and alerts, system temperature monitoring and alerts, and system power management. Monitoring system status closely makes it easier to recover from errors and provides the most reliable platform for your applications.",
+                "Remote Terminal Unit (RTU)",
+                "Data acquisition",
+                "M2M communication (smart gateway)",
+                "Digital signage",
+                "Factory automation",
+                "In-vehicle monitor/data logger (transportation)",
+                "Programmable router",
+                "Energy usage optimization",
+                "Predictive maintenance",
+                "Asset management",
+                "Front View",
+                "\r\n",
+                "Rear View",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Computer": {
+            "CPU": "V2403-C2 Series: Intel® Celeron® Processor 1047UE (2 M cache, 1.40 GHz)",
+            "System Chipset": " V2403-C7 Series: Intel® Core™ i7-3517UE Processor (4 M cache, up to 2.80 GHz)",
+            "Graphics Controller": "Mobile Intel® HM65 Express Chipset",
+            "System Memory Pre-installed": "Intel® HD Graphics",
+            "System Memory Slot": "Default 4 GB DDR3",
+            "Supported OS": "SODIMM DDR3/DDR3L slot x 1",
+            "Storage Slot": "Linux Debian 8 (Linux kernel v4.1)"
+        },
+        "Computer Interface": {
+            "Ethernet Ports": "Auto-sensing 10/100/1000 Mbps ports (RJ45 connector) x 2",
+            "Serial Ports": "RS-232/422/485 ports x 4, software selectable (DB9 male)",
+            "USB 2.0": "USB 2.0 hosts x 4, type-A connectors",
+            "Audio Input/Output": "Line in x 1, Line out x 1, 3.5 mm phone jack",
+            "Digital Input": "DIs x 4",
+            "Digital Output": "DOs x 4",
+            "Expansion Slots": "mPCIe slot x 2",
+            "Video Output": "DVI-I x 1, 29-pin DVI-I connectors (female)",
+            "Wi-Fi Antenna Connector": " HDMI x 1, HDMI connector (type A)",
+            "Cellular Antenna Connector": "RP-SMA x 2",
+            "Number of SIMs": "SMA x 2",
+            "SIM Format": "2",
+            "GPS Antenna Connector": "Mini"
+        },
+        "Digital Inputs": {
+            "Isolation": "3k VDC",
+            "Connector": "Screw-fastened Euroblock terminal",
+            "Dry Contact": "On: short to GND",
+            "I/O Mode": " Off: open",
+            "Sensor Type": "DI",
+            "Wet Contact (DI to COM)": "Dry contact"
+        },
+        "Digital Outputs": {
+            "Connector": "Screw-fastened Euroblock terminal",
+            "Current Rating": "200 mA per channel",
+            "I/O Type": "Sink",
+            "Voltage": "24 to 40 VDC"
+        },
+        "LED Indicators": {
+            "System": "Power x 1",
+            "LAN": " Storage x 1",
+            "Serial": "2 per port (10/100/1000 Mbps)"
+        },
+        "Serial Interface": {
+            "Baudrate": "50 bps to 921.6 kbps",
+            "Flow Control": "RTS/CTS, XON/XOFF, ADDC® (automatic data direction control) for RS-485, RTS Toggle (RS-232 only)",
+            "Parity": "None, Even, Odd, Space, Mark",
+            "Data Bits": "5, 6, 7, 8",
+            "Stop Bits": "1, 1.5, 2"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND"
+        },
+        "Power Parameters": {
+            "Input Voltage": "9 to 36 VDC",
+            "Power Connector": "Terminal block (for DC models)",
+            "Power Consumption (Max.)": "3.51 A @ 9 VDC",
+            "Power Consumption": "1.39 A @ 24 VDC"
+        },
+        "Physical Characteristics": {
+            "Housing": "Aluminum",
+            "IP Rating": "IP30",
+            "Dimensions (with ears)": "275 x 63 x 154 mm (10.83 x 2.47 x 6.06 in)",
+            "Dimensions (without ears)": "250 x 57 x 154 mm (9.84 x 2.23 x 6.06 in)",
+            "Weight": "2,168 g (4.82 lb)",
+            "Installation": "DIN-rail mounting (optional), Wall mounting (standard)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 70°C (-40 to 158°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24, EN 61000-6-2/-6-4",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Safety": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Shock": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 1 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 1 kV"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "329,398 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "3 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    Driver for V2403 Series (Peripheral for Windows 7)                                                ",
+            "Size": "                                            522.2 MB",
+            "Details": {
+                "File Name": "                                                    Driver for V2403 Series (Peripheral for Windows 7)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/104414a0-ff17-47f4-9be9-bbc5972244a2/moxa-v2403-series-peripheral-for-windows-7-driver-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Windows 7"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 06, 2016"
+        },
+        {
+            "NAME": "                                                    Driver for V2403 Series (Expansion Module for Windows 7)                                                ",
+            "Size": "                                            426.2 MB",
+            "Details": {
+                "File Name": "                                                    Driver for V2403 Series (Expansion Module for Windows 7)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/f31a6be4-494a-458c-844c-3c3781dc172d/moxa-v2403-series-expansion-module-for-windows-7-driver-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Windows 7"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 06, 2016"
+        },
+        {
+            "NAME": "                                                    Utility for V2403 Series (Windows 7 Embedded)                                                ",
+            "Size": "                                            183.6 MB",
+            "Details": {
+                "File Name": "                                                    Utility for V2403 Series (Windows 7 Embedded)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/349b1c21-993c-43bb-aec0-22c0f1bded74/moxa-v2403-series-windows-7-embedded-utility-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Windows Embedded Standard 7"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 06, 2016"
+        },
+        {
+            "NAME": "                                                    Driver for V2403 Series (Linux)                                                ",
+            "Size": "                                            2.3 MB",
+            "Details": {
+                "File Name": "                                                    Driver for V2403 Series (Linux)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000007/V2403%20Series_moxa-v2403-series-windows-7-embedded-utility-v1.0_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Nov 08, 2015"
+        },
+        {
+            "NAME": "                                                    Firmware for V2403 Series (Linux)                                                ",
+            "Size": "                                            643.6 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for V2403 Series (Linux)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/849af202-b7d1-46e7-b78a-76ea3befe900/moxa-v2403-series-linux-driver-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Nov 08, 2015"
+        },
+        {
+            "NAME": "                                                    Library for V2403 Series (Linux)                                                ",
+            "Size": "                                            45.7 KB",
+            "Details": {
+                "File Name": "                                                    Library for V2403 Series (Linux)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000007/V2403%20Series_moxa-v2403-series-linux-driver-v1.0_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Nov 08, 2015"
+        },
+        {
+            "NAME": "                                                    Utility for V2403 Series (Linux)                                                ",
+            "Size": "                                            170.8 KB",
+            "Details": {
+                "File Name": "                                                    Utility for V2403 Series (Linux)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/43ee7ac4-1198-487e-aa23-229261f2e2a2/moxa-v2403-series-linux-firmware-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Nov 08, 2015"
+        }
+    ],
+    "Models": []
+}

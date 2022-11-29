@@ -1,0 +1,86 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/usb-to-serial-converters-usb-hubs/industrial-grade-usb-hubs/uport-200a-series",
+    "vendor": "MOXA",
+    "Product": "UPort 200A Series",
+    "series": {
+        "Name": "UPort 200A Series",
+        "Title": "4 and 7-port general-purpose USB 3.2 hubs",
+        "Features and Benefits": [
+            "USB 3.2 SuperSpeed capability",
+            "IP30 aluminum housing",
+            "DIN-rail housing and wall-mountable housing",
+            "5-year warranty"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The UPort® 200A Series general-purpose USB 3.2 hubs can expand an\nUSB port into 4 or 7 USB ports. The hubs are designed to provide true\nUSB 3.2 Gen 1 SuperSpeed 5 Gbps data transmission rates through each\nport. The hubs are fully compliant with the USB plug-and-play spec\nand provide full 900 mA power per port, ensuring that your USB devices\nfunction properly. Externally powered USB hubs are the only way to\nguarantee the broadest compatibility with USB devices.",
+                "The UPort® 200A Series hubs has BC 1.2 compatible on\nport 1, which would provide 1.5 A charging power to the mobile device/power\nbank that also supports BC 1.2.  The UPort® 200A Series supports CDP,\nDCD and SCD type.",
+                "Electrostatic discharge (ESD) could be as severe as having\nmore than 1,000 volts of ESD with a high rise-time (dv/dt) breaking\nthrough the junction layer of protective devices. In order to avoid\nserious damage, Moxa’s UPort® 200A Series USB hubs provide ESD Level\n4 (contact 8 kV, air 15 kV) protection, which increases the quality\nand value of the user’s end product."
+            ]
+        }
+    },
+    "speacification": {
+        "USB Interface": {
+            "USB Standards": "USB 1.1/2.0 compliant",
+            "Speed": " USB 3.2 Gen 1",
+            "USB Connector": "5 Gbps",
+            "No. of USB Ports": "UFP: type B"
+        },
+        "Power Parameters": {
+            "Input Voltage": "No. of power inputs: 1, 12 VDC",
+            "Power Connector": "Power jack",
+            "Power Consumption": "UPort 207A: 4.5 A @ 12 VDC",
+            "Reverse Polarity Protection": "UPort 204A: 2.65 A @ 12 VDC ",
+            "Output Power Rating": "Supported"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions": "UPort 207A: 80 x 27 x 140 mm (3.15 x 1.06 x 5.51 in)",
+            "Weight": "UPort 204A: 85 x 27 x 100 mm (3.35 x 1.06 x 3.94 in)",
+            "Installation": "UPort 207A: 273 g (0.60 lb)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "0 to 60°C (32 to 140°F)",
+            "Storage Temperature": "-20 to 75°C (-4 to 167°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Safety": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Environmental Testing": " IEC 61000-4-4 EFT: Power: 1 kV",
+            "Freefall": " IEC 61000-4-5 Surge: Power: 1 kV"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Standards": "Telcordia (Bellcore), GB",
+            "Time": "UPort 207A: 1,957,123 hours"
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "UPort 204A",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/USB-to-Serial-Converters-USB-Hubs/Industrial-Grade-USB-Hubs/UPort-200A-Series/UPort-204A/moxa-uport-204a-image.jpg",
+            "USB Interface": "USB 3.2 Gen 1",
+            "No. of USB Ports": "4 downstream",
+            "Housing": "Metal",
+            "Operating Temp.": "\t0 to 60°C",
+            "Power Adapter Included": "Y"
+        },
+        {
+            "Name": "UPort 207A",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/USB-to-Serial-Converters-USB-Hubs/Industrial-Grade-USB-Hubs/UPort-200A-Series/UPort-207A/moxa-uport-207a-image.jpg",
+            "USB Interface": "USB 3.2 Gen 1",
+            "No. of USB Ports": "7 downstream",
+            "Housing": "Metal",
+            "Operating Temp.": "\t0 to 60°C",
+            "Power Adapter Included": "Y"
+        }
+    ]
+}

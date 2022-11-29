@@ -1,0 +1,259 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/uc-8100-me-t-series",
+    "vendor": "MOXA",
+    "Product": "UC-8100-ME-T Series",
+    "series": {
+        "Name": "UC-8100-ME-T Series",
+        "Title": "Arm Cortex-A8 1 GHz IIoT gateways with 1 Mini PCIe expansion slot for a wireless module",
+        "Features and Benefits": [
+            "Armv7 Cortex-A8 1000 MHz processor",
+            "Dual auto-sensing 10/100 Mbps Ethernet ports",
+            "SD slot for storage expansion",
+            "Programmable LEDs and a programmable button for easy installation and maintenance",
+            "Cybersecurity functions",
+            "Debian 9 open platform"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The UC-8100-ME-T computing platform is designed\nfor embedded data acquisition applications. The computer comes with\ndual RS- 232/422/485 serial ports and dual 10/100 Mbps Ethernet ports,\nas well as a Mini PCIe socket to support cellular modules. These versatile\ncapabilities let users efficiently adapt the UC-8100-ME-T to a variety\nof complex communications solutions.",
+                "The UC-8100-ME-T is built around a Cortex-A8\nprocessor that has been optimized for use in energy monitoring systems,\nbut is widely applicable to a variety of industrial solutions. With\nflexible interfacing options, this tiny embedded computer is a reliable\nand secure gateway for data acquisition and processing at field sites\nas well as a useful communications platform for many other large-scale\ndeployments.",
+                "Wide-temperature\nand LTE-enabled models are available. All units are thoroughly tested\nin a testing chamber, guaranteeing that the LTE-enabled computing\nplatforms are suitable for wide-temperature applications.",
+                "\r\n ",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Computer": {
+            "CPU": "Armv7 Cortex-A8 1 GHz",
+            "DRAM": "UC-8112-ME-T-LX: 512 MB DDR3",
+            "Storage Pre-installed": "UC-8112-ME-T-LX1: 1 GB DDR3",
+            "Pre-installed OS": "8 GB eMMC"
+        },
+        "Computer Interface": {
+            "USB 2.0": "USB 2.0 hosts x 1, type-A connectors",
+            "Expansion Slots": "mPCIe slot x 1",
+            "Number of SIMs": "1",
+            "SIM Format": "Mini",
+            "Buttons": "Reset button"
+        },
+        "Ethernet Interface": {
+            "Ethernet Ports": "Auto-sensing 10/100 Mbps ports (RJ45 connector) x 2",
+            "Magnetic Isolation Protection": "1.5 kV (built-in)"
+        },
+        "LED Indicators": {
+            "System": "Power x 1",
+            "Wireless Signal Strength": " SD slots x 1"
+        },
+        "Serial Interface": {
+            "Serial Ports": "2 x RS-232/422/485",
+            "Console Port": "1 x 4-pin header to DB9 console port",
+            "Data Bits": "5, 6, 7, 8",
+            "Parity": "None, Even, Odd, Space, Mark",
+            "Stop Bits": "1, 1.5, 2"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND"
+        },
+        "Power Parameters": {
+            "Input Voltage": "12 to 36 VDC",
+            "Input Current": "500 mA @ 12 VAC",
+            "Power Consumption": "6 W"
+        },
+        "Reliability": {
+            "Alert Tools": "External RTC (real-time clock)",
+            "Automatic Reboot Trigger": "External WDT (watchdog timer)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "Dimensions": "141 x 125.6 x 54.8 mm (5.55 x 4.94 x 2.15 in)",
+            "Weight": "550 g (1.22 lb)",
+            "Installation": "DIN-rail mounting, Wall mounting (with optional kit)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Vibration": "2 Grms @ IEC 60068-2-64, random wave, 5-500 Hz, 1 hr per axis (without USB devices attached)",
+            "Shock": "IEC 60068-2-27"
+        },
+        "Standards and Certifications": {
+            "Safety": "UL 60950-1",
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Green Product": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 20 V/m",
+            "Hazardous Locations": " IEC 61000-4-4 EFT: Power: 4 kV; Signal: 4 kV"
+        },
+        "MTBF": {
+            "Time": "535,916 hrs",
+            "Standards": "Telcordia (Bellcore) Standard"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    OS Image for UC-8100-ME-T Series                                                ",
+            "Size": "                                            254.9 MB",
+            "Details": {
+                "File Name": "                                                    OS Image for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v3.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/ef0a6371-9d5c-4b08-ba84-1bcf5c942d17/moxa-uc-8100-me-t-series-os-image-v3.1.zip",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v3.1",
+            "RELEASE DATE": "                                            May 05, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8100-ME-T Series                                                ",
+            "Size": "                                            219.0 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v3.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000016/UC-8100-ME-T%20Series_moxa-uc-8100-me-t-series-os-image-v3.1.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v3.0",
+            "RELEASE DATE": "                                            Nov 25, 2018"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8100-ME-T Series (toolchain)                                                ",
+            "Size": "                                            53.2 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8100-ME-T Series (toolchain)                                                ",
+                "Version": "                                            v6.3"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/0ef17694-5e07-408d-abf7-5733936150d3/moxa-uc-8100-me-t-series-firmware-v3.0.zip",
+            "OPERATING SYSTEM": [
+                "Moxa Industrial Linux (Debian 9)"
+            ],
+            "VERSION": "                                            v6.3",
+            "RELEASE DATE": "                                            May 29, 2018"
+        },
+        {
+            "NAME": "                                                    Firmware for UC-8100-ME-T Series                                                ",
+            "Size": "                                            261.4 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v2.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000016/UC-8100-ME-T%20Series_moxa-uc-8100-me-t-series-firmware-v3.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Debian 8.x"
+            ],
+            "VERSION": "                                            v2.2",
+            "RELEASE DATE": "                                            May 23, 2018"
+        },
+        {
+            "NAME": "                                                    Software Package for UC-8100-ME-T Series                                                ",
+            "Size": "                                            97.3 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/b99752d8-61fa-41f7-8340-69fad7260e56/moxa-uc-8100-me-t-series-toolchain-utility-v6.3.zip",
+            "OPERATING SYSTEM": [
+                "Linux"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            May 22, 2018"
+        },
+        {
+            "NAME": "                                                    Driver for UC-8100-ME-T Series                                                ",
+            "Size": "                                            1.2 KB",
+            "Details": {
+                "File Name": "                                                    Driver for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000016/UC-8100-ME-T%20Series_moxa-uc-8100-me-t-series-toolchain-utility-v6.3.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Linux"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            May 22, 2018"
+        },
+        {
+            "NAME": "                                                    Utility for UC-8100-ME-T Series                                                ",
+            "Size": "                                            1.9 MB",
+            "Details": {
+                "File Name": "                                                    Utility for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/34ba1a68-7911-4107-89c9-964ffb1a3be3/moxa-uc-8100-me-t-series-firmware-v2.2.zip",
+            "OPERATING SYSTEM": [
+                "Linux"
+            ],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            May 22, 2018"
+        },
+        {
+            "NAME": "                                                    Software Package for UC-8100-ME-T Series                                                ",
+            "Size": "                                            215.4 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000016/UC-8100-ME-T%20Series_moxa-uc-8100-me-t-series-firmware-v2.2_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Linux"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Jul 04, 2016"
+        },
+        {
+            "NAME": "                                                    Library for UC-8100-ME-T Series                                                ",
+            "Size": "                                            602.7 KB",
+            "Details": {
+                "File Name": "                                                    Library for UC-8100-ME-T Series                                                ",
+                "Version": "                                            v2.0"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/0c031744-63ac-4300-b649-108fadf9036d/moxa-uc-8100-me-t-series-software-package-v1.0.zip",
+            "OPERATING SYSTEM": [
+                "Linux"
+            ],
+            "VERSION": "                                            v2.0",
+            "RELEASE DATE": "                                            Jul 04, 2016"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "UC-8112-ME-T-LX",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8100-ME-T-Series/UC-8112-ME-T-LX/moxa-uc-8112-me-t-lx-image.jpg",
+            "CPU": "Armv7 Cortex-A8 1 GHz",
+            "RAM": "512 MB",
+            "Storage": "8 GB eMMC",
+            "US LTE Module Built-in": "–",
+            "Operating Temp.": "-40 to 70°C"
+        },
+        {
+            "Name": "UC-8112-ME-T-LX1",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-COMPUTING/Arm-Based-Computers/UC-8100-ME-T-Series/UC-8112-ME-T-LX1/moxa-uc-8112-me-t-lx1-image.jpg",
+            "CPU": "Armv7 Cortex-A8 1 GHz",
+            "RAM": "1 GB",
+            "Storage": "8 GB eMMC",
+            "US LTE Module Built-in": "–",
+            "Operating Temp.": "-40 to 85°C"
+        }
+    ]
+}

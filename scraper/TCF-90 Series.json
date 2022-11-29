@@ -1,0 +1,92 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/serial-converters/serial-to-fiber-converters/tcf-90-series",
+    "vendor": "MOXA",
+    "Product": "TCF-90 Series",
+    "series": {
+        "Name": "TCF-90 Series",
+        "Title": "Port-powered RS-232 to fiber converters",
+        "Features and Benefits": [
+            "Uses either external power or power over serial",
+            "Extends RS-232 transmission up to 40 km with single-mode (TCF-90-S) or 5 km with multi-mode (TCF-90-M)",
+            "Reduces signal interference",
+            "Protects against electrical interference and chemical corrosion",
+            "Compact size"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TCF-90 is a compact media converter that transmits RS-232 signals over optical fiber. Power is derived from either the serial port or an external power source. The TCF-90 extends RS-232 transmission up to 5 km with multi-mode fiber, or up to 40 km with single-mode fiber. A pair of TCF-90 converters can be used to connect two RS-232 devices with optical fiber in full-duplex mode. The optical fiber isolates the data signals from dangerous increases in ground potential, ground loops, and electrical EMI/RFI noise, and it enhances data security by eliminating the harmful effects of RF radiation and susceptibility to electromagnetic radiation.",
+                "Connecting RS-232 devices to the TCF-90 is easy. The ST-type optical-fiber connector is designed especially for data communication applications that transmit data either between or within buildings. The TCF-90 can be used for industrial applications and for applications that require secure data transfer.",
+                "The RS-232 port on the TCF-90 uses a DB9 female socket to connect directly to the host PC, with power drawn from the TxD, RTS, and DTR lines. Although the TCF-90 can obtain enough power from the three data/handshake lines, whether the signal is high or low, we strongly recommend setting either the RTS or DTR signal to ON.",
+                "\r\n",
+                "It’s easy enough to use a multimeter to test if the serial device is supplying the TCF-90 with enough power through the serial connection, but the TCF-90 can do the testing for you. Connect the TCF-90 to the device’s RS-232 port and set the SW4 switch to Test mode. If the port power LED indicator lights up, the TCF-90 is receiving enough power. If the LED does NOT light up, you will need to attach an external power source to the TCF-90.",
+                "\r\n",
+                "In most circumstances, the TCF-90 should be able to operate without using an external power source. However, an external USB power cord or DC power supply can be used in situations where the handshake lines are not available, both the RTS/DTR signals are set to OFF, or the attached device’s serial interface chip provides less power than required.",
+                "\r\n ",
+                "\r\n"
+            ]
+        }
+    },
+    "speacification": {
+        "Serial Interface": {
+            "No. of Ports": "2",
+            "Serial Standards": "RS-232",
+            "Flow Control": "ADDC® (automatic data direction control) for RS-485",
+            "Connector": "DB9 female",
+            "Optical Fiber": "\r\n    ",
+            "Baudrate": "300 bps to 115.2 kbps"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, GND\r\n    "
+        },
+        "Power Parameters": {
+            "Input Current": "5 to 12 VDC, 20 mA (max.)",
+            "Input Voltage": "5 to 12 VDC",
+            "No. of Power Inputs": "1",
+            "Overload Current Protection": "Supported",
+            "Source of Input Power": "Power input jack"
+        },
+        "Physical Characteristics": {
+            "Housing": "Plastic",
+            "IP Rating": "IP30",
+            "Dimensions": "42 x 80 x 22 mm (1.65 x 3.15 x 0.87 in)",
+            "Weight": "150 g (0.33 lb)",
+            "Installation": "Desktop"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "0 to 60°C (32 to 140°F)",
+            "Storage Temperature (package included)": "-20 to 75°C (-4 to 167°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 1 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV"
+        },
+        "MTBF": {
+            "Time": "2,272,562 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "TCF-90-M-ST",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-90-Series/TCF-90-M-ST/moxa-tcf-90-m-st-image.jpg",
+            "Fiber Module Type": "Multi-mode ST"
+        },
+        {
+            "Name": "TCF-90-S-ST",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-90-Series/TCF-90-S-ST/moxa-tcf-90-s-st-image.jpg",
+            "Fiber Module Type": "Single-mode ST"
+        }
+    ]
+}

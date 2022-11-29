@@ -1,0 +1,70 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-media-converters/ethernet-to-fiber-media-converters/trc-190-series",
+    "vendor": "MOXA",
+    "Product": "TRC-190 Series",
+    "series": {
+        "Name": "TRC-190 Series",
+        "Title": "19-inch rackmount chassis media converter",
+        "Features and Benefits": [
+            "19-inch chassis for rackmount use",
+            "19 slots for high-density applications",
+            "Supports dual power inputs with redundancy",
+            "Fanless chassis design reduces servicing costs"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TRC-190 rackmount chassis provides 19 slots for media converter modules from the CSM-200 Series of Ethernet-to-fiber modules and TCF-142-RM Series of serial-to-fiber modules. A TRC-190 chassis comes with one AC or DC power input, with an optional redundant power expansion AC or DC module available to enhance reliability. The PWR-190-AC and PWR-190-DC-48 power modules can be installed at the same time."
+            ]
+        }
+    },
+    "speacification": {
+        "Power Parameters": {
+            "Input Voltage": "TRC-190-AC: 110 to 240 VAC",
+            "No. of Power Inputs": "TRC-190-DC-48: 48 VDC",
+            "Overload Current Protection": "Redundant dual inputs, Redundant dual inputs",
+            "Power Consumption": "2"
+        },
+        "Physical Characteristics": {
+            "Dimensions": "440 x 260 x 88 mm (17.32 x 10.24 x 3.46 in)",
+            "Installation": "19-inch rack mounting",
+            "IP Rating": "IP30",
+            "Weight": "5200 g (11.4 lb)"
+        },
+        "Environmental Limits": {
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Operating Temperature": "0 to 60°C (32 to 140°F)",
+            "Storage Temperature (package included)": "-20 to 75°C (-4 to 167°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/35",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 1 kV; Signal: 0.5 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV(AC), 1 kV(DC)"
+        },
+        "MTBF": {
+            "Time": "1,055,112 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "TRC-190-AC",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/TRC-190-Series/TRC-190-AC/moxa-trc-190-ac-image.jpg",
+            "Input Voltage": "100-240 VAC (47-63 Hz)"
+        },
+        {
+            "Name": "TRC-190-DC-48",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Media-Converters/Ethernet-to-Fiber-Media-Converters/TRC-190-Series/TRC-190-DC-48/moxa-trc-190-dc-48-image.jpg",
+            "Input Voltage": "48 VDC"
+        }
+    ]
+}

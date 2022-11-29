@@ -1,0 +1,201 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/layer-2-managed-switches/pt-g503-series",
+    "vendor": "MOXA",
+    "Product": "PT-G503 Series",
+    "series": {
+        "Name": "PT-G503 Series",
+        "Title": "IEC 61850-3/62439-3 3-port full Gigabit managed redundancy boxes",
+        "Features and Benefits": [
+            "IEC 61850-3, IEEE 1613 (power substations) compliant",
+            "IEC 62439-3 Clause 4 (PRP) and Clause 5 (HSR) compliant",
+            "PRP/HSR Coupling and QuadBox functions supported",
+            "Ethernet console reserved for local access",
+            "Built-in MMS server based on IEC 61850-90-4 switch data modeling for power SCADA",
+            "Hardware-based IEEE 1588v2 PTP supported",
+            "Design ready for NERC CIP compliant system development",
+            "Power inputs with universal 24 VDC, 48 VDC, or 110/220 VDC/VAC power supply range",
+            "-40 to 85°C operating temperature range"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The PT-G503-PHR-PTP Series redundancy boxes (RedBoxes)\nare compliant with the latest standardized redundancy protocols for\nindustrial automation networks, IEC 62439-3 Clause 4 (Parallel Redundancy\nProtocol, PRP) and IEC 62439-3 Clause 5 (High-availability Seamless\nRedundancy, HSR). PRP/HSR ensures the highest system availability\nand data integrity for mission-critical applications in electrical\nsubstation and/or process automation systems that require zero recovery\ntime redundancy. The redundant protocols Coupling and QuadBox are\nalso supported. With Coupling and QuadBox, HSR rings can be connected\nto make the redundant network more versatile. The PT-G503-PHR-PTP\nSeries comes with three 10/100/1000BaseT(X) and 100/1000BaseSFP slot\ncombo ports.",
+                "One\nslot (INTERLINK port) is for an internal link for connecting with\na SAN (Singly Attached Node). The other two ports (LAN A and LAN B\nports) are for PRP/HSR redundant protocol communications. With this\nfull Gigabit Ethernet port design, the PT-G503-PHR-PTP Series provides\nhigh performance for PRP/HSR systems.",
+                "The PT-G503-PHR-PTP Series also\nprovides IEEE 1588v2 PTP in end-to-end one-step transparent clock\nmode for time-critical applications and power inputs with 24/48 VDC\nor 110/220 VDC/VAC ranges to increase the reliability of the power\nsupply.",
+                "PRP (Parallel Redundancy Protocol): Transmit or receive two independent active paths to/from different LANs simultaneously on a zero recovery time network",
+                "HSR (High-availability Seamless Redundancy): Every frame is duplicated and then transmitted in both directions of the HSR ring to deliver zero switchover time",
+                "PRP/HSR coupling: Supports coupling from an HSR ring node to redundant PRP LANs (Up to 7 PRP LANs)",
+                "QuadBox function: Supports peer coupling of rings via interconnecting two INTERLINK ports on two separate RedBoxes",
+                "Fiber Check™ provides monitoring and diagnosis functionality on SFP fiber ports",
+                "Hardware-based IEEE 1588v2 PTP (Precision Time Protocol) end-to-end one-step transparent clock for precise time synchronization of networks",
+                "Automatic warning by exception through email and relay output",
+                "Configurable via web browser, CLI, Windows utility, and ABC-02 automatic backup configurator"
+            ]
+        }
+    },
+    "speacification": {
+        "Ethernet Interface": {
+            "Combo Ports (10/100/1000BaseT(X) or 100/1000BaseSFP+)": "3",
+            "Console Port": "Ethernet console (10/100/1000Mbps RJ45)",
+            "Standards": "IEEE 802.3 for 10BaseT"
+        },
+        "Ethernet Software Features": {
+            "Filter": "Static Multicast",
+            "Management": "Back Pressure Flow Control, BOOTP, DHCP Client, Fiber check, Flow control, HTTP, IPv4/IPv6, LLDP, Port Mirror, RARP, RMON, SMTP, SNMP Inform, SNMPv1/v2c/v3, Syslog, Telnet",
+            "Power Substation": "MMS",
+            "Redundancy Protocols": "HSR, PRP, RSTP grouping",
+            "Security": "HTTPS/SSL, TACACS+, RADIUS, SSH, Trust access control",
+            "Time Management": "NTP Server/Client, SNTP, IEEE 1588v2 PTP (hardware-based)",
+            "MIB": "IEC 62439-3 MIB"
+        },
+        "USB Interface": {
+            "Storage Port": "USB Type A"
+        },
+        "Serial Interface": {
+            "Console Port": "USB-serial console (Type B connector)"
+        },
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "Resistive load: 1 A @ 24 VDC",
+            "Digital Inputs": "+13 to +30 V for state 1"
+        },
+        "Power Parameters": {
+            "Input Current": "PT-G503-PHR-PTP-HV: 0.260/0.170 A @ 110/220 VAC",
+            "Input Voltage": " PT-G503-PHR-PTP-HV: 0.150/0.080 A @ 110/220 VDC",
+            "Power Connector": " PT-G503-PHR-PTP-WV: 0.660/0.360 A @ 24/48 VDC",
+            "Overload Current Protection": "PT-G503-PHR-PTP-HV: 110/220 VAC/VDC (85 to 264 VAC, 88 to 300 VDC)",
+            "Reverse Polarity Protection": "PT-G503-PHR-PTP-WV: 24/48 VDC (18 to 72 VDC)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Aluminum",
+            "IP Rating": "IP40",
+            "Dimensions (without ears)": "80 x 160 x 110 mm (3.15 x 6.30 x 4.33 in)",
+            "Weight": "1210 g (2.69 lb)",
+            "Installation": "DIN-rail mounting"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "Safety": "UL 508",
+            "EMI": "EN 55032 Class A, CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Power Substation": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 35 V/m",
+            "Railway": " IEC 61000-4-4 EFT: Power: 4 kV; Signal: 4 kV"
+        },
+        "MTBF": {
+            "Time": "PT-G503-PHR-PTP-HV: 566,844 hrs",
+            "Standards": " PT-G503-PHR-PTP-WV: 440,857 hrs"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    SNMP MIB file for PT-G503 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    SNMP MIB file for PT-G503 Series                                                ",
+                "Version": "                                            v5.2"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.2",
+            "RELEASE DATE": "                                            Aug 02, 2022"
+        },
+        {
+            "NAME": "                                                    Firmware for PT-G503 Series                                                ",
+            "Size": "                                            88.2 KB",
+            "Details": {
+                "File Name": "                                                    Firmware for PT-G503 Series                                                ",
+                "Version": "                                            v5.2"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/02858566-8cc8-4c09-8605-83fd94c4c05a/moxa-pt-g503-series-snmp-mib-file-software-package-v5.2.my",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v5.2",
+            "RELEASE DATE": "                                            Aug 02, 2022"
+        },
+        {
+            "NAME": "                                                    Software Package for PT-G503 Series (MMS ICD file)                                                ",
+            "Size": "                                            6.2 MB",
+            "Details": {
+                "File Name": "                                                    Software Package for PT-G503 Series (MMS ICD file)                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000101/PT-G503%20Series_moxa-pt-g503-series-snmp-mib-file-software-package-v5.2.my_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 28, 2019"
+        },
+        {
+            "NAME": "                                                    Moxa USB Console Windows Driver                                                ",
+            "Size": "                                            29.5 KB",
+            "Details": {
+                "File Name": "                                                    Moxa USB Console Windows Driver                                                ",
+                "Version": "                                            v1.7.1"
+            },
+            "TYPE": "                                            Driver",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/e88c0edb-8dd3-4cf8-a108-ff506826aaab/moxa-pt-g503-series-firmware-v5.2.rom",
+            "OPERATING SYSTEM": [
+                "Windows",
+                "Windows 2000",
+                "Windows 7",
+                "Windows 8",
+                "Windows 98 SE",
+                "Windows ME",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v1.7.1",
+            "RELEASE DATE": "                                            Dec 10, 2013"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "PT-G503-PHR-PTP-HV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Layer-2-Managed-Switches/PT-G503-Series/PT-G503-PHR-PTP-HV/moxa-pt-g503-phr-ptp-hv-image.jpg",
+            "Max. No. of Ports": "3",
+            "Max. No. of Gigabit Ports": "3",
+            "Combo Ports": "10/100/1000BaseT(X) or 100/1000BaseSFP",
+            "Input Voltage": "110/220 VDC/VAC",
+            "Operating Temp.": "-45 to 85°C"
+        },
+        {
+            "Name": "PT-G503-PHR-PTP-WV",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Ethernet-Switches/Layer-2-Managed-Switches/PT-G503-Series/PT-G503-PHR-PTP-WV/moxa-pt-g503-phr-ptp-wv-image.jpg",
+            "Max. No. of Ports": "3",
+            "Max. No. of Gigabit Ports": "3",
+            "Combo Ports": "3",
+            "Input Voltage": "24/48 VDC",
+            "Operating Temp.": "-45 to 85°C"
+        }
+    ]
+}

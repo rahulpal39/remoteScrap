@@ -1,0 +1,182 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-network-infrastructure/wireless-ap-bridge-client/rail-wireless-access-controller/wac-1001-series",
+    "vendor": "MOXA",
+    "Product": "WAC-1001 Series",
+    "series": {
+        "Name": "WAC-1001 Series",
+        "Title": "Industrial wireless access controllers",
+        "Features and Benefits": [
+            "Redundant 12 to 48 VDC power inputs",
+            "Controller-based Turbo Roaming (less than 50 ms)",
+            "Supported models: AWK-RTG Series, TAP Series",
+            "IEEE 802.11i-compliant wireless security",
+            "DIN-rail mounting or wall mounting (optional) for on-site installation",
+            "-40 to 75°C operating temperature range (-T model)"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The WAC-1001 wireless access controller provides a seamless roaming experience for Moxa’s access points in distributed wireless networks. It uses Moxa’s controller-based Turbo Roaming technology to achieve less than 50 ms roaming handover times on up to three channels. This advanced roaming capability securely hands off clients at speeds so high that wireless clients can enjoy seamless roaming between APs, with virtually no interruption in connectivity. WAC-1001 also supports 1-to-1 hot backup function to help make your network more reliable. Wide-temperature models that can operate in -40 to 75°C are also available.",
+                "Enables millisecond-level Turbo Roaming",
+                "Configuration backup",
+                "Dual redundant DC power inputs",
+                "IEEE802.1X/RADIUS supported",
+                "WPA/WPA2/802.11i supported",
+                "Integrated DI/DO for on-site monitoring and warnings"
+            ]
+        }
+    },
+    "speacification": {
+        "Input/Output Interface": {
+            "Alarm Contact Channels": "1 relay output with current carrying capacity of 1 A @ 24 VDC"
+        },
+        "Ethernet Interface": {
+            "10/100/1000BaseT(X) Ports (RJ45 connector)": "1",
+            "Standards": "IEEE 802.1X for authentication",
+            "Total Port Count": " IEEE 802.3 for 10BaseT",
+            "Highest Speed": " IEEE 802.3ab for 1000BaseT(X)",
+            "Connections": " IEEE 802.3af for PoE"
+        },
+        "Ethernet Software Features": {
+            "Management": "IPv4, SNMPv1/v2c/v3, Syslog, TCP/IP, Telnet, TFTP, Web Console, Wireless Search Utility",
+            "Security": "HTTPS/SSL, RADIUS, SSH",
+            "Time Management": "NTP Client, SNTP"
+        },
+        "Serial Interface": {
+            "Console Port": "RS-232 (TxD, RxD, GND), 8-pin RJ45 (115200, n, 8, 1)",
+            "Flow Control": "RTS/CTS, XON/XOFF",
+            "Parity": "None, Even, Odd, Space, Mark"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, RTS, CTS, DTR, DSR, DCD, GND"
+        },
+        "Wireless Access Control": {
+            "Controller Failover Mode": "1-on-1 hot backup",
+            "Handover Time": "50 ms",
+            "WLAN Products Supported": "110 radios"
+        },
+        "Power Parameters": {
+            "Input Current": "0.6 A @ 12 VDC, 0.15 A @ 48 VDC",
+            "Input Voltage": "12 to 48 VDC, Redundant dual inputs",
+            "Source of Input Power": "PoE (IEEE 802.3af)"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP30",
+            "Dimensions (without ears)": "52.85 x 135 x 105 mm (2.08 x 5.32 x 4.13 in)",
+            "Weight": "1,060 g (2.34 lb)",
+            "Installation": "DIN-rail mounting, Wall mounting (with optional kit)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "Standard Models: -10 to 60°C (14 to 140°F)",
+            "Storage Temperature (package included)": "Wide Temp. Models: -40 to 75°C (-40 to 167°F)",
+            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Railway": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 1 kV"
+        },
+        "Declaration": {
+            "Green Product": "RoHS, CRoHS, WEEE"
+        },
+        "MTBF": {
+            "Time": "447,425 hrs",
+            "Standards": "Telcordia SR332"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [
+        {
+            "NAME": "                                                    MXview                                                ",
+            "Size": "                                            417.7 MB",
+            "Details": {
+                "File Name": "                                                    MXview                                                ",
+                "Version": "                                            v3.2.8"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/4ac4f2a8-e402-4af6-be32-193cb1a45e8b/moxa-mxview-software-package-v3.2.8.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows Server 2012 R2",
+                "Windows Server 2016",
+                "Windows Server 2019"
+            ],
+            "VERSION": "                                            v3.2.8",
+            "RELEASE DATE": "                                            Oct 31, 2022"
+        },
+        {
+            "NAME": "                                                    Wireless Search Utility                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Wireless Search Utility                                                ",
+                "Version": "                                            v2.6"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/COMMON/UC-2100-W%20Series_moxa-mxview-software-package-v3.2.8.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows 2000",
+                "Windows 7",
+                "Windows 95",
+                "Windows 98",
+                "Windows ME",
+                "Windows NT",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Vista",
+                "Windows XP"
+            ],
+            "VERSION": "                                            v2.6",
+            "RELEASE DATE": "                                            Nov 26, 2017"
+        },
+        {
+            "NAME": "                                                    Library for WAC-1001 Series                                                ",
+            "Size": "                                            1.8 MB",
+            "Details": {
+                "File Name": "                                                    Library for WAC-1001 Series                                                ",
+                "Version": "                                            v2.1"
+            },
+            "TYPE": "                                            Library",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/c625bf6e-f9e1-4f6f-a54d-512a579a8d88/moxa-wireless-search-utility-v2.6.zip",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v2.1",
+            "RELEASE DATE": "                                            Oct 02, 2017"
+        },
+        {
+            "NAME": "                                                    Firmware for WAC-1001 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for WAC-1001 Series                                                ",
+                "Version": "                                            v2.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000306/WAC-1001%20Series_moxa-wireless-search-utility-v2.6.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v2.1",
+            "RELEASE DATE": "                                            Oct 01, 2017"
+        }
+    ],
+    "Models": [
+        {
+            "Name": "WAC-1001",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Wireless-AP-Bridge-Client/Rail-Wireless-Access-Controller/WAC-1001-Series/WAC-1001/moxa-wac-1001-image.jpg",
+            "Application": "Wireless Access Controller",
+            "Operating Temp.": "0 to 60°C",
+            "Indoor/Outdoor, IP Code": "Indoor, IP30"
+        },
+        {
+            "Name": "WAC-1001-T",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-NETWORK-INFRASTRUCTURE/Wireless-AP-Bridge-Client/Rail-Wireless-Access-Controller/WAC-1001-Series/WAC-1001-T/moxa-wac-1001-t-image.jpg",
+            "Application": "Wireless Access Controller",
+            "Operating Temp.": "-40 to 75°C",
+            "Indoor/Outdoor, IP Code": "Indoor, IP30"
+        }
+    ]
+}

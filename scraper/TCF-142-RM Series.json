@@ -1,0 +1,96 @@
+{
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/serial-converters/serial-to-fiber-converters/tcf-142-rm-series",
+    "vendor": "MOXA",
+    "Product": "TCF-142-RM Series",
+    "series": {
+        "Name": "TCF-142-RM Series",
+        "Title": "RS-232/422/485 to fiber slide-in modules for the NRack System™",
+        "Features and Benefits": [
+            "Extends RS-232/422/485 transmission up to 40 km with single-mode or 5 km with multi-mode",
+            "1 or 150 kilo-ohm adjustable pull high/low resistor",
+            "Supports ring and point-to-point transmission"
+        ]
+    },
+    "Overview": {
+        "overtitile": {
+            "introducation": [
+                "The TCF-142-RM Series slide-in modules are serial-to-fiber converters that work with the TRC-190 chassis. The modules convert from the RS-232, RS-422, or RS-485 signal to a fiber-optic signal.",
+                "The TCF-142-RM Series can automatically detect the serial baudrate. This is an extremely convenient feature. Even if a device’s baudrate is changed, the signal will still be transmitted through the media converter without any problem."
+            ]
+        }
+    },
+    "speacification": {
+        "Serial Interface": {
+            "No. of Ports": "2",
+            "Serial Standards": "RS-232, RS-422, RS-485",
+            "Baudrate": "50 bps to 921.6 kbps (supports non-standard baudrates)",
+            "Flow Control": "ADDC® (automatic data direction control) for RS-485",
+            "Connector": "DB9 female",
+            "Optical Fiber": "\r\n    ",
+            "Pull High/Low Resistor for RS-485": "1 kilo-ohm, 150 kilo-ohms",
+            "RS-485 Data Direction Control": "ADDC® (automatic data direction control)",
+            "Terminator for RS-485": "N/A, 120 ohms, 120 kilo-ohms"
+        },
+        "Serial Signals": {
+            "RS-232": "TxD, RxD, GND",
+            "RS-422": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-4w": "Tx+, Tx-, Rx+, Rx-, GND",
+            "RS-485-2w": "Data+, Data-, GND"
+        },
+        "Power Parameters": {
+            "Input Current": "150 mA @ 12 VDC",
+            "Overload Current Protection": "Supported",
+            "Power Consumption": "150 mA @ 12 VDC"
+        },
+        "Physical Characteristics": {
+            "Housing": "Metal",
+            "IP Rating": "IP30",
+            "Dimensions": "86.8 x 136.5 x 21 mm (3.42 x 5.37 x 0.83 in)",
+            "Weight": "105 g (0.23 lb)"
+        },
+        "Environmental Limits": {
+            "Operating Temperature": "0 to 60°C (32 to 140°F)",
+            "Storage Temperature (package included)": "-20 to 75°C (-4 to 167°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)"
+        },
+        "Standards and Certifications": {
+            "EMC": "EN 55032/24",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 4 kV; Air: 8 kV",
+            "Environmental Testing": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 3 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 1 kV; Signal: 0.5 kV",
+            "Vibration": " IEC 61000-4-5 Surge: Power: 2 kV(AC), 1 kV(DC)"
+        },
+        "MTBF": {
+            "Time": "514,926 hrs",
+            "Standards": "Telcordia (Bellcore), GB"
+        },
+        "Warranty": {
+            "Warranty Period": "5 years",
+            "Details": "See "
+        }
+    },
+    "Resources": [],
+    "Models": [
+        {
+            "Name": "TCF-142-M-SC-RM",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-142-RM-Series/TCF-142-M-SC-RM/moxa-tcf-142-m-sc-rm-image.jpg",
+            "Fiber Module Type": "Multi-mode SC"
+        },
+        {
+            "Name": "TCF-142-M-ST-RM",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-142-RM-Series/TCF-142-M-ST-RM/moxa-tcf-142-m-st-rm-image.jpg",
+            "Fiber Module Type": "Multi-mode ST"
+        },
+        {
+            "Name": "TCF-142-S-SC-RM",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-142-RM-Series/TCF-142-S-SC-RM/moxa-tcf-142-s-sc-rm-image.jpg",
+            "Fiber Module Type": "Single-mode SC"
+        },
+        {
+            "Name": "TCF-142-S-ST-RM",
+            "link": "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Serial-Converters/Serial-to-Fiber-Converters/TCF-142-RM-Series/TCF-142-S-ST-RM/moxa-tcf-142-s-st-rm-image.jpg",
+            "Fiber Module Type": "Single-mode ST"
+        }
+    ]
+}
