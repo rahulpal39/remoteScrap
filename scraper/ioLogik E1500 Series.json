@@ -1,4 +1,5 @@
 {
+    "url": "https://www.moxa.com/en/products/industrial-edge-connectivity/controllers-and-ios/rugged-controllers-and-i-os/iologik-e1500-series",
     "vendor": "MOXA",
     "Product": "ioLogik E1500 Series",
     "series": {
@@ -28,111 +29,251 @@
     },
     "speacification": {
         "Input/Output Interface": {
-            "Digital Input Channels": "Reset button",
-            "Configurable DIO Channels (by software)": "Reset button",
-            "Isolation": "Reset button",
-            "Buttons": "Reset button"
+            "Digital Input Channels": "ioLogik E1510-M12-T: 12 ",
+            "Configurable DIO Channels (by software)": "ioLogik E1512-M12-T: 4",
+            "Isolation": "ioLogik E1512-M12-T: 4",
+            "Buttons": "3k VDC or 2k Vrms"
         },
         "Digital Inputs": {
-            "Connector": " Off: 0 to 3 VDC",
-            "Counter Frequency": " Off: 0 to 3 VDC",
-            "Digital Filtering Time Interval": " Off: 0 to 3 VDC",
-            "Dry Contact": " Off: 0 to 3 VDC",
-            "I/O Mode": " Off: 0 to 3 VDC",
-            "Points per COM": " Off: 0 to 3 VDC",
-            "Sensor Type": " Off: 0 to 3 VDC",
-            "Wet Contact (DI to GND)": " Off: 0 to 3 VDC"
+            "Connector": "Spring-type Euroblock terminal",
+            "Counter Frequency": "250 Hz",
+            "Digital Filtering Time Interval": "Software configurable",
+            "Dry Contact": "On: short to GND",
+            "I/O Mode": " Off: open",
+            "Points per COM": "DI or event counter",
+            "Sensor Type": "ioLogik E1512-M12-T: 2 channels",
+            "Wet Contact (DI to GND)": "Dry contact"
         },
         "Digital Outputs": {
-            "Connector": "500 Hz",
-            "Current Rating": "500 Hz",
-            "I/O Mode": "500 Hz",
-            "I/O Type": "500 Hz",
-            "Over-Current Protection": "500 Hz",
-            "Over-Temperature Shutdown": "500 Hz",
-            "Over-Voltage Protection": "500 Hz",
+            "Connector": "Spring-type Euroblock terminal",
+            "Current Rating": "200 mA per channel",
+            "I/O Mode": "DO or pulse output",
+            "I/O Type": "Sink",
+            "Over-Current Protection": "0.65 A per channel @ 25°C",
+            "Over-Temperature Shutdown": "175°C (typical), 150°C (min.)",
+            "Over-Voltage Protection": "35 VDC",
             "Pulse Output Frequency": "500 Hz"
         },
         "Ethernet Interface": {
-            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "1.5 kV (built-in)",
+            "10/100BaseT(X) Ports (M12 D-coded 4-pin female connector)": "1",
             "Magnetic Isolation Protection": "1.5 kV (built-in)"
         },
         "Ethernet Software Features": {
-            "Configuration Options": " UDP",
-            "Industrial Protocols": " UDP",
-            "Management": " UDP"
+            "Configuration Options": "Web Console (HTTP)",
+            "Industrial Protocols": " Windows Utility (ioSearch)",
+            "Management": "Modbus TCP Server (Slave)"
         },
         "LED Interface": {
-            "LED Indicators": "ioLogik E1512-M12-T: PWR, RDY, EXP, LAN, DI Channels, DO Channels"
+            "LED Indicators": "ioLogik E1510-M12-T: PWR, RDY, EXP, LAN, DI Channels"
         },
         "Modbus TCP": {
-            "Mode": "1, 2, 3, 4, 5, 6, 15, 16",
+            "Mode": "Server",
             "Functions Supported": "1, 2, 3, 4, 5, 6, 15, 16"
         },
         "Power Parameters": {
-            "Power Connector": "150 mA @ 24 VDC",
-            "No. of Power Inputs": "150 mA @ 24 VDC",
-            "Input Voltage": "150 mA @ 24 VDC",
+            "Power Connector": "Spring-type Euroblock terminal",
+            "No. of Power Inputs": "1",
+            "Input Voltage": "12 to 48 VDC",
             "Power Consumption": "150 mA @ 24 VDC"
         },
         "Physical Characteristics": {
-            "Housing": " Power cable, 16 to 26 AWG",
-            "Dimensions": " Power cable, 16 to 26 AWG",
-            "Weight": " Power cable, 16 to 26 AWG",
-            "Installation": " Power cable, 16 to 26 AWG",
-            "Wiring": " Power cable, 16 to 26 AWG"
+            "Housing": "Aluminum",
+            "Dimensions": "144 x 124 x 30 mm (5.67 x 4.88 x 1.18 in)",
+            "Weight": "825 g (1.82 lb)",
+            "Installation": "DIN-rail mounting",
+            "Wiring": " Wall mounting (with optional kit)"
         },
         "Environmental Limits": {
-            "Ambient Relative Humidity": "-40 to 85°C (-40 to 185°F)",
-            "Altitude": "-40 to 85°C (-40 to 185°F)",
-            "Storage Temperature": "-40 to 85°C (-40 to 185°F)",
+            "Ambient Relative Humidity": "5 to 95% (non-condensing)",
+            "Altitude": "2000 m\r\n    ",
+            "Storage Temperature": "\r\n",
             "Storage Temperature (package included)": "-40 to 85°C (-40 to 185°F)"
         },
         "Standards and Certifications": {
-            "EMC": "IEC 60068-2-6",
-            "EMI": "IEC 60068-2-6",
-            "EMS": "IEC 60068-2-6",
-            "Railway": "IEC 60068-2-6",
-            "Safety": "IEC 60068-2-6",
-            "Shock": "IEC 60068-2-6",
-            "Vibration": "IEC 60068-2-6"
+            "EMC": "EN 61000-6-2/-6-4",
+            "EMI": "CISPR 32, FCC Part 15B Class A",
+            "EMS": "IEC 61000-4-2 ESD: Contact: 8 kV; Air: 15 kV",
+            "Railway": " IEC 61000-4-3 RS: 80 MHz to 1 GHz: 10 V/m",
+            "Safety": " IEC 61000-4-4 EFT: Power: 2 kV; Signal: 2 kV",
+            "Shock": " IEC 61000-4-5 Surge: Power: 2 kV; Signal: 2 kV",
+            "Vibration": " IEC 61000-4-6 CS: 10 V"
         },
         "Declaration": {
             "Green Product": "RoHS, CRoHS, WEEE"
         },
         "MTBF": {
-            "Time": "Telcordia SR332",
-            "Standards": "Telcordia SR332"
+            "Time": "ioLogik E1510-M12-T: 507,064 hrs",
+            "Standards": "ioLogik E1512-M12-T: 554,122 hrs"
         },
         "Warranty": {
-            "Warranty Period": "See ",
+            "Warranty Period": "5 years",
             "Details": "See "
         }
     },
-    "Resources": {
-        "models": [
-            "ioLogik E1510-M12-CT-T",
-            "ioLogik E1510-M12-T",
-            "ioLogik E1512-M12-CT-T",
-            "ioLogik E1512-M12-T"
-        ],
-        "modelImageUrl": [
-            "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Controllers-and-IOs/Rugged-Controllers-and-I-Os/ioLogik-E1500-Series/ioLogik-E1510-M12-CT-T/moxa-iologik-e1510-m12-ct-t-image-1.jpg",
-            "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Controllers-and-IOs/Rugged-Controllers-and-I-Os/ioLogik-E1500-Series/ioLogik-E1510-M12-T/moxa-iologik-e1510-m12-t-image-1.jpg",
-            "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Controllers-and-IOs/Rugged-Controllers-and-I-Os/ioLogik-E1500-Series/ioLogik-E1512-M12-CT-T/moxa-iologik-e1512-m12-ct-t-image-1.jpg",
-            "https://cdn-cms.azureedge.net/en/getattachment/Products/INDUSTRIAL-EDGE-CONNECTIVITY/Controllers-and-IOs/Rugged-Controllers-and-I-Os/ioLogik-E1500-Series/ioLogik-E1512-M12-T/moxa-iologik-e1512-m12-t-image-1.jpg"
-        ],
-        "compare": [
-            "Input/Output Interface",
-            "12 x DI",
-            "12 x DI",
-            "4 x DI, 4 x DIO",
-            "4 x DI, 4 x DIO",
-            "Conformal Coating",
-            "✓",
-            "–",
-            "✓",
-            "–"
-        ]
-    }
+    "Resources": [
+        {
+            "NAME": "                                                    ioSearch Configuration Utility                                                ",
+            "Size": "                                            2.2 MB",
+            "Details": {
+                "File Name": "                                                    ioSearch Configuration Utility                                                ",
+                "Version": "                                            v2.2"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/7b62dfec-c4a3-4bbe-b243-2ae42dca72ed/moxa-iologik-e1200-series-iosearch-utility-v2.2.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 11",
+                "Windows 7",
+                "Windows 8",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2012",
+                "Windows Server 2016",
+                "Windows Server 2019",
+                "Windows Server 2022"
+            ],
+            "VERSION": "                                            v2.2",
+            "RELEASE DATE": "                                            Aug 01, 2022"
+        },
+        {
+            "NAME": "                                                    MX-AOPC UA Server                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    MX-AOPC UA Server                                                ",
+                "Version": "                                            v2.1"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-iologik-e1200-series-iosearch-utility-v2.2.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows 8",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "VERSION": "                                            v2.1",
+            "RELEASE DATE": "                                            May 16, 2019"
+        },
+        {
+            "NAME": "                                                    MX-AOPC UA Logger                                                ",
+            "Size": "                                            37.6 MB",
+            "Details": {
+                "File Name": "                                                    MX-AOPC UA Logger                                                ",
+                "Version": "                                            v2.1"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/8063b9b0-c982-4db0-ba2e-2065c5396bec/moxa-mx-aopc-ua-server-utility-v2.1.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows 8",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "VERSION": "                                            v2.1",
+            "RELEASE DATE": "                                            May 16, 2019"
+        },
+        {
+            "NAME": "                                                    Firmware for ioLogik E1500 Series                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for ioLogik E1500 Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-mx-aopc-ua-server-utility-v2.1.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Feb 11, 2018"
+        },
+        {
+            "NAME": "                                                    MX-AOPC UA Logger                                                ",
+            "Size": "                                            31.8 MB",
+            "Details": {
+                "File Name": "                                                    MX-AOPC UA Logger                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/6f2d7e2b-2c81-4bc6-8ff0-4fed07595056/moxa-mx-aopc-ua-logger-utility-v2.1.zip",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows 8",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Jun 14, 2017"
+        },
+        {
+            "NAME": "                                                    MX-AOPC UA Server                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    MX-AOPC UA Server                                                ",
+                "Version": "                                            v1.6"
+            },
+            "TYPE": "                                            Utility",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-mx-aopc-ua-logger-utility-v2.1.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [
+                "Windows 10",
+                "Windows 7",
+                "Windows 8",
+                "Windows Server 2003",
+                "Windows Server 2008",
+                "Windows Server 2008 R2",
+                "Windows Server 2012",
+                "Windows Server 2012 R2"
+            ],
+            "VERSION": "                                            v1.6",
+            "RELEASE DATE": "                                            Jun 14, 2017"
+        },
+        {
+            "NAME": "                                                    Software Package for ioLogik E1500 Series                                                ",
+            "Size": "                                            626.7 KB",
+            "Details": {
+                "File Name": "                                                    Software Package for ioLogik E1500 Series                                                ",
+                "Version": "                                            v1.0"
+            },
+            "TYPE": "                                            Software Package",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/9f5e44a0-3e14-4959-82c3-d5e86a9c5ad2/moxa-iologik-e1500-series-firmware-v1.0.zip",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.0",
+            "RELEASE DATE": "                                            Jan 10, 2017"
+        },
+        {
+            "NAME": "                                                    Firmware for ioLogik E1500 Series (E1510-T)                                                ",
+            "Size": "                                            44.2 MB",
+            "Details": {
+                "File Name": "                                                    Firmware for ioLogik E1500 Series (E1510-T)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/Moxa/media/PDIM/S100000330/ioLogik%20E1500%20Series_moxa-iologik-e1500-series-firmware-v1.0.zip_Software%20Release%20History.pdf",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Dec 16, 2012"
+        },
+        {
+            "NAME": "                                                    Firmware for ioLogik E1500 Series (E1512-T)                                                ",
+            "Size": "Show More",
+            "Details": {
+                "File Name": "                                                    Firmware for ioLogik E1500 Series (E1512-T)                                                ",
+                "Version": "                                            v1.1"
+            },
+            "TYPE": "                                            Firmware",
+            "Release notes": "https://cdn-cms.azureedge.net/getmedia/1592d089-fde4-40a2-9438-3e4010cd0744/moxa-mx-aopc-ua-logger-utility-v1.1.zip",
+            "OPERATING SYSTEM": [],
+            "VERSION": "                                            v1.1",
+            "RELEASE DATE": "                                            Dec 16, 2012"
+        }
+    ]
 }

@@ -1,0 +1,5 @@
+djscrapyquotes
+jobs
+product
+quotes
+scraper

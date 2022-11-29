@@ -88,7 +88,6 @@ class QuotesSpider(scrapy.Spider):
         import json
 
     #     #header work post
-        model=response.css('.modal__body')
         pageData = response.css('.tab-section__main')
 
         JobData = response.css('div.body-section')
@@ -130,35 +129,22 @@ class QuotesSpider(scrapy.Spider):
             d = sptitile[0]
             # dict
             spec.append(sptitile[0])
-            
 
             for pa in para.css('.title-list'):
                 paragrap = pa.css(".title-list__paragraph::text").extract()
                 pTitls = pa.css(".title-list__heading::text").extract()
                 data = {}
-                print(len(pTitls))
                 num_listparagrap.append(paragrap)
                 num_listspTitls.append(pTitls)
                 dic = []
-                i = 0
-                while i < len(pTitls):
-                    print(pTitls[i],paragrap[i])
-                    data[pTitls[i]] = paragrap[i]
-                    property_data[d] = data
-                    
-                    
 
-                    i += 1
-                    # if i == 3:
-                    #     continue
-                    # print(i)
+                for pare in pTitls:
+                    for itit in paragrap:
+                        dic.append(itit)
+                    for i in dic:
 
-                # for pare in pTitls:
-                #     for itit in paragrap:
-                #         dic.append(itit)
-
-                #         data[pare] = itit
-                #         property_data[d] = data
+                        data[pare] = i
+                        property_data[d] = data
                
         #################################resource###############################################
 
@@ -168,17 +154,10 @@ class QuotesSpider(scrapy.Spider):
         tableHeading = pageData.css(".border-table__th::text").extract()
         filename = pageData.css(".js-checksum-filename::text").extract()
         filetype = pageData.css(".js-checksum-type::text").extract()
-        size=pageData.css(".border-table__note::text").extract()
         filechecksum = pageData.css(
             ".border-table__checksum__text::text").extract()
-        fileDataSha = model.css(
-            "span::text").extract()
         fileLink = pageData.css(".border-table__link")
         apply_url = fileLink.css('a::attr(href)').extract()  # apply link grap
-        # 
-        durl=pageData.css('.border-table__link record-download')
-
-        download_url = durl.css('a::attr(href)').extract()  # apply link grap
 
         fileData = pageData.css(".border-table__dash-list")
         osList = []
@@ -187,12 +166,10 @@ class QuotesSpider(scrapy.Spider):
             osList.append(fileLinks)
         datalunch = pageData.css(
             '.date-short::text').extract()  # apply link grap
+
         # print(osList)
-        version= pageData.css(
-            ".version-short::text").extract()
         # print(datalunch)
         print(len(filename))
-        print(fileDataSha)
         # print(filen)
 
         # {
@@ -220,21 +197,11 @@ class QuotesSpider(scrapy.Spider):
 
             resdata={}  
             resdata['NAME']=filename[i].replace("\r\n","") 
-            resdata['Size']=size[i].replace("\r\n","")      
-            resdata['Details']={
-                "File Name":filename[i].replace("\r\n","") ,
-                'Version':version[i].replace("\r\n","") ,
-                # 'SHA-512 Checksum':fileDataSha,
-                
-            }            
-       
             resdata['TYPE']=filetype[i].replace("\r\n","") 
-            # resdata['Details']=filechecksum[i].replace("\r\n","") 
+            resdata['Details']=filechecksum[i].replace("\r\n","") 
             resdata['Release notes']=apply_url[i].replace("\r\n","") 
             resdata['OPERATING SYSTEM']=osList[i]
-            resdata['VERSION']=version[i].replace("\r\n","") 
             resdata['RELEASE DATE']=datalunch[i].replace("\r\n","") 
-            # download_url
 
             # print(resdata)
             # print(filename[i])
@@ -280,7 +247,6 @@ class QuotesSpider(scrapy.Spider):
         pT=pTitle[0]
         phe=pheading[0]
         dictionary = {
-            'url':response.url,
             'vendor': "MOXA",
             'Product':tle ,
             # 'Feature':,
@@ -294,7 +260,7 @@ class QuotesSpider(scrapy.Spider):
 
             },
             "speacification":property_data,
-            'Resources':l,
+            'Resources':reslist,
 
         }
         name=f"{tle}.json"

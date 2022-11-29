@@ -32,6 +32,7 @@ what = driver.find_element(by=By.ID, value="search--input")
 InputFile='programming'
 
 what.send_keys(InputFile)
+
 driver.implicitly_wait(30)
 
 search_button = driver.find_element(by=By.ID, value='post-job-cta').click()
