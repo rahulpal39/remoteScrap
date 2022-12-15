@@ -1,0 +1,3 @@
+[scrapy]
+settings = remote_scrap
+

@@ -55,13 +55,15 @@ quotes/management/commands/scrape_all_quotes.py
 quotes/management/commands/scrape_quotes_from_author.py
 quotes/migrations/0001_initial.py
 quotes/migrations/__init__.py
-scraper/__init__.py
-scraper/scraper/__init__.py
-scraper/scraper/items.py
-scraper/scraper/middlewares.py
-scraper/scraper/pipelines.py
-scraper/scraper/settings.py
-scraper/scraper/spiders/JobSpider.py
-scraper/scraper/spiders/SpecificTagJobSpider .py
-scraper/scraper/spiders/__init__.py
-scraper/scraper/spiders/productScrap.py
+remote_scrap/__init__.py
+remote_scrap/scrapyd.py
+remote_scrap/setup.py
+remote_scrap/scraper/__init__.py
+remote_scrap/scraper/items.py
+remote_scrap/scraper/middlewares.py
+remote_scrap/scraper/pipelines.py
+remote_scrap/scraper/settings.py
+remote_scrap/scraper/spiders/JobSpider.py
+remote_scrap/scraper/spiders/SpecificTagJobSpider .py
+remote_scrap/scraper/spiders/__init__.py
+remote_scrap/scraper/spiders/productScrap.py

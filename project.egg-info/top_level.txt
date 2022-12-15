@@ -2,4 +2,4 @@ djscrapyquotes
 jobs
 product
 quotes
-scraper
+remote_scrap
