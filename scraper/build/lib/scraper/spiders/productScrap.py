@@ -84,11 +84,11 @@ class QuotesSpider(scrapy.Spider):
 
     def parse_book(self, response):
         # print(response)
-        #     item = JobItem()
+    #     item = JobItem()
         import json
 
     #     #header work post
-        model = response.css('.modal__body')
+        model=response.css('.modal__body')
         pageData = response.css('.tab-section__main')
 
         JobData = response.css('div.body-section')
@@ -113,7 +113,7 @@ class QuotesSpider(scrapy.Spider):
         datas['introducation'] = overperagraph
 
 #################################################specifications##################################
-        specifications = prouctD.css('div.side-section__main')
+        specifications = prouctD.css('div.side-section__main')     
         spec = []
         dates_dict = dict()
         num_list = []
@@ -130,6 +130,7 @@ class QuotesSpider(scrapy.Spider):
             d = sptitile[0]
             # dict
             spec.append(sptitile[0])
+            
 
             for pa in para.css('.title-list'):
                 paragrap = pa.css(".title-list__paragraph::text").extract()
@@ -144,6 +145,8 @@ class QuotesSpider(scrapy.Spider):
                     # print(pTitls[i],paragrap[i])
                     data[pTitls[i]] = paragrap[i]
                     property_data[d] = data
+                    
+                    
 
                     i += 1
                     # if i == 3:
@@ -156,7 +159,7 @@ class QuotesSpider(scrapy.Spider):
 
                 #         data[pare] = itit
                 #         property_data[d] = data
-
+               
         #################################resource###############################################
 
         dataaa = pageData.css('.bold-title-heading::text').extract()
@@ -165,15 +168,15 @@ class QuotesSpider(scrapy.Spider):
         tableHeading = pageData.css(".border-table__th::text").extract()
         filename = pageData.css(".js-checksum-filename::text").extract()
         filetype = pageData.css(".js-checksum-type::text").extract()
-        size = pageData.css(".border-table__note::text").extract()
+        size=pageData.css(".border-table__note::text").extract()
         filechecksum = pageData.css(
             ".border-table__checksum__text::text").extract()
         fileDataSha = model.css(
             "span::text").extract()
         fileLink = pageData.css(".border-table__link")
         apply_url = fileLink.css('a::attr(href)').extract()  # apply link grap
-        #
-        durl = pageData.css('.border-table__link record-download')
+        # 
+        durl=pageData.css('.border-table__link record-download')
 
         download_url = durl.css('a::attr(href)').extract()  # apply link grap
 
@@ -185,85 +188,90 @@ class QuotesSpider(scrapy.Spider):
         datalunch = pageData.css(
             '.date-short::text').extract()  # apply link grap
         # print(osList)
-        version = pageData.css(
+        version= pageData.css(
             ".version-short::text").extract()
-
-        filenam = filename
+       
+       
+        filenam=filename
         l = []
 
         i = 0
         import string
-
+        
         while i < len(filename):
 
-            resdata = {}
-            resdata['NAME'] = filename[i].replace("\r\n", "")
-            resdata['Size'] = size[i].replace("\r\n", "")
-            resdata['Details'] = {
-                "File Name": filename[i].replace("\r\n", ""),
-                'Version': version[i].replace("\r\n", ""),
-
-            }
-
-            resdata['TYPE'] = filetype[i].replace("\r\n", "")
-            # resdata['Details']=filechecksum[i].replace("\r\n","")
-            resdata['Release notes'] = apply_url[i].replace("\r\n", "")
-            resdata['OPERATING SYSTEM'] = osList[i]
-            resdata['VERSION'] = version[i].replace("\r\n", "")
-            resdata['RELEASE DATE'] = datalunch[i].replace("\r\n", "")
+            resdata={}  
+            resdata['NAME']=filename[i].replace("\r\n","") 
+            resdata['Size']=size[i].replace("\r\n","")      
+            resdata['Details']={
+                "File Name":filename[i].replace("\r\n","") ,
+                'Version':version[i].replace("\r\n","") ,
+                
+            }            
+       
+            resdata['TYPE']=filetype[i].replace("\r\n","") 
+            # resdata['Details']=filechecksum[i].replace("\r\n","") 
+            resdata['Release notes']=apply_url[i].replace("\r\n","") 
+            resdata['OPERATING SYSTEM']=osList[i]
+            resdata['VERSION']=version[i].replace("\r\n","") 
+            resdata['RELEASE DATE']=datalunch[i].replace("\r\n","") 
             # download_url
 
             # print(resdata)
             # print(filename[i])
             # print(apply_url[i])
-            # print(filechecksum[i])
-            # print(fileDatalist[i])
-            # print(osList[i])
-            # print(datalunch[i])
+                # print(filechecksum[i])
+                # print(fileDatalist[i])
+                # print(osList[i])
+                # print(datalunch[i])
             l.append(resdata)
             i += 1
 
+       
         #############################Models#################################
         # d=pageData.css('.model-table').extract():
-        com = []
-        models = pageData.css(".model-table")
+        com=[]
+        models= pageData.css(".model-table")
         for da in models.css("tr"):
             modelsTitle = da.css('td::text').extract()
             # print(modelsTitle)
             com.append(modelsTitle)
-
-        model_Text = models.css('a::text').extract()  # apply link grap
-        modelImage = models.css('.model-table__img::attr(src)').extract()
+       
+            
+            
+        model_Text = models.css('a::text').extract()#apply link grap
+        modelImage=models.css('.model-table__img::attr(src)').extract()
         # modelImage = companyLogo.css('img').xpath('@src').extract()
-
+        
         # print(modelTD)
         # print(model_url)
 
-        # resdata={}
-        # resdata['NAME']=filename[i].replace("\r\n","")
-
+        # resdata={}  
+        # resdata['NAME']=filename[i].replace("\r\n","") 
+            
         # reslist['models']=model_Text
         # reslist['modelImageUrl']=modelImage
         # reslist['compare']=modelTD
         # print(modelTD)
-        md = []
-
+        md=[]
+        
         i = 0
         while i < len(model_Text):
-            reslist = {}
-
-            reslist["Name"] = model_Text[i]
-            reslist["link"] = modelImage[i]
-            for ms in com:
-
-                if len(ms) > 0:
-                    c = i+1
+            reslist={}
+            
+            reslist["Name"]=model_Text[i]
+            reslist["link"]=modelImage[i]
+            for  ms in com:
+                
+                if len(ms) >0: 
+                    c =i+1                      
                     b = 0
-                    reslist[ms[0]] = ms[c]
-
+                    reslist[ms[0]]=ms[c ]
+            
             md.append(reslist)
 
             i += 1
+        
 
         # print(md)
 
@@ -274,13 +282,13 @@ class QuotesSpider(scrapy.Spider):
         # border-table
         #     # print(property_data)
         # print(reslist)
-        tle = pTitle[0]
-        pT = pTitle[0]
-        phe = pheading[0]
+        tle=pTitle[0]
+        pT=pTitle[0]
+        phe=pheading[0]
         dictionary = {
-            'url': response.url,
+            'url':response.url,
             'vendor': "MOXA",
-            'Product': tle,
+            'Product':tle ,
             # 'Feature':,
             'series': {
                 'Name': pT,
@@ -288,18 +296,18 @@ class QuotesSpider(scrapy.Spider):
                 'Features and Benefits': prouctFeature,
             },
             'Overview': {
-                'overtitile': datas,
+                'overtitile':datas,
 
             },
-            "speacification": property_data,
-            'Resources': l,
-            "Models": md,
+            "speacification":property_data,
+            'Resources':l,
+            "Models":md,
 
         }
-        name = f"{tle}.json"
+        name=f"{tle}.json"
         # print(dictionary)
         with open(name, "w") as outfile:
-            json.dump(dictionary, outfile, ensure_ascii=False, indent=4)
+            json.dump(dictionary, outfile,ensure_ascii=False, indent=4)
 
         next_page = response.css('li.next a::attr(href)').get()
         if next_page is not None:
